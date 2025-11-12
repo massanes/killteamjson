@@ -6324,12 +6324,6 @@
             "opTypeId": "TYR-BBRO-SNP",
             "abilityName": "Crossfire",
             "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-          },
-          {
-            "abilityId": "TYR-BBRO-SNP-A-CP",
-            "opTypeId": "TYR-BBRO-SNP",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle."
           }
         ],
         "options": [],
@@ -11090,12 +11084,7 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "IMP-DKK-SNP-A-CP",
-            "opTypeId": "IMP-DKK-SNP",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle."
-          }
+          
         ],
         "options": [],
         "isActivated": false,
@@ -14726,12 +14715,7 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "IMP-AES-MRK-A-CP",
-            "opTypeId": "IMP-AES-MRK",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it’s performing the Shoot action during the battle."
-          },
+          
           {
             "abilityId": "IMP-AES-MRK-A-MFJ",
             "opTypeId": "IMP-AES-MRK",
@@ -15882,12 +15866,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "TAU-FSKB-LS-A-CP",
-            "opTypeId": "TAU-FSKB-LS",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it’s performing the Shoot action during the battle."
-          },
           {
             "abilityId": "TAU-FSKB-LS-A-FS",
             "opTypeId": "TAU-FSKB-LS",
@@ -21633,12 +21611,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "VOT-HKS-JMP-A-FI",
-            "opTypeId": "VOT-HKS-JMP",
-            "abilityName": "*Force Impact",
-            "description": "Whenever this operative is fighting with this weapon, if it has performed the Charge action during the activation, this weapon has the Brutal weapon rule."
-          },
-          {
             "abilityId": "VOT-HKS-JMP-A-GRU",
             "opTypeId": "VOT-HKS-JMP",
             "abilityName": "Grudge",
@@ -22978,12 +22950,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "VOT-HKY-RFL-A-CP",
-            "opTypeId": "VOT-HKY-RFL",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle."
-          },
           {
             "abilityId": "VOT-HKY-RFL-A-DE",
             "opTypeId": "VOT-HKY-RFL",
@@ -29809,12 +29775,7 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "IMP-INQ-INQ-DKK24-SNP-A-CP",
-            "opTypeId": "IMP-INQ-DKK24-SNP",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle."
-          }
+          
         ],
         "options": [],
         "isActivated": false,
@@ -31247,12 +31208,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "IMP-INQ-INQ-AES24-MRK-A-CP",
-            "opTypeId": "IMP-INQ-AES24-MRK",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it’s performing the Shoot action during the battle."
-          },
           {
             "abilityId": "IMP-INQ-INQ-AES24-MRK-A-RE",
             "opTypeId": "IMP-INQ-AES24-MRK",
@@ -33254,12 +33209,6 @@
             "opTypeId": "IMP-INQ-KAS24-SS",
             "abilityName": "Camo Cloak",
             "description": "Whenever an operative is shooting this operative:\n\n- Ignore the Saturate weapon rule.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead.]\nThis is not cumulative with improved cover saves from Vantage terrain.\n"
-          },
-          {
-            "abilityId": "IMP-INQ-INQ-KAS24-SS-A-CP",
-            "opTypeId": "IMP-INQ-KAS24-SS",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle."
           }
         ],
         "options": [],
@@ -34326,12 +34275,6 @@
             "description": "Whenever an operative is shooting this operative:\n\n- Ignore the Saturate weapon rule.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead.]\nThis is not cumulative with improved cover saves from Vantage terrain.\n"
           },
           {
-            "abilityId": "IMP-KAS-SS-A-CP",
-            "opTypeId": "IMP-KAS-SS",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle."
-          },
-          {
             "abilityId": "IMP-KAS-SS-A-SAA",
             "opTypeId": "IMP-KAS-SS",
             "abilityName": "Skill At Arms",
@@ -35131,12 +35074,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "ORK-KOM-SNP-A-CP",
-            "opTypeId": "ORK-KOM-SNP",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon profile the first time it is performing the Shoot action during the battle."
-          },
           {
             "abilityId": "ORK-KOM-SNP-A-TS",
             "opTypeId": "ORK-KOM-SNP",
@@ -50188,12 +50125,6 @@
         ],
         "abilities": [
           {
-            "abilityId": "IMP-TEMPAQ-MRK-A-CONC",
-            "opTypeId": "IMP-TEMPAQ-MRK",
-            "abilityName": "*Concealed Position",
-            "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle."
-          },
-          {
             "abilityId": "IMP-TEMPAQ-MRK-A-DI",
             "opTypeId": "IMP-TEMPAQ-MRK",
             "abilityName": "Drop Insertion",
@@ -52331,12 +52262,6 @@
           }
         ],
         "abilities": [
-          {
-            "abilityId": "AEL-VDT-DJS-A-HC",
-            "opTypeId": "AEL-VDT-DJS",
-            "abilityName": "*Humbling Cruelty",
-            "description": "If the target of this weapon isn’t incapacitated but any of your attack dice inflict damage, the target gains one of your Humbling Cruelty tokens (if it doesn’t already have one).\nWhenever an enemy operative has one of your Humbling Cruelty tokens, worsen the Hit stat of its weapons by 1 and subtract 2\" from its Move stat.\nThis isn’t cumulative with being injured. At the end of that enemy operative’s next activation, remove its Humbling Cruelty token."
-          },
           {
             "abilityId": "AEL-VDT-DJS-A-HP",
             "opTypeId": "AEL-VDT-DJS",

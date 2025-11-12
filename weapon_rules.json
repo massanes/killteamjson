@@ -171,7 +171,7 @@
     {
       "id": "WR-IMP-AES-CONCEALED",
       "name": "Concealed Position",
-      "description": "",
+      "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle.",
       "team": "IMP-AES"
     },
     {
@@ -231,7 +231,7 @@
     {
       "id": "WR-VOT-HKS-FORCE",
       "name": "Force Impact",
-      "description": "",
+      "description": "Whenever this operative is fighting with this weapon, if it has performed the Charge action during the activation, this weapon has the Brutal weapon rule.",
       "team": "VOT-HKS"
     },
     {
@@ -243,7 +243,7 @@
     {
       "id": "WR-AEL-VDT-HUMBLING",
       "name": "Humbling Cruelty",
-      "description": "",
+      "description": "If the target of this weapon isn’t incapacitated but any of your attack dice inflict damage, the target gains one of your Humbling Cruelty tokens (if it doesn’t already have one).\nWhenever an enemy operative has one of your Humbling Cruelty tokens, worsen the Hit stat of its weapons by 1 and subtract 2\" from its Move stat.\nThis isn’t cumulative with being injured. At the end of that enemy operative’s next activation, remove its Humbling Cruelty token.",
       "team": "AEL-VDT"
     },
     {
