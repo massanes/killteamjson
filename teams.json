@@ -10161,7 +10161,7 @@
         "SAVE": "5+",
         "WOUNDS": 8,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, LEADER, WATCHMASTER",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-WM-BP",
@@ -10387,7 +10387,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, BRUISER",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-BRU-LG",
@@ -10457,7 +10457,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, CONFIDANT",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-CON-BP",
@@ -10629,7 +10629,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, GUNNER",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-GNR-FL",
@@ -10820,7 +10820,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, MEDIC",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-MDC-LG",
@@ -10893,7 +10893,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, SAPPER",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-SAP-LG",
@@ -10998,7 +10998,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, SNIPER",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-SNP-LL",
@@ -11083,9 +11083,7 @@
             ]
           }
         ],
-        "abilities": [
-          
-        ],
+        "abilities": [],
         "options": [],
         "isActivated": false,
         "currWOUNDS": 7,
@@ -11101,7 +11099,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, SPOTTER",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-SPT-LG",
@@ -11200,7 +11198,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, TROOPER",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-TRP-LG",
@@ -11266,7 +11264,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, VETERAN",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-VET-LG",
@@ -11338,7 +11336,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, VOX-OPERATOR",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-VOX-LG",
@@ -11411,7 +11409,7 @@
         "SAVE": "5+",
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, ZEALOT",
-        "basesize": 32,
+        "basesize": 25,
         "weapons": [
           {
             "wepId": "IMP-DKK-ZLT-LG",
@@ -14715,7 +14713,6 @@
           }
         ],
         "abilities": [
-          
           {
             "abilityId": "IMP-AES-MRK-A-MFJ",
             "opTypeId": "IMP-AES-MRK",
@@ -29774,9 +29771,7 @@
             ]
           }
         ],
-        "abilities": [
-          
-        ],
+        "abilities": [],
         "options": [],
         "isActivated": false,
         "currWOUNDS": 7,

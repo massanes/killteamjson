@@ -45,7 +45,7 @@
     {
       "id": "WR-UNIV-HOT",
       "name": "Hot",
-      "description": "Select a point on a terrain feature that is visible to and within 6\" of this operative.\nRemove this operative from the killzone and set it back up wholly within 6\" horizontally of that point, not within Control Range of an enemy operative, and with that point visible to it.\n\nThis action is treated as a Reposition action.\nThis operative cannot perform this action while within Control Range of an enemy operative, or during an activation in which it performed the Charge, Fall Back, or Shoot action (or vice-versa).",
+      "description": "After an operative uses this weapon, roll one D6. If the result is less than the weapon’s Hit stat, inflict damage on that operative equal to the result multiplied by two. If it’s used multiple times in one action (e.g., Blast), still only roll one D6.",
       "team": null
     },
     {
