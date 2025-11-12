@@ -165,7 +165,7 @@
     {
       "id": "WR-CHAOS-BLD-BLOOD",
       "name": "Blood Offering",
-      "description": "",
+      "description": "Whenever this operative is fighting or retaliating with\nthis weapon, the first time you strike with a critical success during\nthat sequence, you gain one Blooded token.",
       "team": "CHAOS-BLD"
     },
     {
@@ -195,7 +195,7 @@
     {
       "id": "WR-NEC-CAN-DIMENSIONAL",
       "name": "Dimensional Banishment",
-      "description": "",
+      "description": "After this operative uses this weapon, if you inflicted damage or retained any critical successes, if the target wasn’t incapacitated, roll 2D6: if the result is higher than the target’s remaining wounds, the target is incapacitated (taking precedence over rules that prevent incapacitation, e.g. Medic!, FELLGOR RAVAGER, Frenzy) and your opponent cannot place a Reanimation marker (HIEROTEK CIRCLE ) for that operative, if relevant.",
       "team": "NEC-CAN"
     },
     {
