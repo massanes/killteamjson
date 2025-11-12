@@ -3405,11 +3405,11 @@
   {
     "factionId": "CHAOS",
     "killteamId": "CHAOS-BLD",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_blooded-b7jk4yhsul-muduqqloxg.pdf",
     "killteamName": "Blooded",
     "description": "Many Astra Militarum troops have turned to Chaos over the centuries, including entire regiments of the Astra Militarum's Imperial Army predecessors that followed the Warmaster Horus into battle against the Imperium during the Horus Heresy.\n  \n  \n\nThese Traitors represent the primary mortal troops available to the forces of Chaos, now known as the \"Traitoris Militarum\" in High Gothic to the defenders of the Imperium. Even ten millennia later, Chaos Lords are known to attract these followers of Chaos into their warbands and personal armies, which vary greatly in both size and strength.",
-    "composition": "A BLOODED killteam is composed of:\n- 1 Blooded Chieftan operative with one of the following options:\n  - Autopistol or laspistol, chainsword or power weapon\n  - Bolt Pistol, chainsword\n  - Boltgun, bayonet\n  - Plasma pistol, improvised Blade *(2)*\n- 9 Blooded operatives selected from the following list:\n  - Brimstone Grenadier\n  - Butcher\n  - Commsman\n  - Corpseman  - Flenser\n  - Gunner with bayonet and Flamer *(1)*\n  - Gunner with bayonet and Grenade Launcher *(1)*\n  - Gunner with bayonet and Meltagun *(1)*\n  - Gunner with bayonet and plasma gun *(1,2)*\n  - Sharpshooter *(1)*\n  - Thug\n  - Trench Sweeper\n  - Trooper\n- 4 Blooded operatives selected from the following list:\n - Enforcer (counts as two selections)\n - Ogryn (counts as two selections)\n - Trooper\n\nOther than Trooper operatives your Kill Team can only include each operative on this list once.  \n\n**(1):** You cannot select more than three of these operatives combined  \n\n**(2):** You cannot select this option and this operative. In other words you can only have one operative with a plasma weapon.",
+    "composition": "A BLOODED killteam is composed of:\n- 1 Blooded Chieftan operative with one of the following options:\n  - Autopistol or laspistol, chainsword or power weapon\n  - Bolt Pistol, chainsword\n  - Boltgun, bayonet\n  - Plasma pistol, improvised Blade *(2)*\n- 9 Blooded operatives selected from the following list:\n  - Brimstone Grenadier\n  - Butcher\n  - Commsman\n  - Corpseman\n  - Flenser\n  - Gunner with bayonet and Flamer *(1)*\n  - Gunner with bayonet and Grenade Launcher *(1)*\n  - Gunner with bayonet and Meltagun *(1)*\n  - Gunner with bayonet and plasma gun *(1,2)*\n  - Sharpshooter *(1)*\n  - Thug\n  - Trench Sweeper\n  - Trooper\n- 4 Blooded operatives selected from the following list:\n - Enforcer (counts as two selections)\n - Ogryn (counts as two selections)\n - Trooper\n\nOther than Trooper operatives your Kill Team can only include each operative on this list once.  \n\n**(1):** You cannot select more than three of these operatives combined  \n\n**(2):** You cannot select this option and this operative. In other words you can only have one operative with a plasma weapon.",
     "archetypes": [
       "Infiltration",
       "Seek & Destroy"
@@ -3638,7 +3638,7 @@
             "opTypeId": "CHAOS-BLD-CHF",
             "abilityName": "Lead With Strength",
             "AP": null,
-            "description": "Whenever this operative has one of your\nBlooded tokens and is wholly within your opponent's territory\ntreat it as if it is under the GAZE OF THE GODS."
+            "description": "Whenever this operative has one of your\nBlooded tokens or is wholly within your opponent's territory\ntreat it as if it is under the GAZE OF THE GODS."
           }
         ],
         "options": [],
@@ -4106,7 +4106,7 @@
             "opTypeId": "CHAOS-BLD-ENF",
             "abilityName": "Grueling Disciplinarian",
             "AP": null,
-            "description": "Whenever a friendly BLOODED operative is within 6\" of this operative, you can ignore any changes to that operative's stats from being injured (Including its weapons' stats)."
+            "description": "Whenever a friendly BLOODED operative is within 6\" of this operative, you can ignore any changes to that operative's stats from being injured (Including its weapons' stats). Whenever a friendly BLOODED operative is activated within 6\" of this operative, you can ignore any changes to that operative’s stats from being injured until the end of its activation (including its weapons’ stats)."
           },
           {
             "abilityId": "CHAOS-BLD-ENF-ENF",
