@@ -23,7 +23,7 @@
       "name": "Dash",
       "description": null,
       "effects": [
-        "The same as the Reposition action, except don't use the active operative's Move stat - it can move up to 3\" instead. In addition, it cannot climb during this move, but it can drop and jump."
+        "The same as the Reposition action, except don’t use the active operative’s Move stat – it can move up to 3\" instead. In addition, it cannot climb during this move, but it can drop and jump."
       ],
       "conditions": [
         "An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the Charge action."
@@ -52,10 +52,10 @@
       "description": null,
       "effects": [
         "The same as the Reposition action, except the active operative can move an additional 2\".",
-        "It can move, and must finish the move, within control range of an enemy operative. If it moves within control range of an enemy operative that no other friendly operatives are within control range of, it cannot leave that operative's control range."
+        "It can move, and must finish the move, within control range of an enemy operative. If it moves within control range of an enemy operative that no other friendly operatives are within control range of, it cannot leave that operative’s control range."
       ],
       "conditions": [
-        "An operative cannot perform this action while it has a Conceal order, if it's already within control range of an enemy operative, or during the same activation in which it performed the Reposition, Dash or Fall Back action."
+        "An operative cannot perform this action while it has a Conceal order, if it’s already within control range of an enemy operative, or during the same activation in which it performed the Reposition, Dash or Fall Back action."
       ]
     },
     {
@@ -69,7 +69,7 @@
         "Remove a marker the active operative controls that the Pick Up Marker action can be performed upon. That operative is now carrying, contesting and controlling that marker."
       ],
       "conditions": [
-        "An operative cannot perform this action while within control range of an enemy operative, or while it's already carrying a marker."
+        "An operative cannot perform this action while within control range of an enemy operative, or while it’s already carrying a marker."
       ]
     },
     {
@@ -95,7 +95,7 @@
       "name": "Shoot",
       "description": null,
       "effects": [
-        "Shoot with the active operative by following the sequence below. The active operative's player is the attacker. The selected enemy operative's player is the defender."
+        "Shoot with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender."
       ],
       "conditions": [
         "An operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
@@ -109,7 +109,7 @@
       "name": "Fight",
       "description": null,
       "effects": [
-        "Fight with the active operative by following the sequence below. The active operative's player is the attacker. The selected enemy operative's player is the defender."
+        "Fight with the active operative by following the sequence below. The active operative’s player is the attacker. The selected enemy operative’s player is the defender."
       ],
       "conditions": [
         "An operative cannot perform this action unless an enemy operative is within its control range."
@@ -121,7 +121,7 @@
       "seq": 109,
       "AP": 0,
       "name": "Counteract",
-      "description": "When you would activate a ready friendly operative, if all your operatives are expended but your opponent still has ready operatives, you can select an expended friendly operative with an Engage order to perform a 1AP action for free (Excluding Guard). Each operative can only counteract once per turning point, and cannot move more than 2\", or must be set up wholly within 2\" if it's removed and set up again, while counteracting (this is not a change to its Move stat, and takes precedence over all other rules). Counteracting is optional, so you can choose not to. In either case, activation alternates back to your opponent afterwards.",
+      "description": "When you would activate a ready friendly operative, if all your operatives are expended but your opponent still has ready operatives, you can select an expended friendly operative with an Engage order to perform a 1AP action for free (Excluding Guard). Each operative can only counteract once per turning point, and cannot move more than 2\", or must be set up wholly within 2” if it’s removed and set up again, while counteracting (this is not a change to its Move stat, and takes precedence over all other rules). Counteracting is optional, so you can choose not to. In either case, activation alternates back to your opponent afterwards.",
       "effects": []
     },
     {
@@ -132,15 +132,12 @@
       "name": "Guard",
       "description": null,
       "effects": [
-        "The operative goes on guard (see below) until any of the following are true: \n - It performs any action, moves or is set up.\n - An enemy operative ends an action within its control range and you don't interrupt that activation (see below).\n - Its order is changed.\n - It's the start of the next turning point."
+        "The operative goes on guard (see below) until any of the following are true: \n - It performs any action, moves or is set up.\n - An enemy operative ends an action within its control range and you don’t interrupt that activation (see below).\n - Its order is changed.\n - It’s the start of the next turning point."
       ],
       "conditions": [
-        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it's within control range of an enemy operative."
+        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it’s within control range of an enemy operative."
       ],
-      "packs": [
-        "Killzone: Gallowdark",
-        "Killzone: Tomb World"
-      ]
+      "packs": ["Killzone: Gallowdark", "Killzone: Tomb World"]
     },
     {
       "id": "ACTION-HATCHWAY-FIGHT",
@@ -151,15 +148,12 @@
       "description": null,
       "effects": [
         "Fight with the active operative",
-        "In the Select Enemy Operative step, instead select an enemy operative within 2\" of, and on the other side of, an open hatchway's access point the active operative is touching. For the duration of that action, those operatives are treated as being within each other's control range."
+        "In the Select Enemy Operative step, instead select an enemy operative within 2\" of, and on the other side of, an open hatchway’s access point the active operative is touching. For the duration of that action, those operatives are treated as being within each other’s control range."
       ],
       "conditions": [
-        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it's within control range of an enemy operative."
+        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it’s within control range of an enemy operative."
       ],
-      "packs": [
-        "Killzone: Gallowdark",
-        "Killzone: Tomb World"
-      ]
+      "packs": ["Killzone: Gallowdark", "Killzone: Tomb World"]
     },
     {
       "id": "ACTION-DOOR-FIGHT",
@@ -170,14 +164,12 @@
       "description": null,
       "effects": [
         "Fight with the active operative",
-        "In the Select Enemy Operative step, select an enemy operative within 2\" of, and on the other side of, a door the active operative is touching. For the duration of that action, those operatives are treated as being within each other's control range."
+        "In the Select Enemy Operative step, select an enemy operative within 2\" of, and on the other side of, a door the active operative is touching. For the duration of that action, those operatives are treated as being within each other’s control range."
       ],
       "conditions": [
-        "This action is treated as a Fight action. An operative cannot perform this action while within control range of an enemy operative, or if its base isn't touching a door."
+        "This action is treated as a Fight action. An operative cannot perform this action while within control range of an enemy operative, or if its base isn’t touching a door."
       ],
-      "packs": [
-        "Killzone: Volkus"
-      ]
+      "packs": ["Killzone: Volkus"]
     }
   ]
 }

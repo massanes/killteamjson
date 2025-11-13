@@ -15,7 +15,7 @@
     {
       "id": "WR-UNIV-BLAST",
       "name": "Blast",
-      "description": "The target you select is the primary target. After shooting the primary target, shoot with this weapon against each secondary target in an order of your choice (roll each sequence separately). Secondary targets are other operatives visible to and within x of the primary target, e.g., Blast 2\" (they are all valid targets, regardless of a Conceal order). Secondary targets are in cover and obscured if the primary target was.",
+      "description": "The target you select is the primary target. After shooting the primary target, shoot with this weapon against each secondary target in an order of your choice (roll each sequence separately). Secondary targets are other operatives visible to and within x of the primary target, e.g., Blast 2” (they are all valid targets, regardless of a Conceal order). Secondary targets are in cover and obscured if the primary target was.",
       "team": null
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": "WR-UNIV-DEVASTATING",
       "name": "Devastating",
-      "description": "Each retained critical success immediately inflicts x damage on the operative this weapon is being used against, e.g., Devastating 3. If the rule starts with a distance (e.g., 1\" Devastating x), inflict x damage on that operative and each other operative visible to and within that distance of it. Note that success isn't discarded after doing so-it can still be resolved later in the sequence.",
+      "description": "Each retained critical success immediately inflicts x damage on the operative this weapon is being used against, e.g., Devastating 3. If the rule starts with a distance (e.g., 1” Devastating x), inflict x damage on that operative and each other operative visible to and within that distance of it. Note that success isn’t discarded after doing so—it can still be resolved later in the sequence.",
       "team": null
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": "WR-UNIV-HOT",
       "name": "Hot",
-      "description": "After an operative uses this weapon, roll one D6. If the result is less than the weapon's Hit stat, inflict damage on that operative equal to the result multiplied by two. If it's used multiple times in one action (e.g., Blast), still only roll one D6.",
+      "description": "After an operative uses this weapon, roll one D6. If the result is less than the weapon’s Hit stat, inflict damage on that operative equal to the result multiplied by two. If it’s used multiple times in one action (e.g., Blast), still only roll one D6.",
       "team": null
     },
     {
@@ -57,7 +57,7 @@
     {
       "id": "WR-UNIV-LIMITED",
       "name": "Limited",
-      "description": "After an operative uses this weapon a number of times in the battle equal to x, they no longer have it. If it's used multiple times in one action (e.g., Blast), treat this as one use.",
+      "description": "After an operative uses this weapon a number of times in the battle equal to x, they no longer have it. If it’s used multiple times in one action (e.g., Blast), treat this as one use.",
       "team": null
     },
     {
@@ -81,7 +81,7 @@
     {
       "id": "WR-UNIV-RANGE",
       "name": "Range",
-      "description": "Only operatives within x of the active operative can be valid targets, e.g., Range 9\"",
+      "description": "Only operatives within x of the active operative can be valid targets, e.g., Range 9”",
       "team": null
     },
     {
@@ -105,7 +105,7 @@
     {
       "id": "WR-UNIV-SEEK",
       "name": "Seek",
-      "description": "When selecting a valid target, operatives cannot use terrain for cover. If the rule is Seek Light, operatives cannot use Light terrain for cover. Whilst this can allow such operatives to be targeted (assuming they're visible), it doesn't remove their cover save (if any).",
+      "description": "When selecting a valid target, operatives cannot use terrain for cover. If the rule is Seek Light, operatives cannot use Light terrain for cover. Whilst this can allow such operatives to be targeted (assuming they’re visible), it doesn’t remove their cover save (if any).",
       "team": null
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": "WR-UNIV-SHOCK",
       "name": "Shock",
-      "description": "The first time you strike with a critical success in each sequence, discard one of your opponent's unresolved normal successes (or a critical if none).",
+      "description": "The first time you strike with a critical success in each sequence, discard one of your opponent’s unresolved normal successes (or a critical if none).",
       "team": null
     },
     {
@@ -135,7 +135,7 @@
     {
       "id": "WR-UNIV-TORRENT",
       "name": "Torrent",
-      "description": "Select a valid target as normal as the primary target, then select any number of other valid targets within x of the first valid target as secondary targets, e.g., Torrent 2\". Shoot with this weapon against all of them in an order of your choice (roll each sequence separately).",
+      "description": "Select a valid target as normal as the primary target, then select any number of other valid targets within x of the first valid target as secondary targets, e.g., Torrent 2”. Shoot with this weapon against all of them in an order of your choice (roll each sequence separately).",
       "team": null
     },
     {
@@ -147,7 +147,7 @@
     {
       "id": "WR-VOT-HKS-BEAM",
       "name": "Beam",
-      "description": "Whenever this operative is shooting with this weapon, each retained critical success immediately inflicts D3 damage on each other operative along one (and only one) beam line (roll separately for each operative),\nbut the target isn't affected. An operative is along a beam line if a targeting line can be drawn from this operative to its base, and that line crosses the base of the original target but doesn't cross Heavy terrain.",
+      "description": "Whenever this operative is shooting with this weapon, each retained critical success immediately inflicts D3 damage on each other operative along one (and only one) beam line (roll separately for each operative),\nbut the target isn’t affected. An operative is along a beam line if a targeting line can be drawn from this operative to its base, and that line crosses the base of the original target but doesn’t cross Heavy terrain.",
       "team": "VOT-HKS"
     },
     {
@@ -159,7 +159,7 @@
     {
       "id": "WR-IMP-SANC-BLAZE",
       "name": "Blaze",
-      "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn't already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative's controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative's APL stat until the end of that activation to remove that token.\r ",
+      "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn’t already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative’s controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative’s APL stat until the end of that activation to remove that token.\r ",
       "team": "IMP-SANC"
     },
     {
@@ -189,13 +189,13 @@
     {
       "id": "WR-IMP-DKK-DETONATE",
       "name": "Detonate",
-      "description": "Do not select a valid target. Instead, shoot against each operative within 2\" of your Mine marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured. Roll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Mine marker isn't in the killzone. At the end of the action, remove your Mine marker from the killzone.",
+      "description": "Do not select a valid target. Instead, shoot against each operative within 2\" of your Mine marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured. Roll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Mine marker isn’t in the killzone. At the end of the action, remove your Mine marker from the killzone.",
       "team": "IMP-DKK"
     },
     {
       "id": "WR-NEC-CAN-DIMENSIONAL",
       "name": "Dimensional Banishment",
-      "description": "After this operative uses this weapon, if you inflicted damage or retained any critical successes, if the target wasn't incapacitated, roll 2D6: if the result is higher than the target's remaining wounds, the target is incapacitated (taking precedence over rules that prevent incapacitation, e.g. Medic!, FELLGOR RAVAGER, Frenzy) and your opponent cannot place a Reanimation marker (HIEROTEK CIRCLE ) for that operative, if relevant.",
+      "description": "After this operative uses this weapon, if you inflicted damage or retained any critical successes, if the target wasn’t incapacitated, roll 2D6: if the result is higher than the target’s remaining wounds, the target is incapacitated (taking precedence over rules that prevent incapacitation, e.g. Medic!, FELLGOR RAVAGER, Frenzy) and your opponent cannot place a Reanimation marker (HIEROTEK CIRCLE ) for that operative, if relevant.",
       "team": "NEC-CAN"
     },
     {
@@ -237,13 +237,13 @@
     {
       "id": "WR-CHAOS-FELL-HEADTAKER",
       "name": "Headtaker",
-      "description": "Whenever this operative incapacitates an operative with this weapon, roll one D3:\n\n- This operative regains a number of lost wounds equal to the result (unless it has one of your Frenzy tokens).\n- Until the end of the battle, add the result to the Critical Dmg stat of this operative's skullcleaver (to a maximum of 8).\n",
+      "description": "Whenever this operative incapacitates an operative with this weapon, roll one D3:\n\n- This operative regains a number of lost wounds equal to the result (unless it has one of your Frenzy tokens).\n- Until the end of the battle, add the result to the Critical Dmg stat of this operative’s skullcleaver (to a maximum of 8).\n",
       "team": "CHAOS-FELL"
     },
     {
       "id": "WR-AEL-VDT-HUMBLING",
       "name": "Humbling Cruelty",
-      "description": "If the target of this weapon isn't incapacitated but any of your attack dice inflict damage, the target gains one of your Humbling Cruelty tokens (if it doesn't already have one).\nWhenever an enemy operative has one of your Humbling Cruelty tokens, worsen the Hit stat of its weapons by 1 and subtract 2\" from its Move stat.\nThis isn't cumulative with being injured. At the end of that enemy operative's next activation, remove its Humbling Cruelty token.",
+      "description": "If the target of this weapon isn’t incapacitated but any of your attack dice inflict damage, the target gains one of your Humbling Cruelty tokens (if it doesn’t already have one).\nWhenever an enemy operative has one of your Humbling Cruelty tokens, worsen the Hit stat of its weapons by 1 and subtract 2\" from its Move stat.\nThis isn’t cumulative with being injured. At the end of that enemy operative’s next activation, remove its Humbling Cruelty token.",
       "team": "AEL-VDT"
     },
     {
@@ -255,13 +255,13 @@
     {
       "id": "WR-NEC-HIER-MAGNIFY",
       "name": "Magnify",
-      "description": "Whenever this operative is performing the Shoot action with this weapon, if the target is visible to this operative, and another friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative has an Engage order and is visible to this operative,\nyou can treat that operative as the active operative for the purposes of determining a valid target, that Shoot action's conditions, cover and obscured.\nIf you do, this weapon has the Ceaseless weapon rule until the end of that action.",
+      "description": "Whenever this operative is performing the Shoot action with this weapon, if the target is visible to this operative, and another friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative has an Engage order and is visible to this operative,\nyou can treat that operative as the active operative for the purposes of determining a valid target, that Shoot action’s conditions, cover and obscured.\nIf you do, this weapon has the Ceaseless weapon rule until the end of that action.",
       "team": "NEC-HIER"
     },
     {
       "id": "WR-CHAOS-WC-MINDBURN",
       "name": "Mindburn",
-      "description": " In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Mindburn tokens (if it does not already have one)\nuntil the end of its next activation, until it's incapacitated or until a friendly operative uses this weapon again (whichever comes first).\nWhenever an operative has one of your Mindburn tokens, worsen the Hit stat of its weapons by 1 (this is not cumulative with being injured).",
+      "description": " In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Mindburn tokens (if it does not already have one)\nuntil the end of its next activation, until it’s incapacitated or until a friendly operative uses this weapon again (whichever comes first).\nWhenever an operative has one of your Mindburn tokens, worsen the Hit stat of its weapons by 1 (this is not cumulative with being injured).",
       "team": "CHAOS-WC"
     },
     {
@@ -309,13 +309,13 @@
     {
       "id": "WR-IMP-NOV-RIPOSTE",
       "name": "Riposte",
-      "description": "Whenever you block with a critical success, you can also inflict damage equal to the weapon's Critical Dmg stat on the enemy operative in that sequence.",
+      "description": "Whenever you block with a critical success, you can also inflict damage equal to the weapon’s Critical Dmg stat on the enemy operative in that sequence.",
       "team": "IMP-NOV"
     },
     {
       "id": "WR-CHAOS-GORE-RITUAL",
       "name": "Ritual",
-      "description": "Whenever this operative is using this weapon, the first time you inflict damage on an operative within its control range during that sequence, you can increase this operative's GORE TANK.\nNote this is cumulative with the normal rules for increasing its GORE TANK (i.e. if it incapacitates an operative within its control range).",
+      "description": "Whenever this operative is using this weapon, the first time you inflict damage on an operative within its control range during that sequence, you can increase this operative’s GORE TANK.\nNote this is cumulative with the normal rules for increasing its GORE TANK (i.e. if it incapacitates an operative within its control range).",
       "team": "CHAOS-GORE"
     },
     {
@@ -363,7 +363,7 @@
     {
       "id": "WR-AEL-HOTA-STINGER",
       "name": "Stinger",
-      "description": "Whenever an enemy operative is incapacitated by this weapon, before it's removed from the killzone, inflict D3 damage on each other operative visible to and within 2\" of it.\nEach operative subsequently incapacitated as a result of this weapon rule will cause this to happen again.",
+      "description": "Whenever an enemy operative is incapacitated by this weapon, before it’s removed from the killzone, inflict D3 damage on each other operative visible to and within 2\" of it.\nEach operative subsequently incapacitated as a result of this weapon rule will cause this to happen again.",
       "team": "AEL-HOTA"
     },
     {
@@ -417,7 +417,7 @@
     {
       "id": "WR-IMP-SANC-WREATHED",
       "name": "Wreathed",
-      "description": "This operative can perform the Shoot action with this weapon while within control range of an enemy operative.\nDon't select a valid target. Instead, this operative is always the primary target, but only shoot against secondary targets and they cannot be in cover or obscured (in other words, determine Blast from this operative, but this operative isn't affected).",
+      "description": "This operative can perform the Shoot action with this weapon while within control range of an enemy operative.\nDon’t select a valid target. Instead, this operative is always the primary target, but only shoot against secondary targets and they cannot be in cover or obscured (in other words, determine Blast from this operative, but this operative isn’t affected).",
       "team": "IMP-SANC"
     }
   ]

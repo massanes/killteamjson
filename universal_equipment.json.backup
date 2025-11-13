@@ -28,7 +28,7 @@
       "killteamId": null,
       "seq": 603,
       "eqName": "Comms Device",
-      "description": "Before the battle, you can set up one of your Comms Device markers wholly within your territory.\nWhile a friendly operative controls this marker, add 3\" to the distance requirements of its SUPPORT rules that refer to friendly operatives\n(e.g. 'select one friendly operative within 6\"' would be 9\" instead).\nNote that you cannot benefit from your opponent's Comms Device markers.",
+      "description": "Before the battle, you can set up one of your Comms Device markers wholly within your territory.\nWhile a friendly operative controls this marker, add 3\" to the distance requirements of its SUPPORT rules that refer to friendly operatives\n(e.g. ‘select one friendly operative within 6\"’ would be 9\" instead).\nNote that you cannot benefit from your opponent's Comms Device markers.",
       "effects": "",
       "amount": 1
     },
@@ -64,7 +64,7 @@
       "killteamId": null,
       "seq": 607,
       "eqName": "Ladders",
-      "description": "Ladders are Insignificant and Exposed terrain. Before the battle, you can set up any of them as follows:\r \r - Wholly within your territory.\r - Upright against terrain that is at least 2\" tall.\r - More than 2\" from other equipment terrain features.\r - More than 1\" from doors and access points.\r \r Once per action, whenever an operative is climbing this terrain feature the ladder is placed against, treat the vertical distance as 1\" if the ladder is within that operative's control range during that entire climb.",
+      "description": "Ladders are Insignificant and Exposed terrain. Before the battle, you can set up any of them as follows:\r \r - Wholly within your territory.\r - Upright against terrain that is at least 2\" tall.\r - More than 2\" from other equipment terrain features.\r - More than 1\" from doors and access points.\r \r Once per action, whenever an operative is climbing this terrain feature the ladder is placed against, treat the vertical distance as 1\" if the ladder is within that operative’s control range during that entire climb.",
       "effects": "",
       "amount": 2
     },
