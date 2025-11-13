@@ -5,18 +5,18 @@
       "type": "mission",
       "seq": 101,
       "AP": 1,
-      "name": "Operate Hatch",
+      "name": "Operar la escotilla",
       "description": null,
       "effects": [
-        "Open or close a hatchway that's access point is within the operativo's alcance de control.",
-        "Un operativo can perform this action during a Carrera or Reposicionar action, and any remaining move distance can be used after it does so."
+        "Abrir o cerrar una trampilla cuyo punto de acceso esté dentro del radio de control del operario.",
+        "Un operativo puede realizar esta acción durante una acción de carrera o de reposicionamiento, y cualquier distancia de movimiento restante puede utilizarse después de hacerlo."
       ],
       "conditions": [
-        "Un operativo cannot perform this action while dentro del alcance de control of an operativo enemigo, or if that hatchway is open and its access point is within an operativo enemigo's alcance de control."
+        "Un operativo no puede realizar esta acción mientras esté dentro del alcance de control de un operativo enemigo, o si esa escotilla está abierta y su punto de acceso está dentro del alcance de control de un operativo enemigo."
       ],
       "packs": [
-        "zona de combate: Gallowdark",
-        "zona de combate: Tomb World"
+        "Killzone Gallowdark",
+        "Killzone: Tomb World"
       ]
     },
     {
@@ -24,18 +24,18 @@
       "type": "mission",
       "seq": 102,
       "AP": 2,
-      "name": "Breach",
+      "name": "Infracción",
       "description": null,
       "effects": [
-        "Open a closed breach point thats access point is within the operativo's alcance de control.",
-        "Un operativo that has the word(s) \"breach marker\", \"grenadier\" or \"mine\" on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activación/contrataque in which it performed the Carga or Disparar action (or vice versa).",
-        "Roll one D6 separately for each operativo that's on the other side of the access point and has that access point within its alcance de control: on a 4+, subtract 1 from that operativo's APL stat until the end of its next activación and inflict damage on it equal to the dice result halved (rounding up)."
+        "Abrir un punto de brecha cerrado si el punto de acceso está dentro del alcance de control del operativo.",
+        "Un operativo que tenga la(s) palabra(s) \"marcador de brecha\", \"granadero\" o \"mina\" en su tarjeta de datos, o tenga un arma con la regla de arma Perforante 2 o Perforante Crits 2 (excluyendo armas que tengan la regla de arma Explosiva o Torrente) puede realizar esta acción por 1 AP menos (hasta un mínimo de 1AP), pero no puede hacerlo durante una activación/contraacción en la que haya realizado la acción Cargar o Disparar (o viceversa).",
+        "Tira un D6 por separado por cada operativo que esté al otro lado del punto de acceso y tenga ese punto de acceso dentro de su rango de control: con un 4+, resta 1 de la estadística APL de ese operativo hasta el final de su próxima activación y le inflige un daño igual al resultado del dado dividido por la mitad (redondeando hacia arriba)."
       ],
       "conditions": [
-        "Un operativo cannot perform this action while dentro del alcance de control of Un operativo, or if that breach point is open."
+        "Un operativo no puede realizar esta acción mientras esté dentro del alcance de control de otro operativo, o si ese punto de brecha está abierto."
       ],
       "packs": [
-        "zona de combate: Tomb World"
+        "Killzone: Tomb World"
       ]
     },
     {
@@ -43,16 +43,16 @@
       "type": "mission",
       "seq": 103,
       "AP": 1,
-      "name": "Open Stockade Door",
+      "name": "Abrir la puerta de la empalizada",
       "description": null,
       "effects": [
-        "Open a stockade terrain feature that has a door, if the inside of its breach point is within the operativo's alcance de control."
+        "Abre un elemento de terreno de empalizada que tenga una puerta, si el interior de su punto de ruptura está dentro del alcance de control del operativo."
       ],
       "conditions": [
-        "Un operativo cannot perform this action if it's on the outside of the stockade, if that stockade is already open or it doesn't have a door."
+        "Un operativo no puede realizar esta acción si está en el exterior de la empalizada, si esa empalizada ya está abierta o no tiene puerta."
       ],
       "packs": [
-        "zona de combate Upgrade: Compound Siege"
+        "Actualización de Killzone: Compound Siege"
       ]
     },
     {
@@ -60,17 +60,17 @@
       "type": "mission",
       "seq": 104,
       "AP": 1,
-      "name": "Praise / Blaspheme",
+      "name": "Elogio / Blasfemia",
       "description": null,
       "effects": [
-        "Shuffle one card from your hand, or two of your discarded cards, back into their respective deck(s). Note that your discarded cards are potentially worth VPs at the end of the battle, so doing so could affect this.",
-        "Draw a card."
+        "Baraja una carta de tu mano, o dos de tus cartas descartadas, en sus respectivos mazos. Ten en cuenta que las cartas descartadas pueden valer puntos de victoria al final de la batalla, por lo que esto podría verse afectado.",
+        "Roba una carta."
       ],
       "conditions": [
-        "Un operativo cannot perform this action while dentro del alcance de control of an operativo enemigo, or while more than 3\" from the shrine statue terrain feature's plinth."
+        "Un agente no puede realizar esta acción mientras esté dentro del alcance de control de un agente enemigo, o mientras esté a más de 3\" del zócalo de la estatua del santuario."
       ],
       "packs": [
-        "Mission Pack: Blood and Zeal"
+        "Paquete de misiones: Sangre y Celo"
       ]
     },
     {
@@ -78,17 +78,17 @@
       "type": "mission",
       "seq": 105,
       "AP": 1,
-      "name": "Hallow / Defile",
+      "name": "Santificar / Profanar",
       "description": null,
       "effects": [
-        "One shrine statue terrain feature el operativo activo controls is hallowed/defiled.",
-        "Draw a card."
+        "Un elemento del terreno de la estatua del santuario que controla el agente activo está santificado o profanado.",
+        "Roba una carta."
       ],
       "conditions": [
-        "Un operativo cannot perform this action while dentro del alcance de control of an operativo enemigo, if it doesn't control the shrine statue terrain feature, or if the shrine statue has already been hallowed/defiled during this punto de inflexión."
+        "Un operativo no puede realizar esta acción mientras esté dentro del alcance de control de un operativo enemigo, si no controla el rasgo de terreno estatua de santuario, o si la estatua de santuario ya ha sido santificada/defiltrada durante este punto de giro."
       ],
       "packs": [
-        "Mission Pack: Blood and Zeal"
+        "Paquete de misiones: Sangre y Celo"
       ]
     }
   ]

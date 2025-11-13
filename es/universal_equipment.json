@@ -6,8 +6,8 @@
       "eqId": "UNIVERSAL-UE-AC",
       "killteamId": null,
       "seq": 601,
-      "eqName": "Ammo Cache",
-      "description": "Before the battle, you can set up one of your Ammo Cache markers wholly within your territory. operativos amigos can perform the following mission action during the battle:",
+      "eqName": "Alijo de munición",
+      "description": "Antes de la batalla, puedes colocar uno de tus marcadores de alijo de munición totalmente dentro de tu territorio. Los operativos amigos pueden realizar la siguiente acción de misión durante la batalla:",
       "effects": "",
       "amount": 1,
       "actions": [
@@ -18,8 +18,8 @@
       "eqId": "UNIVERSAL-UE-RW",
       "killteamId": null,
       "seq": 602,
-      "eqName": "Razor Wire",
-      "description": "Razor wire is Exposed and Obstructing terrain. Before the battle, you can set it up wholly within your territory, on the zona de combate floor and more than 2\" from other equipment terrain features, access points and Accessible terrain.  \n\r Obstructing: Whenever Un operativo would cross over this terrain feature within 1\" of it, treat the distance as an additional 1\".",
+      "eqName": "Alambre de afeitar",
+      "description": "El alambre de cuchillas es terreno Expuesto y Obstructivo. Antes de la batalla, puedes colocarla totalmente dentro de tu territorio, en el suelo de la zona de muerte y a más de 2\" de otros elementos de terreno de equipo, puntos de acceso y terreno Accesible.  \n\r Obstruyendo: Siempre que un agente cruce este elemento de terreno a menos de 1\" de él, trata la distancia como 1\" adicional.",
       "effects": "",
       "amount": 1
     },
@@ -27,8 +27,8 @@
       "eqId": "UNIVERSAL-UE-CD",
       "killteamId": null,
       "seq": 603,
-      "eqName": "Comms Device",
-      "description": "Before the battle, you can set up one of your Comms Device markers wholly within your territory.\nWhile a operativo amigo controls this marker, add 3\" to the distance requirements of its SUPPORT rules that refer to operativos amigos\n(e.g. 'select one operativo amigo within 6\"' would be 9\" instead).\nNote that you cannot benefit from your opponent's Comms Device markers.",
+      "eqName": "Dispositivo de comunicaciones",
+      "description": "Antes de la batalla, puedes colocar uno de tus marcadores de Dispositivo de Comunicaciones totalmente dentro de tu territorio.\nMientras un agente amigo controle este marcador, añade 3\" a los requisitos de distancia de sus reglas de APOYO que se refieran a agentes amigos.\n(por ejemplo, \"selecciona un operativo amigo en un radio de 6\" sería 9\" en su lugar).\nTen en cuenta que no puedes beneficiarte de los marcadores de Dispositivo de Comunicaciones de tu oponente.",
       "effects": "",
       "amount": 1
     },
@@ -36,8 +36,8 @@
       "eqId": "UNIVERSAL-UE-MN",
       "killteamId": null,
       "seq": 604,
-      "eqName": "Mines",
-      "description": "Before the battle, you can set up one of your Mines markers wholly within your territory and more than 2\" from other markers, access points, and Accessible terrain.\r The first time that marker is within Un operativo's alcance de control, remove that marker and inflict D3+3 damage on that operativo.",
+      "eqName": "Minas",
+      "description": "Antes de la batalla, puedes colocar uno de tus marcadores de Minas totalmente dentro de tu territorio y a más de 2\" de otros marcadores, puntos de acceso y terreno Accesible. La primera vez que ese marcador esté dentro del alcance de control de un operativo, retira ese marcador e inflige D3+3 de daño a ese operativo.",
       "effects": "",
       "amount": 1
     },
@@ -45,8 +45,8 @@
       "eqId": "UNIVERSAL-UE-LB",
       "killteamId": null,
       "seq": 605,
-      "eqName": "Light Barricades",
-      "description": "Light barricades are Light terrain, except the feet, which are Insignificant and Exposed. Before the battle, you can set up any of them wholly within your territory, on the zona de combate floor and more than 2\" from other equipment terrain features, access points, and Accessible terrain.",
+      "eqName": "Barricadas ligeras",
+      "description": "Las barricadas ligeras son terreno Ligero, excepto los pies, que son Insignificantes y Expuestos. Antes de la batalla, puedes colocar cualquiera de ellas totalmente dentro de tu territorio, en el suelo de la killzone y a más de 2\" de otros accidentes del terreno de equipo, puntos de acceso y terreno Accesible.",
       "effects": "",
       "amount": 2
     },
@@ -54,8 +54,8 @@
       "eqId": "UNIVERSAL-UE-HB",
       "killteamId": null,
       "seq": 606,
-      "eqName": "Heavy Barricade",
-      "description": "A heavy barricade is Heavy terrain. Before the battle, you can set it up wholly within 4\" of your drop zone, on the zona de combate floor and more than 2\" from other equipment terrain features, access points, and Accessible terrain.",
+      "eqName": "Barricada pesada",
+      "description": "Una barricada pesada es terreno Pesado. Antes de la batalla, puedes colocarla totalmente a 4\" de tu zona de lanzamiento, en el suelo de la killzone y a más de 2\" de otros accidentes del terreno de equipo, puntos de acceso y terreno Accesible.",
       "effects": "",
       "amount": 1
     },
@@ -63,8 +63,8 @@
       "eqId": "UNIVERSAL-UE-LAD",
       "killteamId": null,
       "seq": 607,
-      "eqName": "Ladders",
-      "description": "Ladders are Insignificant and Exposed terrain. Before the battle, you can set up any of them as follows:\r \r - Wholly within your territory.\r - Upright against terrain that is at least 2\" tall.\r - More than 2\" from other equipment terrain features.\r - More than 1\" from doors and access points.\r \r Once per action, whenever Un operativo is climbing this terrain feature the ladder is placed against, treat the vertical distance as 1\" if the ladder is within that operativo's alcance de control during that entire climb.",
+      "eqName": "Escaleras",
+      "description": "Las Escaleras son terreno Insignificante y Expuesto. Antes de la batalla, puedes colocar cualquiera de ellas como sigue: - Totalmente dentro de tu territorio. - Colocada contra terreno que tenga al menos 2\" de altura. - A más de 2\" de otros accidentes del terreno de equipo. - A más de 1\" de puertas y puntos de acceso. Una vez por acción, siempre que un agente esté subiendo por este accidente del terreno contra el que está colocada la escalera, trata la distancia vertical como 1\" si la escalera está dentro del alcance de control de ese agente durante toda esa subida.",
       "effects": "",
       "amount": 2
     },
@@ -72,8 +72,8 @@
       "eqId": "UNIVERSAL-UE-PB",
       "killteamId": null,
       "seq": 608,
-      "eqName": "Portable Barricade",
-      "description": "A portable barricade is Light, Protective and Portable terrain except the feet which are Insignificant and Exposed.\nBefore the battle, you can set it up wholly within your territory, on the zona de combate floor and more than 2\" from other equipment terrain features, access points, and Accessible terrain.\n  \n\n**Protective:** While Un operativo is in cover from this terrain feature, improve its Save stat by 1 (to a maximum of 2+).  \n\n**Portable:** This terrain feature only provides cover while Un operativo is connected to it and if the shield is intervening (ignore its feet).\noperativos connected to the inside of it can perform the following unique action during the battle:",
+      "eqName": "Barricada portátil",
+      "description": "Una barricada portátil es terreno Ligero, Protector y Portátil excepto los pies que son Insignificantes y Expuestos.\nAntes de la batalla, puedes colocarla totalmente dentro de tu territorio, en el suelo de la killzone y a más de 2\" de otros elementos de terreno de equipo, puntos de acceso y terreno Accesible.\n  \n\n**Protector:** Mientras un operativo esté a cubierto de este rasgo de terreno, mejora su estadística de Salvación en 1 (hasta un máximo de 2+).  \n\n**Portable:** Este rasgo del terreno sólo proporciona cobertura mientras un operativo está conectado a él y si el escudo está interviniendo (ignora sus pies).\nLos operativos conectados a su interior pueden realizar la siguiente acción única durante la batalla:",
       "effects": "",
       "amount": 1,
       "actions": [
@@ -84,8 +84,8 @@
       "eqId": "UNIVERSAL-UE-UG",
       "killteamId": null,
       "seq": 609,
-      "eqName": "Utility Grenades",
-      "description": "When you select this equipment, select two utility grenades (2 smoke, 2 stun, or 1 smoke and 1 stun).\nEach selection is a unique action your operativos can perform, but your kill team can only perform that action a total number of times during the battle equal to your selection.",
+      "eqName": "Granadas de utilidad",
+      "description": "Cuando selecciones este equipo, elige dos granadas de utilidad (2 de humo, 2 aturdidoras, o 1 de humo y 1 aturdidora).\nCada selección es una acción única que tus agentes pueden realizar, pero tu equipo de matanza solo puede realizar esa acción un número total de veces durante la batalla igual a tu selección.",
       "effects": "",
       "amount": 2,
       "actions": [
@@ -97,9 +97,9 @@
       "eqId": "UNIVERSAL-UE-XG",
       "killteamId": null,
       "seq": 610,
-      "eqName": "Explosive Grenades",
-      "description": "When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak).\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Frag Grenade|4|4+|2/4|\n|**Weapon Rules**|\n|Rng 6\", Blast 2\", Saturate|\r \r |**Name**|**ATK**|**HIT**|**DMG**|\r |-----|:-----:|:-----:|:-----:|\r |Krak Grenade|4|4+|4/5|\r |**Weapon Rules**|\r |Rng 6\", Piercing 1, Saturate|",
-      "effects": "ADDWEP:Frag Grenade|R|4|4+|2/4|Rng 6\", Blast 2\", Sat",
+      "eqName": "Granadas explosivas",
+      "description": "Cuando selecciones este equipo, elige dos granadas explosivas (2 frag, 2 krak, o 1 frag y 1 krak).\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Granada de fragmentación 4 4+ 2/4\n|**Reglas del arma\n|Nivel 6\", Explosión 2\", Saturar| |Nombre**|**ATK**|**HIT**|**DMG**| |-----|:-----:|:-----:| |Granada de Krak|4|4+|4/5| |**Reglas de Armas**||||Nivel 6\", Perforar 1, Saturar|",
+      "effects": "ADDWEP:Granada Frag|R|4|4+|2/4|Rng 6\", Explosión 2\", Sat",
       "amount": 2
     }
   ],
@@ -109,14 +109,14 @@
       "type": "mission",
       "seq": 301,
       "AP": 1,
-      "name": "Ammo Resupply",
+      "name": "Reabastecimiento de munición",
       "description": null,
       "effects": [
-        "One of your Ammo Cache markers el operativo activo controls is used this punto de inflexión.",
-        "Until the start of the next punto de inflexión, whenever this operativo is shooting with a weapon from its datacard, you can re-roll one of your dados de ataque."
+        "Uno de sus marcadores de depósito de munición que controla el operativo activo se utiliza este punto de inflexión.",
+        "Hasta el comienzo del siguiente punto de giro, siempre que este operativo dispare con un arma de su tarjeta de datos, puede volver a tirar uno de sus dados de ataque."
       ],
       "conditions": [
-        "Un operativo cannot perform this action while dentro del alcance de control of an operativo enemigo, if that marker is not yours, or if that marker has been used this punto de inflexión."
+        "Un operativo no puede realizar esta acción mientras esté dentro del alcance de control de un operativo enemigo, si ese marcador no es suyo, o si ese marcador ha sido utilizado este punto de giro."
       ]
     },
     {
@@ -124,14 +124,14 @@
       "type": "universal",
       "seq": 302,
       "AP": 1,
-      "name": "Move With Barricade",
+      "name": "Mover con barricada",
       "description": null,
       "effects": [
-        "The same as the Reposicionar action, except el operativo activo can move no more than its Move stat minus 2\" and cannot climb, drop, jump, or use any killteam's rules that remove it and set it back up again (e.gh. HEARTHKYN SALVAGER Fly, MANDRAKE Shadow Passage).",
-        "Before this operativo moves, remove the portable barricade it is connected to. After it moves, set up the portable barricade so it is connected again, but the portable barricade cannot be set up within 2\" of other equipment terrain features, access points or Accessible terrain. If this is not possible, the portable barricade is not set up again."
+        "Lo mismo que la acción Reposicionar, excepto que el operativo activo no puede moverse más que su Estadística de Movimiento menos 2\" y no puede trepar, dejarse caer, saltar ni usar ninguna regla del equipo de asesinato que lo elimine y lo vuelva a colocar (por ejemplo, Vuelo del SALVAJES HEARTHKYN, Paso Sombrío de MANDRAKE).",
+        "Antes de que este operativo se mueva, retira la barricada portátil a la que está conectado. Después de que se mueva, coloca la barricada portátil de modo que esté conectada de nuevo, pero la barricada portátil no puede colocarse a menos de 2\" de otras características del terreno del equipo, puntos de acceso o terreno Accesible. Si esto no es posible, la barricada portátil no se vuelve a colocar."
       ],
       "conditions": [
-        "This action is treated as a Reposicionar action. Un operativo cannot perform the Move with Barricade action in the same punto de inflexión in which it performed the Retirada or Carga actions."
+        "Esta acción se trata como una acción de Reposición. Un operativo no puede realizar la acción Mover con Barricada en el mismo punto de giro en el que realizó las acciones Retroceder o Cargar."
       ]
     },
     {
@@ -139,17 +139,17 @@
       "type": "ability",
       "seq": 303,
       "AP": 1,
-      "name": "Smoke Grenade",
+      "name": "Granada de humo",
       "description": null,
       "effects": [
-        "Place one of your Smoke Grenade markers within 6\" of this operativo. It must be visible to this operativo, or on Vantage terrain of a terrain feature that is visible to this operativo. The marker creates an area of smoke 1\" horizontally and unlimited height vertically from (but not below) it.",
-        "While Un operativo is wholly within an area of smoke, it is obscured to operativos more than 2\" from it, and vice versa.",
-        "In addition, whenever Un operativo is shooting an operativo enemigo wholly within an area of smoke, ignore the Piercing weapon rule unless they are within 2\" of each other.",
-        "In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke Grenade marker after a number of activations equal to that D3 have been completed or at the end of the punto de inflexión (whichever comes first).",
-        "Un operativo cannot perform this action while dentro del alcance de control of an operativo enemigo, or if you have reached the total number of times your kill team can perform it."
+        "Coloca uno de tus marcadores de Granada de Humo a 6\" o menos de este operativo. Debe ser visible para este operativo, o estar en terreno de ventaja de un elemento de terreno que sea visible para este operativo. El marcador crea un área de humo de 1\" horizontalmente y altura ilimitada verticalmente desde él (pero no por debajo).",
+        "Mientras un operario se encuentre totalmente dentro de una zona de humo, ésta queda oscurecida para los operarios que se encuentren a más de 2\" de ella, y viceversa.",
+        "Además, siempre que un operativo esté disparando a un operativo enemigo totalmente dentro de un área de humo, ignora la regla de arma perforante a menos que estén a menos de 2\" el uno del otro.",
+        "En el paso Preparado de la siguiente fase de Estrategia, tira un D3. Retira ese marcador de Granada de Humo después de que se hayan completado un número de activaciones igual a ese D3 o al final del punto de giro (lo que ocurra primero).",
+        "Un operativo no puede realizar esta acción mientras esté dentro del alcance de control de un operativo enemigo, o si ha alcanzado el número total de veces que su equipo de asesinos puede realizarla."
       ],
       "conditions": [
-        "Un operativo cannot perform this action while dentro del alcance de control of an operativo enemigo, or if you have reached the total number of times your kill team can perform it."
+        "Un operativo no puede realizar esta acción mientras esté dentro del alcance de control de un operativo enemigo, o si ha alcanzado el número total de veces que su equipo de asesinos puede realizarla."
       ]
     },
     {
@@ -157,14 +157,14 @@
       "type": "ability",
       "seq": 304,
       "AP": 1,
-      "name": "Stun Grenade",
+      "name": "Granada aturdidora",
       "description": null,
       "effects": [
-        "Select one operativo enemigo visible to and within 6\" of this operativo. That operativo and each other operativo within 1\" of it takes a stun test. For Un operativo to take a stun test, roll one D6: on a 3+, subtract 1 from its APL stat until the end of its next activación.",
-        "Un operativo cannot perform this action while dentro del alcance de control of an operativo enemigo, or if you have reached the total number of times your kill team can perform it."
+        "Selecciona un agente enemigo visible y a 6\" o menos de este agente. Ese agente y todos los demás en un radio de 1\" realizan un test de aturdimiento. Para que un operativo realice una prueba de aturdimiento, tira un D6: con un 3+, resta 1 a su estadística de APL hasta el final de su siguiente activación.",
+        "Un operativo no puede realizar esta acción mientras esté dentro del alcance de control de un operativo enemigo, o si ha alcanzado el número total de veces que su equipo de asesinos puede realizarla."
       ],
       "conditions": [
-        "Un operativo cannot perform this action while dentro del alcance de control of an operativo enemigo, or if you have reached the total number of times your kill team can perform it."
+        "Un operativo no puede realizar esta acción mientras esté dentro del alcance de control de un operativo enemigo, o si ha alcanzado el número total de veces que su equipo de asesinos puede realizarla."
       ]
     }
   ]

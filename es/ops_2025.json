@@ -4,292 +4,292 @@
       "id": "OP-TAC-2025-RECON-01",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Flank",
+      "title": "flanco",
       "archetype": "Recon",
-      "reveal": "As a STRATEGIC GAMBIT.",
-      "additionalRules": "Divide the zona de combate into two flanks (left and right) by drawing an imaginary line that's just like the centreline, except it runs from the centre of each player's zona de combate edge. Un operativo contests a flank while both wholly within it and within their opponent's territory. operativos amigos control a flank if the total APL stat of those contesting it is greater than that of operativos enemigos.",
+      "reveal": "Como JUEGO ESTRATÉGICO.",
+      "additionalRules": "Divide la zona de muerte en dos flancos (izquierdo y derecho) trazando una línea imaginaria que sea como la línea central, excepto que va desde el centro del borde de la zona de muerte de cada jugador. Un agente se disputa un flanco mientras esté totalmente dentro de él y dentro del territorio de su oponente. Los operativos amigos controlan un flanco si la estadística APL total de los que lo disputan es mayor que la de los operativos enemigos.",
       "actions": [],
       "victoryPoints": [
-        "After you reveal this op, at the end of each punto de inflexión after the first, for each flank operativos amigos control, you score 1VP.\nIf operativos amigos also controlled that flank at the end of the previous punto de inflexión (excluding the first), you score 2VP instead.\nYou cannot score more than 2VP from this op per punto de inflexión."
+        "Después de revelar esta operación, al final de cada punto de giro después del primero, por cada flanco que controlen los operativos amigos, ganas 1 PV.\nSi los operativos amigos también controlaban ese flanco al final del punto de giro anterior (excluyendo el primero), obtienes 2 VP.\nNo puedes conseguir más de 2 PV de esta operación por punto de giro."
       ]
     },
     {
       "id": "OP-TAC-2025-RECON-02",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Retrieval",
+      "title": "Recuperación",
       "archetype": "Recon",
-      "reveal": "The first time you score VP from this op.",
+      "reveal": "La primera vez que consigas VP de esta operación.",
       "additionalRules": null,
       "actions": [
         "ACTION-TAC-2025-RETRIEVE"
       ],
-      "victoryPoints": "The first time each objective marker is searched by operativos amigos, you score 1VP.\nAt the end of the battle, for each of your Retrieval mission markers operativos amigos are carrying, you score 1VP."
+      "victoryPoints": "La primera vez que cada marcador de objetivo sea buscado por operativos amigos, ganas 1VP.\nAl final de la batalla, por cada uno de tus marcadores de misión de Recuperación que lleven operativos amigos, ganas 1 VP."
     },
     {
       "id": "OP-TAC-2025-RECON-03",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Scout Enemy Movement",
+      "title": "Exploración Movimiento Enemigo",
       "archetype": "Recon",
-      "reveal": "The first time a operativo amigo performs the Scout action.",
+      "reveal": "La primera vez que un operativo amigo realiza la acción Explorador.",
       "additionalRules": null,
       "actions": [
         "ACTION-TAC-2025-SCOUT"
       ],
-      "victoryPoints": "At the end of each punto de inflexión after the first, for each monitored operativo enemigo that's visible to operativos amigos, you score 1VP. Note that it doesn't have to be a operativo amigo that performed the Scout action.\nYou cannot score more than 2VP from this op per punto de inflexión."
+      "victoryPoints": "Al final de cada punto de giro después del primero, por cada operativo enemigo vigilado que sea visible para los operativos amigos, ganas 1 VP. Ten en cuenta que no tiene por qué ser un agente amigo el que haya realizado la acción de exploración.\nNo puedes obtener más de 2 PV de esta operación por punto de giro."
     },
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-01",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Sweep & Clear",
-      "archetype": "Seek & Destroy",
-      "reveal": "The first time an operativo enemigo is incapacitado while contesting an objective marker, or the first time a operativo amigo performs the Clear action (whichever comes first).",
-      "additionalRules": "When an operativo enemigo that contests an objective marker is incapacitado, that objective marker gains one of your Swept tokens (if it doesn't already have one) until the Ready step of the next Strategy phase.",
+      "title": "Barrer y limpiar",
+      "archetype": "Buscar y destruir",
+      "reveal": "La primera vez que un operativo enemigo es incapacitado mientras disputa un marcador de objetivo, o la primera vez que un operativo amigo realiza la acción de Despejar (lo que ocurra primero).",
+      "additionalRules": "Cuando un agente enemigo que disputa un marcador de objetivo es incapacitado, ese marcador de objetivo gana una de tus fichas de Barrido (si aún no tiene una) hasta el paso Preparado de la siguiente fase de Estrategia.",
       "actions": [
         "ACTION-TAC-2025-CLEAR"
       ],
-      "victoryPoints": "At the end of each punto de inflexión after the first, if operativos amigos control any objective markers that have one of your Swept tokens, you score 1VP.\nIf this is true and any of those objective markers are also cleared, you score 2VP instead.\nYou cannot score more than 2VP from this op per punto de inflexión."
+      "victoryPoints": "Al final de cada punto de giro después del primero, si los operativos amigos controlan cualquier marcador de objetivo que tenga una de tus fichas barridas, ganas 1 VP.\nSi esto es cierto y alguno de esos marcadores de objetivo también es barrido, anotas 2VP en su lugar.\nNo puedes ganar más de 2 PV con esta operación por punto de giro."
     },
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-02",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Dominate",
-      "archetype": "Seek & Destroy",
-      "reveal": "The first time an operativo enemigo is incapacitado by a operativo amigo.",
-      "additionalRules": "Each time a operativo amigo incapacitates an operativo enemigo, that operativo amigo gains one of your Dominate tokens.",
+      "title": "Dominar",
+      "archetype": "Buscar y destruir",
+      "reveal": "La primera vez que un operativo enemigo es incapacitado por un operativo amigo.",
+      "additionalRules": "Cada vez que un operativo amigo incapacita a un operativo enemigo, ese operativo amigo gana una de tus fichas de Dominar.",
       "actions": [],
-      "victoryPoints": "At the end of the third and fourth punto de inflexión, you can remove Dominate tokens from operativos amigos that aren't incapacitado. For each you remove, you score 1VP.\nYou cannot score more than 3VP from this op per punto de inflexión."
+      "victoryPoints": "Al final del tercer y cuarto punto de giro, puedes eliminar las fichas de Dominación de los operativos amigos que no estén incapacitados. Por cada una que elimines, ganas 1 VP.\nNo puedes ganar más de 3 PV con esta operación por punto de giro."
     },
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-03",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Rout",
-      "archetype": "Seek & Destroy",
-      "reveal": "The first time you score VP from this op.",
+      "title": "Ruta",
+      "archetype": "Buscar y destruir",
+      "reveal": "La primera vez que consigas VP de esta operación.",
       "additionalRules": null,
       "actions": [],
-      "victoryPoints": "Whenever a operativo amigo incapacitates an operativo enemigo, if that operativo amigo is within 6\" of your opponent's drop zone, you score 1VP; if this is true and that operativo enemigo had a Wounds stat of 12 or more, you score 2VP instead.\nYou cannot score more than 2VP from this op per punto de inflexión."
+      "victoryPoints": "Siempre que un operativo amigo incapacite a un operativo enemigo, si ese operativo amigo está a 6\" o menos de la zona de lanzamiento de tu oponente, ganas 1 PV; si es así y ese operativo enemigo tenía una estadística de Heridas de 12 o más, ganas 2 PV en su lugar.\nNo puedes conseguir más de 2 PV de esta operación por punto de giro."
     },
     {
       "id": "OP-TAC-2025-SECURITY-01",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Plant Banner",
-      "archetype": "Security",
-      "reveal": "When you perform the Plant Banner action.",
+      "title": "Bandera de la planta",
+      "archetype": "Seguridad",
+      "reveal": "Cuando ejecute la acción Estandarte de centro.",
       "additionalRules": null,
       "actions": [
         "ACTION-TAC-2025-PLANT-BANNER"
       ],
-      "victoryPoints": "At the end of each punto de inflexión after the first, if your Banner mission marker is wholly within your opponent's territory and operativos amigos control it, you score 1VP; if that's true and no operativos enemigos contest it, you score 2VP instead. Note your Banner mission marker must be in the zona de combate (not being carried) to score."
+      "victoryPoints": "Al final de cada punto de giro después del primero, si tu marcador de misión Estandarte está totalmente dentro del territorio de tu oponente y lo controlan operativos amigos, puntúas 1VP; si es así y ningún operativo enemigo se lo disputa, puntúas 2VP en su lugar. Ten en cuenta que tu marcador de misión de estandarte debe estar en la zona de muerte (sin ser transportado) para puntuar."
     },
     {
       "id": "OP-TAC-2025-SECURITY-02",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Martyrs",
-      "archetype": "Security",
-      "reveal": "The first time a operativo amigo is incapacitado while contesting an objective marker.",
-      "additionalRules": "Whenever a operativo amigo is incapacitado while contesting an objective marker, that marker gains one of your Martyr tokens. Note that this is only the first time each operativo is incapacitado, so if Un operativo is incapacitado, set back up (e.g. HIEROTEK CIRCLE Reanimation Protocols) and then subsequently incapacitado again, a second Martyr token cannot be gained as a result.",
+      "title": "Mártires",
+      "archetype": "Seguridad",
+      "reveal": "La primera vez que un operativo amigo es incapacitado mientras disputa un marcador de objetivo.",
+      "additionalRules": "Siempre que un operativo amigo quede incapacitado mientras disputa un marcador de objetivo, ese marcador gana una de tus fichas de Mártir. Ten en cuenta que esto solo ocurre la primera vez que se incapacita a un agente, por lo que si se incapacita a un agente, se vuelve a activar (por ejemplo, protocolos de reanimación del CÍRCULO HIEROTEK) y posteriormente se vuelve a incapacitar, no se puede obtener una segunda ficha de mártir como resultado.",
       "actions": [],
-      "victoryPoints": "At the end of each punto de inflexión after the first, if operativos amigos contest an objective marker that has one or more of your Martyr tokens, you can remove any of those tokens. For each token you remove, you score 1VP; if operativos amigos also control that marker, you score 2VP instead.\nYou cannot score more than 2VP from this op per punto de inflexión."
+      "victoryPoints": "Al final de cada punto de giro después del primero, si los operativos amigos disputan un marcador de objetivo que tenga una o más de tus fichas de mártir, puedes retirar cualquiera de esas fichas. Por cada ficha que elimines, obtienes 1 VP; si los operativos amigos también controlan ese marcador, obtienes 2 VP.\nNo puedes ganar más de 2 PV con esta operación por punto de giro."
     },
     {
       "id": "OP-TAC-2025-SECURITY-03",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Envoy",
-      "archetype": "Security",
-      "reveal": "The first time you select an envoy.",
-      "additionalRules": "As a STRATEGIC GAMBIT in each punto de inflexión after the first, select one operativo amigo to be your envoy until the Ready step of the next Strategy phase. You cannot select Un operativo you selected during a previous punto de inflexión.",
+      "title": "Enviado",
+      "archetype": "Seguridad",
+      "reveal": "La primera vez que seleccionas un enviado.",
+      "additionalRules": "Como JUEGO ESTRATÉGICO en cada punto de giro después del primero, selecciona un agente amigo para que sea tu enviado hasta el paso Listo de la siguiente fase de Estrategia. No puedes seleccionar a un operativo que hayas seleccionado durante un punto de giro anterior.",
       "actions": [],
-      "victoryPoints": "At the end of each punto de inflexión after the first, if your envoy is wholly within enemy territory and not dentro del alcance de control of operativos enemigos, you score 1VP; if this is true and your envoy has not lost any wounds during that punto de inflexión, you score 2VP instead."
+      "victoryPoints": "Al final de cada punto de giro después del primero, si tu enviado está completamente dentro de territorio enemigo y no dentro del alcance de control de operativos enemigos, anotas 1VP; si esto es cierto y tu enviado no ha perdido ninguna herida durante ese punto de giro, anotas 2VP en su lugar."
     },
     {
       "id": "OP-TAC-2025-INFILTRATION-01",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Track Enemy",
-      "archetype": "Infiltration",
-      "reveal": "The first time you score VP from this op.",
-      "additionalRules": "An operativo enemigo is being tracked if it's a valid target for a operativo amigo within 6\" of it. That operativo amigo must have a Conceal order, cannot be a valid target for the operativo enemigo it's attempting to track, and cannot be dentro del alcance de control of operativos enemigos.",
+      "title": "Pista Enemigo",
+      "archetype": "Infiltración",
+      "reveal": "La primera vez que consigas VP de esta operación.",
+      "additionalRules": "Un operativo enemigo está siendo rastreado si es un objetivo válido para un operativo amigo a 6\" o menos de él. Ese operativo amigo debe tener una orden de ocultación, no puede ser un objetivo válido para el operativo enemigo que está intentando rastrear y no puede estar dentro del alcance de control de los operativos enemigos.",
       "actions": [],
-      "victoryPoints": "At the end of each punto de inflexión after the first:\n - If one operativo enemigo is being tracked, you score 1VP, or 2VP instead if it's the fourth punto de inflexión.\n - If two or more operativos enemigos are being tracked, you score 2VP.\nYou cannot score more than 2VP from this op per punto de inflexión."
+      "victoryPoints": "Al final de cada punto de giro después del primero:\n - Si se está siguiendo a un agente enemigo, ganas 1 PV, o 2 PV si es el cuarto punto de giro.\n - Si se sigue a dos o más enemigos, obtienes 2 PV.\nNo puedes conseguir más de 2 PV de esta operación por punto de giro."
     },
     {
       "id": "OP-TAC-2025-INFILTRATION-02",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Plant Devices",
-      "archetype": "Infiltration",
-      "reveal": "The first time a operativo amigo performs the Plant Device action.",
+      "title": "Dispositivos de planta",
+      "archetype": "Infiltración",
+      "reveal": "La primera vez que un operativo amigo realiza la acción Plantar Dispositivo.",
       "additionalRules": null,
       "actions": [
-        "ACTION-TAC-2025-PLANT-DEVICE"
+        "ACTION-TAC-2025-APARATO-PLANTA"
       ],
-      "victoryPoints": "At the end of each punto de inflexión after the first:\n - If your opponent's objective marker has one of your Device tokens, you score 1VP.\n - For each other objective marker operativos enemigos contest that has one of your Device tokens, you score 1VP.\nYou cannot score more than 2VP from this op per punto de inflexión."
+      "victoryPoints": "Al final de cada punto de giro después del primero:\n - Si el marcador de objetivo de tu oponente tiene una de tus fichas de Dispositivo, anotas 1VP.\n - Por cada otro marcador de objetivo disputado por operativos enemigos que tenga una de tus fichas de Dispositivo, ganas 1 VP.\nNo puedes ganar más de 2 PV con esta operación por punto de giro."
     },
     {
       "id": "OP-TAC-2025-INFILTRATION-03",
       "type": "tac-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Steal Intelligence",
-      "archetype": "Infiltration",
-      "reveal": "The first time an operativo enemigo is incapacitado.",
-      "additionalRules": "Whenever an operativo enemigo is incapacitado, before it's removed from the zona de combate, place one of your Intelligence mission markers within its alcance de control.\noperativos amigos can perform the Recoger Marcador action on your Intelligence mission markers, and for the purposes of that action's conditions, ignore the first Intelligence mission marker el operativo activo is carrying. In other words, each operativo amigo can carry up to two Intelligence mission markers, or one and one other marker.",
+      "title": "Robar inteligencia",
+      "archetype": "Infiltración",
+      "reveal": "La primera vez que un operativo enemigo es incapacitado.",
+      "additionalRules": "Siempre que un operativo enemigo quede incapacitado, antes de retirarlo de la zona de muerte, coloca uno de tus marcadores de misión de Inteligencia dentro de su alcance de control.\nLos operativos amigos pueden realizar la acción Recoger marcador sobre tus marcadores de misión de Inteligencia y, a efectos de las condiciones de esa acción, ignorar el primer marcador de misión de Inteligencia que lleve el operativo activo. En otras palabras, cada operativo amigo puede llevar hasta dos marcadores de misión de Inteligencia, o uno y otro marcador.",
       "actions": [],
-      "victoryPoints": "At the end of each punto de inflexión after the first, if any operativos amigos are carrying any of your Intelligence mission markers, you score 1VP.\nYou cannot score more than 2VP from this op per punto de inflexión.\nAt the end of the battle, for each of your Intelligence mission markers operativos amigos are carrying, you score 1VP."
+      "victoryPoints": "Al final de cada punto de giro después del primero, si algún agente amigo lleva alguno de tus marcadores de misión de Inteligencia, ganas 1 VP.\nNo puedes conseguir más de 2 PV de esta operación por punto de giro.\nAl final de la batalla, por cada uno de tus marcadores de misión de Inteligencia que lleven operativos amigos, ganas 1 VP."
     },
     {
       "id": "OP-CRIT-2025-01",
       "type": "crit-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Secure",
+      "title": "Asegure",
       "reveal": null,
       "additionalRules": null,
       "actions": [
         "ACTION-CRIT-2025-SECURE"
       ],
-      "victoryPoints": "At the end of each punto de inflexión after the first:\n - If any objective markers are secured by your kill team, you score 1VP.\n - If more objective markers are secured by your kill team than your opponent's kill team, you score 1VP."
+      "victoryPoints": "Al final de cada punto de giro después del primero:\n - Si tu equipo de asesinos consigue algún marcador de objetivo, ganas 1 PV.\n - Si tu equipo de asesinos consigue más marcadores de objetivo que el equipo de asesinos de tu oponente, ganas 1 PV."
     },
     {
       "id": "OP-CRIT-2025-02",
       "type": "crit-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Loot",
+      "title": "Lotería",
       "reveal": null,
       "additionalRules": null,
       "actions": [
         "ACTION-CRIT-2025-LOOT"
       ],
-      "victoryPoints": "Whenever a operativo amigo performs the Loot action, you score 1VP (to a maximum of 2VP per punto de inflexión)."
+      "victoryPoints": "Cada vez que un agente amigo realice la acción Saquear, ganas 1VP (hasta un máximo de 2VP por punto de giro)."
     },
     {
       "id": "OP-CRIT-2025-03",
       "type": "crit-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Transmission",
+      "title": "Transmisión",
       "reveal": null,
       "additionalRules": null,
       "actions": [
         "ACTION-CRIT-2025-INITIATE-TRANSMISSION"
       ],
-      "victoryPoints": "At the end of each punto de inflexión after the first:\n - If operativos amigos control any transmitting objective markers, you score 1VP.\n - If operativos amigos control more transmitting objective markers than operativos enemigos do, you score 1VP.\nYou cannot score more than 2VP from this op per punto de inflexión."
+      "victoryPoints": "Al final de cada punto de giro después del primero:\n - Si los operativos amigos controlan algún marcador de objetivo transmisor, ganas 1 VP.\n - Si los operativos amigos controlan más marcadores de objetivo transmisor que los operativos enemigos, ganas 1 VP.\nNo puedes conseguir más de 2 VP de esta operación por turno."
     },
     {
       "id": "OP-CRIT-2025-04",
       "type": "crit-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Orb",
+      "title": "Orbe",
       "reveal": null,
-      "additionalRules": "At the start of the battle, the centre objective marker has the Orb token.",
+      "additionalRules": "Al comienzo de la batalla, el marcador de objetivo central tiene la ficha Orbe.",
       "actions": [
         "ACTION-CRIT-2025-MOVE-ORB"
       ],
-      "victoryPoints": " At the end of each punto de inflexión after the first, for each objective marker that operativos amigos control that doesn't have the Orb token, you score 1VP. "
+      "victoryPoints": " Al final de cada punto de giro después del primero, por cada marcador de objetivo que controlen los operativos amigos y que no tenga la ficha Orbe, te anotas 1VP."
     },
     {
       "id": "OP-CRIT-2025-05",
       "type": "crit-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Stake Claim",
+      "title": "Reclamación de estacas",
       "reveal": null,
-      "additionalRules": "At the start of the Gambit step of each Strategy phase after the first, starting with the player with initiative, each player must select both one objective marker and one of the following claims for that punto de inflexión:\n - operativos amigos will control that objective marker at the end of this punto de inflexión.\n - operativos enemigos won't contest that objective marker at the end of this punto de inflexión.\nEach player cannot select each objective marker more than once per battle (so they must select each objective marker once during the battle).",
+      "additionalRules": "Al comienzo del paso de Gambito de cada fase de Estrategia después de la primera, empezando por el jugador con iniciativa, cada jugador debe seleccionar un marcador de objetivo y una de las siguientes reclamaciones para ese punto de giro:\n - Los operativos amigos controlarán ese marcador de objetivo al final de este punto de giro.\n - Los operativos enemigos no controlarán ese marcador de objetivo al final de este punto de giro.\nCada jugador no puede seleccionar cada marcador de objetivo más de una vez por batalla (por lo que deben seleccionar cada marcador de objetivo una vez durante la batalla).",
       "actions": [],
-      "victoryPoints": "At the end of each punto de inflexión, after the first:\n - If operativos amigos control more objective markers than operativos enemigos do, you score 1VP.\n - If your selected claim is true, you score 1VP.\nYou cannot score more than 2VP from this op per punto de inflexión."
+      "victoryPoints": "Al final de cada punto de giro, después del primero:\n - Si los operativos amigos controlan más marcadores de objetivo que los operativos enemigos, ganas 1 PV.\n - Si tu afirmación seleccionada es cierta, ganas 1 VP.\nNo puedes obtener más de 2 PV de esta operación por punto de giro."
     },
     {
       "id": "OP-CRIT-2025-06",
       "type": "crit-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Energy Cells",
+      "title": "Células de energía",
       "reveal": null,
-      "additionalRules": "operativos can perform the Recoger Marcador action upon each objective marker in the following turning points:\n - 2, but you must spend an additional 2AP (that action cannot be free and its AP cannot be reduced).\n - 3, but you must spend an additional 1AP (that action cannot be free and its AP cannot be reduced).\n - 4 (as normal).\nWhenever Un operativo is carrying an objective marker, that operativo cannot be removed and set up again more than 6\" away.",
+      "additionalRules": "Los operativos pueden realizar la acción Recoger marcador sobre cada marcador de objetivo en los siguientes puntos de giro:\n - 2, pero debes gastar 2 PA adicionales (esa acción no puede ser gratuita y su PA no puede reducirse).\n - 3, pero debes gastar 1 PA adicional (esa acción no puede ser gratuita y su PA no puede reducirse).\n - 4 (como de costumbre).\nSiempre que un operativo lleve un marcador de objetivo, ese operativo no puede ser retirado y colocado de nuevo a más de 6\" de distancia.",
       "actions": [],
-      "victoryPoints": "At the end of each punto de inflexión after the first, if operativos amigos control more objective markers than operativos enemigos do, you score 1VP.\nAt the end of the battle, for each objective marker operativos amigos are carrying, you score 1VP."
+      "victoryPoints": "Al final de cada punto de giro después del primero, si los operativos amigos controlan más marcadores de objetivo que los operativos enemigos, anotas 1VP.\nAl final de la batalla, por cada marcador de objetivo que lleven los operativos amigos, ganas 1 VP."
     },
     {
       "id": "OP-CRIT-2025-07",
       "type": "crit-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Download",
+      "title": "Descargar",
       "reveal": null,
       "additionalRules": null,
       "actions": [
         "ACTION-CRIT-2025-DOWNLOAD"
       ],
-      "victoryPoints": "At the end of each punto de inflexión after the first, if operativos amigos control more objective markers than operativos enemigos do, you score 1VP. Ignore downloaded objective markers when determining this.\nWhenever a operativo amigo performs the Download action during the third punto de inflexión, you score 1VP.\nWhenever a operativo amigo performs the Download action during the fourth punto de inflexión, you score 2VP."
+      "victoryPoints": "Al final de cada punto de giro después del primero, si los operativos amigos controlan más marcadores de objetivo que los operativos enemigos, ganas 1 VP. Ignora los marcadores de objetivo descargados cuando determines esto.\nSiempre que un agente amigo realice la acción de descarga durante el tercer punto de giro, ganas 1 VP.\nSiempre que un agente amigo realice la acción de descarga durante el cuarto punto de giro, ganas 2 PV."
     },
     {
       "id": "OP-CRIT-2025-08",
       "type": "crit-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Data",
+      "title": "Datos",
       "reveal": null,
       "additionalRules": null,
       "actions": [
-        "ACTION-CRIT-2025-COMPILE-DATA",
+        "ACCIÓN-CRIT-2025-COMPILAR-DATOS",
         "ACTION-CRIT-2025-SEND-DATA"
       ],
-      "victoryPoints": "At the end of the second and third punto de inflexión, if operativos amigos have performed more Compile Data actions during that punto de inflexión than operativos enemigos have, you score 1VP.\nWhenever a operativo amigo performs the Send Data action, you score a number of VP equal to the number of Data points removed."
+      "victoryPoints": "Al final del segundo y tercer punto de giro, si los operativos amigos han realizado más acciones de Compilar Datos durante ese punto de giro que los operativos enemigos, anotas 1 PV.\nSiempre que un operativo amigo realice la acción Enviar Datos, anotas un número de PV igual al número de puntos de Datos eliminados."
     },
     {
       "id": "OP-CRIT-2025-09",
       "type": "crit-op",
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ],
-      "title": "Reboot",
+      "title": "Reiniciar",
       "reveal": null,
-      "additionalRules": "When setting up the battle, after setting up objective markers, number each objective marker 1-3.\nAt the start of the Gambit step of each Strategy phase, each player secretly selects one objective marker by putting a number of dice in their hand that matches that marker's number, then reveal simultaneously:\n - If both players selected the same one, that objective marker is inert during this punto de inflexión.\n - If not, the objective marker that neither player selected is inert during this punto de inflexión.",
+      "additionalRules": "Al desplegar la batalla, después de colocar los marcadores de objetivo, numera cada marcador de objetivo de 1 a 3.\nAl comienzo del paso Gambito de cada fase de Estrategia, cada jugador selecciona en secreto un marcador de objetivo poniendo en su mano un número de dados que coincida con el número de ese marcador, y luego lo revela simultáneamente:\n - Si ambos jugadores seleccionaron el mismo, ese marcador de objetivo queda inerte durante este punto de giro.\n - Si no, el marcador de objetivo que ninguno de los dos jugadores seleccionó queda inerte durante este punto de giro.",
       "actions": [
         "ACTION-CRIT-2025-REBOOT"
       ],
-      "victoryPoints": "At the end of each punto de inflexión after the first, for each objective marker operativos amigos control, you score 1VP. Ignore inert objective markers when determining this."
+      "victoryPoints": "Al final de cada punto de giro después del primero, por cada marcador de objetivo que controlen los operativos amigos, ganas 1 PV. Ignora los marcadores de objetivo inertes al determinar esto."
     }
   ],
   "actions": [
@@ -298,16 +298,16 @@
       "type": "mission",
       "seq": 201,
       "AP": 1,
-      "name": "Secure",
+      "name": "Asegure",
       "description": null,
       "effects": [
-        "One objective marker el operativo activo controls is secured by your kill team until the enemy kill team secures that objective marker."
+        "Un marcador de objetivo que el operativo activo controla está asegurado por tu equipo de matanza hasta que el equipo de matanza enemigo asegure ese marcador de objetivo."
       ],
       "conditions": [
-        "Un operativo cannot perform this action during the first punto de inflexión, or while dentro del alcance de control of an operativo enemigo. "
+        "Un operativo no puede realizar esta acción durante el primer punto de giro, o mientras esté dentro del alcance de control de un operativo enemigo."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -315,16 +315,16 @@
       "type": "mission",
       "seq": 202,
       "AP": 1,
-      "name": "Loot",
+      "name": "Lotería",
       "description": null,
       "effects": [
-        "One objective marker el operativo activo controls is looted."
+        "Un marcador objetivo que controla el operativo activo es saqueado."
       ],
       "conditions": [
-        "Un operativo cannot perform this action during the first punto de inflexión, while dentro del alcance de control of an operativo enemigo, or if that objective marker has already been looted during this punto de inflexión. "
+        "Un operativo no puede realizar esta acción durante el primer punto de giro, mientras esté dentro del alcance de control de un operativo enemigo, o si ese marcador de objetivo ya ha sido saqueado durante este punto de giro."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -332,16 +332,16 @@
       "type": "mission",
       "seq": 203,
       "AP": 1,
-      "name": "Retrieve",
+      "name": "Recuperar",
       "description": null,
       "effects": [
-        "If el operativo activo controls an objective marker that hasn't been searched by operativos amigos, that operativo is now carrying one of your Retrieval mission markers and that objective marker has been searched by operativos amigos. operativos amigos can perform the Recoger Marcador action on your Retrieval mission markers."
+        "Si el operativo activo controla un marcador de objetivo que no ha sido buscado por operativos amigos, ese operativo lleva ahora uno de tus marcadores de misión de Recuperación y ese marcador de objetivo ha sido buscado por operativos amigos. Los operativos amigos pueden realizar la acción Recoger marcador en tus marcadores de misión de Recuperación."
       ],
       "conditions": [
-        "Un operativo cannot perform this action during the first punto de inflexión, or while dentro del alcance de control of an operativo enemigo."
+        "Un operativo no puede realizar esta acción durante el primer punto de giro, o mientras esté dentro del alcance de control de un operativo enemigo."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -349,16 +349,16 @@
       "type": "mission",
       "seq": 204,
       "AP": 1,
-      "name": "Scout",
+      "name": "Explorador",
       "description": null,
       "effects": [
-        " Select one ready operativo enemigo visible to and more than 6\" from el operativo activo. That operativo enemigo is now monitored until the Ready step of the next Strategy phase."
+        " Selecciona un operativo enemigo listo visible y a más de 6\" del operativo activo. Ese operativo enemigo pasa a estar vigilado hasta el paso Listo de la siguiente fase de Estrategia."
       ],
       "conditions": [
-        " Un operativo cannot perform this action while it has an Engage order, during the first punto de inflexión, or while dentro del alcance de control of an operativo enemigo."
+        " Un operativo no puede realizar esta acción mientras tenga una orden de Entablar combate, durante el primer punto de giro o mientras esté dentro del alcance de control de un operativo enemigo."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -366,16 +366,16 @@
       "type": "mission",
       "seq": 205,
       "AP": 1,
-      "name": "Clear",
+      "name": "Claro",
       "description": null,
       "effects": [
-        "An objective marker el operativo activo controls is cleared for the punto de inflexión."
+        "Un marcador objetivo los controles operativos activos se borra para el punto de inflexión."
       ],
       "conditions": [
-        "Un operativo cannot perform this action during the first punto de inflexión, or while dentro del alcance de control of an operativo enemigo."
+        "Un operativo no puede realizar esta acción durante el primer punto de giro, o mientras esté dentro del alcance de control de un operativo enemigo."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -383,16 +383,16 @@
       "type": "mission",
       "seq": 206,
       "AP": 1,
-      "name": "Plant Banner",
+      "name": "Bandera de la planta",
       "description": null,
       "effects": [
-        "Place your Banner mission marker within el operativo activo's alcance de control, wholly within your opponent's territory and more than 5\" from a neutral zona de combate edge. operativos can perform the Recoger Marcador action on your Banner mission marker."
+        "Coloca tu marcador de misión de Estandarte dentro del alcance de control del operativo activo, totalmente dentro del territorio de tu oponente y a más de 5\" de un borde de killzone neutral. Los operativos pueden realizar la acción Recoger marcador en tu marcador de misión Estandarte."
       ],
       "conditions": [
-        "Un operativo cannot perform this action during the first punto de inflexión, while dentro del alcance de control of an operativo enemigo, or if a operativo amigo has already performed this action during the battle."
+        "Un operativo no puede realizar esta acción durante el primer punto de giro, mientras esté dentro del alcance de control de un operativo enemigo, o si un operativo amigo ya ha realizado esta acción durante la batalla."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -400,16 +400,16 @@
       "type": "mission",
       "seq": 207,
       "AP": 1,
-      "name": "Plant Device",
+      "name": "Dispositivo de planta",
       "description": null,
       "effects": [
-        "One objective marker el operativo activo controls gains one of your Device tokens."
+        "Un marcador de objetivo que controle el operativo activo gana una de tus fichas de Dispositivo."
       ],
       "conditions": [
-        " Un operativo cannot perform this action during the first punto de inflexión, while dentro del alcance de control of an operativo enemigo, or if that objective marker already has one of your Device tokens."
+        " Un operativo no puede realizar esta acción durante el primer punto de giro, mientras esté dentro del alcance de control de un operativo enemigo, o si ese marcador de objetivo ya tiene una de tus fichas de Dispositivo."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -417,16 +417,16 @@
       "type": "mission",
       "seq": 208,
       "AP": 1,
-      "name": "Initiate Transmission",
+      "name": "Iniciar la transmisión",
       "description": null,
       "effects": [
-        "One objective marker el operativo activo controls is transmitting until the start of the next punto de inflexión."
+        "Un marcador objetivo los controles operativos activos está transmitiendo hasta el inicio del siguiente punto de inflexión."
       ],
       "conditions": [
-        "Un operativo cannot perform this action during the first punto de inflexión, or while dentro del alcance de control of an operativo enemigo."
+        "Un operativo no puede realizar esta acción durante el primer punto de giro, o mientras esté dentro del alcance de control de un operativo enemigo."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -434,16 +434,16 @@
       "type": "mission",
       "seq": 209,
       "AP": 1,
-      "name": "Move Orb",
+      "name": "Mover Orbe",
       "description": null,
       "effects": [
-        "If el operativo activo controls the objective marker that has the Orb token, move that token as follows:\n - If the centre objective marker has it, move it to either player's objective marker (your choice).\n - If a player's objective marker has it, move it to the centre objective marker."
+        "Si el operativo activo controla el marcador de objetivo que tiene la ficha Orbe, mueve esa ficha como se indica a continuación:\n - Si la tiene el marcador de objetivo central, muévela al marcador de objetivo de cualquiera de los jugadores (a tu elección).\n - Si lo tiene el marcador de objetivo de un jugador, muévelo al marcador de objetivo central."
       ],
       "conditions": [
-        " Un operativo cannot perform this action during the first punto de inflexión, while dentro del alcance de control of an operativo enemigo, or if it doesn't control the objective marker that has the Orb token. "
+        " Un operativo no puede realizar esta acción durante el primer punto de giro, mientras esté dentro del alcance de control de un operativo enemigo, o si no controla el marcador de objetivo que tiene la ficha de Orbe."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -451,16 +451,16 @@
       "type": "mission",
       "seq": 210,
       "AP": 1,
-      "name": "Download",
+      "name": "Descargar",
       "description": null,
       "effects": [
-        "One centre or opponent's objective marker el operativo activo controls is downloaded."
+        "Se descarga un marcador de centro u objetivo del adversario que controla el operativo activo."
       ],
       "conditions": [
-        " Un operativo cannot perform this action during the first or second punto de inflexión, while dentro del alcance de control of an operativo enemigo, or if that objective marker has already been downloaded during the battle."
+        " Un operativo no puede realizar esta acción durante el primer o segundo punto de giro, mientras esté dentro del alcance de control de un operativo enemigo, o si ese marcador de objetivo ya ha sido descargado durante la batalla."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -468,16 +468,16 @@
       "type": "mission",
       "seq": 211,
       "AP": 1,
-      "name": "Compile Data",
+      "name": "Recopilar datos",
       "description": null,
       "effects": [
-        "One objective marker el operativo activo controls gains 1 Data point. Use a dice as a token to keep track of Data points at that objective marker."
+        "Un marcador de objetivo que el operativo activo controle gana 1 punto de Datos. Usa un dado como ficha para llevar la cuenta de los puntos de Datos en ese marcador de objetivo."
       ],
       "conditions": [
-        "Un operativo cannot perform this action during the first punto de inflexión, while dentro del alcance de control of an operativo enemigo, or if that objective marker has already gained a Data point during this punto de inflexión."
+        "Un operativo no puede realizar esta acción durante el primer punto de giro, mientras esté dentro del alcance de control de un operativo enemigo, o si ese marcador de objetivo ya ha ganado un punto de Datos durante este punto de giro."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -485,16 +485,16 @@
       "type": "mission",
       "seq": 212,
       "AP": 1,
-      "name": "Send Data",
+      "name": "Enviar datos",
       "description": null,
       "effects": [
-        "Remove all Data points from an objective marker el operativo activo controls."
+        "Eliminar todos los puntos de Datos de un marcador objetivo los controles operativos activos."
       ],
       "conditions": [
-        " Un operativo cannot perform this action during the first, second or third punto de inflexión, while dentro del alcance de control of an operativo enemigo, or if that objective marker doesn't have any Data points to remove."
+        " Un operativo no puede realizar esta acción durante el primer, segundo o tercer punto de giro, mientras esté dentro del alcance de control de un operativo enemigo, o si ese marcador de objetivo no tiene ningún punto de Datos que eliminar."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     },
     {
@@ -502,16 +502,16 @@
       "type": "mission",
       "seq": 213,
       "AP": 2,
-      "name": "Reboot",
+      "name": "Reiniciar",
       "description": null,
       "effects": [
-        "One inert objective marker el operativo activo controls is no longer inert."
+        "Un marcador objetivo inerte que los controles operativos activos ya no es inerte."
       ],
       "conditions": [
-        "Un operativo cannot perform this action during the first punto de inflexión, or while dentro del alcance de control of an operativo enemigo."
+        "Un operativo no puede realizar esta acción durante el primer punto de giro, o mientras esté dentro del alcance de control de un operativo enemigo."
       ],
       "packs": [
-        "Approved Ops: 2025"
+        "Operaciones aprobadas: 2025"
       ]
     }
   ]
