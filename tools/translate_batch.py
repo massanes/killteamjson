@@ -245,11 +245,14 @@ def main():
     files = [
         'weapon_rules.json',
         'universal_equipment.json',
-        'universal_actions.json',
-        'mission_actions.json',
+        'actions.json',
         'ops_2025.json',
-        'teams.json'
     ]
+    # Add individual team files
+    teams_dir = Path('en') / 'teams'
+    if teams_dir.exists():
+        team_files = sorted(teams_dir.glob('*.json'))
+        files.extend([f'teams/{f.name}' for f in team_files])
     
     en_dir = Path('en')
     target_dir = Path(target_lang)

@@ -9,26 +9,37 @@ The repository uses a folder-based structure where each language has its own dir
 ```
 killteamjson/
 ├── en/                          # English (base language)
-│   ├── teams.json
-│   ├── weapon_rules.json
+│   ├── actions.json            # All actions (universal + mission)
+│   ├── ops_2025.json
 │   ├── universal_equipment.json
-│   ├── universal_actions.json
-│   ├── mission_actions.json
-│   └── ops_2025.json
+│   ├── weapon_rules.json
+│   └── teams/                  # Individual team files
+│       ├── IMP-AOD.json
+│       ├── CHAOS-BLD.json
+│       └── ... (one file per team)
 ├── es/                          # Spanish
-│   ├── teams.json
+│   ├── actions.json
+│   ├── ops_2025.json
+│   ├── universal_equipment.json
 │   ├── weapon_rules.json
-│   └── ...
+│   └── teams/
+│       ├── IMP-AOD.json
+│       └── ...
 ├── fr/                          # French
-│   ├── teams.json
+│   ├── actions.json
+│   ├── ops_2025.json
+│   ├── universal_equipment.json
 │   ├── weapon_rules.json
-│   └── ...
-├── tools/                       # Translation tooling
+│   └── teams/
+│       ├── IMP-AOD.json
+│       └── ...
+├── tools/                       # Translation tooling (all Python scripts)
 │   ├── validate_translation.py
 │   ├── extract_translatables.py
 │   ├── check_translation_completeness.py
-│   ├── translate_to_spanish.py
-│   └── translate_to_french.py
+│   ├── translate_precise.py
+│   ├── translation_config.py
+│   └── ... (all other Python scripts)
 ├── README.md
 └── TRANSLATION_GUIDE.md
 ```
@@ -137,9 +148,11 @@ If creating a new language translation:
 ```bash
 # Create new language folder (e.g., for German)
 mkdir de
+mkdir de/teams
 
 # Copy structure from English
 cp en/*.json de/
+cp -r en/teams/*.json de/teams/
 ```
 
 The translation tools can also create this structure:
@@ -152,11 +165,13 @@ python tools/translate_to_french.py    # Creates fr/ folder
 
 For each JSON file in your language folder:
 
-1. **Open the file** in your language folder (e.g., `es/teams.json`)
+1. **Open the file** in your language folder (e.g., `es/teams/IMP-AOD.json` or `es/actions.json`)
 2. **Translate translatable fields** using official GW terminology
 3. **Keep all IDs and structure identical** to the English version
 4. **Preserve JSON structure** - same keys, same nesting, same order
 5. **Maintain formatting** - preserve markdown syntax, line breaks, etc.
+
+**Note:** For team files, each team is stored as a separate file in the `teams/` subfolder. Translate each team file individually.
 
 ### Step 3: Validate Structure
 
@@ -164,9 +179,10 @@ After translating, validate that your translation matches the English structure:
 
 ```bash
 # Validate a specific file
-python tools/validate_translation.py en/teams.json es/teams.json
+python tools/validate_translation.py en/actions.json es/actions.json
+python tools/validate_translation.py en/teams/IMP-AOD.json es/teams/IMP-AOD.json
 
-# Should output: "[OK] es/teams.json structure matches en/teams.json"
+# Should output: "[OK] es/actions.json structure matches en/actions.json"
 ```
 
 ### Step 4: Check Translation Completeness
@@ -175,7 +191,8 @@ Check what percentage of the translation is complete:
 
 ```bash
 # Check translation completeness
-python tools/check_translation_completeness.py en/teams.json es/teams.json
+python tools/check_translation_completeness.py en/actions.json es/actions.json
+python tools/check_translation_completeness.py en/teams/IMP-AOD.json es/teams/IMP-AOD.json
 ```
 
 This will report:
@@ -190,7 +207,8 @@ To extract all translatable strings for translation services:
 
 ```bash
 # Extract translatable strings
-python tools/extract_translatables.py en/teams.json translatables.json
+python tools/extract_translatables.py en/actions.json actions_translatables.json
+python tools/extract_translatables.py en/teams/IMP-AOD.json team_translatables.json
 
 # This creates a JSON file with all translatable strings and their paths
 ```
@@ -215,7 +233,8 @@ python tools/validate_translation.py <english_file> <translation_file>
 
 **Example:**
 ```bash
-python tools/validate_translation.py en/teams.json es/teams.json
+python tools/validate_translation.py en/actions.json es/actions.json
+python tools/validate_translation.py en/teams/IMP-AOD.json es/teams/IMP-AOD.json
 ```
 
 **What it checks:**
@@ -256,7 +275,8 @@ python tools/extract_translatables.py <json_file> [output_file]
 
 **Example:**
 ```bash
-python tools/extract_translatables.py en/teams.json teams_translatables.json
+python tools/extract_translatables.py en/actions.json actions_translatables.json
+python tools/extract_translatables.py en/teams/IMP-AOD.json team_translatables.json
 ```
 
 **Output:**
@@ -299,7 +319,7 @@ JSON file with all translatable strings and their paths, useful for translation 
 
 ## Example Translation
 
-### English (`en/teams.json`):
+### English (`en/teams/IMP-AOD.json`):
 
 ```json
 {
@@ -312,7 +332,7 @@ JSON file with all translatable strings and their paths, useful for translation 
 }
 ```
 
-### Spanish (`es/teams.json`):
+### Spanish (`es/teams/IMP-AOD.json`):
 
 ```json
 {
@@ -320,7 +340,7 @@ JSON file with all translatable strings and their paths, useful for translation 
   "killteamId": "IMP-AOD",
   "version": "October '25",
   "killteamName": "Ángeles de la Muerte",
-  "description": "Guerriers transhumains génétiquement modifiés, les Space Marines font partie des forces de combat les plus élites de l'Humanité.",
+  "description": "Guereros transhumanos modificados genéticamente, los Marines Espaciales se encuentran entre las fuerzas de combate más élite de la Humanidad.",
   "archetypes": ["Seguridad", "Buscar y Destruir"]
 }
 ```
@@ -366,7 +386,7 @@ When contributing translations:
 
 ## Best Practices
 
-1. **Start small**: Begin with smaller files (weapon_rules.json, universal_actions.json) before tackling teams.json
+1. **Start small**: Begin with smaller files (weapon_rules.json, actions.json) before tackling individual team files in the teams/ folder
 2. **Use official terminology**: Always prioritize Games Workshop's official translations
 3. **Maintain consistency**: Use the same translation for the same term across all files
 4. **Validate often**: Run validation tools frequently during translation

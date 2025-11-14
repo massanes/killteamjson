@@ -2,8 +2,8 @@
 
 ## Problem: Google Translate Rate Limits
 
-The Google Translate free API has strict rate limits (approximately 1 request per 0.3-0.5 seconds). For large files like `teams.json` with thousands of translatable strings, this means:
-- **Estimated time**: 30-60+ minutes per large file
+The Google Translate free API has strict rate limits (approximately 1 request per 0.3-0.5 seconds). For large files or many individual team files with thousands of translatable strings, this means:
+- **Estimated time**: 20-40 minutes per team file, 3-5+ hours for all teams
 - **Risk**: API blocks/errors if rate limits exceeded
 
 ## Solutions
@@ -50,10 +50,10 @@ nohup python tools/translate_fast.py es > translation.log 2>&1 &
 
 For best quality, translate manually using the existing tools:
 
-1. **Extract translatables**: `python tools/extract_translatables.py en/teams.json > translatables.txt`
+1. **Extract translatables**: `python tools/extract_translatables.py en/teams/IMP-AOD.json > translatables.txt`
 2. **Translate manually** using Google Translate website or DeepL
-3. **Validate**: `python tools/validate_translation.py en/teams.json es/teams.json`
-4. **Check completeness**: `python tools/check_translation_completeness.py es/teams.json en/teams.json`
+3. **Validate**: `python tools/validate_translation.py en/teams/IMP-AOD.json es/teams/IMP-AOD.json`
+4. **Check completeness**: `python tools/check_translation_completeness.py en/teams/IMP-AOD.json es/teams/IMP-AOD.json`
 
 ## Important: Field Names Stay in English
 
@@ -71,23 +71,25 @@ Only translate **values**, not **keys**.
 
 ## Recommended Workflow
 
-1. **Small files first**: Translate `mission_actions.json`, `universal_actions.json` first (few minutes each)
-2. **Large files**: Use DeepL API or manual translation for `teams.json`
+1. **Small files first**: Translate `actions.json`, `weapon_rules.json` first (few minutes each)
+2. **Team files**: Use DeepL API or manual translation for individual team files in `teams/` folder
 3. **Validate**: Always run `validate_translation.py` after translation
 4. **Review**: Check for Games Workshop terminology consistency
+
+**Note:** Team files are now split into individual files (e.g., `teams/IMP-AOD.json`) instead of a single monolithic `teams.json`. This makes translation more manageable as you can translate teams one at a time.
 
 ## Estimated Translation Times (Google Translate)
 
 | File | Strings | Estimated Time |
 |------|---------|----------------|
-| mission_actions.json | ~20 | 5-10 minutes |
-| universal_actions.json | ~50 | 10-15 minutes |
+| actions.json | ~70 | 15-20 minutes |
 | universal_equipment.json | ~100 | 20-30 minutes |
 | weapon_rules.json | ~200 | 40-60 minutes |
 | ops_2025.json | ~300 | 60-90 minutes |
-| teams.json | ~5000+ | **3-5+ hours** |
+| teams/*.json (per team) | ~100-200 | 20-40 minutes per team |
+| All team files (42 teams) | ~5000+ | **3-5+ hours** total |
 
 **Total**: ~6-8 hours for all files
 
-For `teams.json`, **strongly recommend using DeepL API** or manual translation.
+**Note:** Since teams are now split into individual files, you can translate teams incrementally. For individual team files, **strongly recommend using DeepL API** or manual translation for better quality.
 

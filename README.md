@@ -5,9 +5,9 @@ See also [KT SERVITOR](https://ktservitor.xdavidleon.com/)
 
 ## JSON File Structures
 
-### `teams.json`
+### `teams/` (Individual Team Files)
 
-Kill team definitions. The root of the file is an array of kill team objects. Each kill team contains:
+Kill team definitions are stored as individual JSON files in the `teams/` subfolder, one file per kill team (e.g., `teams/IMP-AOD.json`). Each team file contains a single kill team object with:
 
 - `factionId` - *string* - Faction identifier.
 - `killteamId` - *string* - Unique kill team identifier.
@@ -17,16 +17,13 @@ Kill team definitions. The root of the file is an array of kill team objects. Ea
 - `description` - *string* - Markdown-formatted lore/flavour text.
 - `composition` - *string* - Markdown-formatted roster construction rules.
 - `archetypes` - *string[]* - Array of archetype keywords (e.g., ["Security", "Seek & Destroy"]).
-- `userId` - *string | null* - Author identifier when sourced from user submissions.
-- `isPublished` - *boolean* - Indicates if the list is live in the source application.
-- `isHomebrew` - *boolean* - Flags user-created content.
 - `opTypes` - *array* - Operative type definitions for the kill team (see below).
 - `ploys` - *array* - Strategy and firefight ploys available to the team.
 - `equipments` - *array* - Kill team equipment items (see also `universal_equipment.json`).
 
 #### Operative types (`opTypes`)
 
-Each operative type object provides both profile data and runtime metadata:
+Each operative type object contains profile data:
 
 - `opTypeId` - *string* - Unique operative type identifier.
 - `killteamId` - *string* - Owning kill team ID.
@@ -35,11 +32,6 @@ Each operative type object provides both profile data and runtime metadata:
 - `MOVE`, `APL`, `SAVE`, `WOUNDS` - *string | number* - Core stat line values.
 - `keywords` - *string* - Comma-separated gameplay keywords.
 - `basesize` - *integer* - Base diameter in millimetres.
-- `nameType` - *string* - Name generation key.
-- `isOpType` - *boolean* - Flags entries that represent selectable operative types.
-- `isActivated` - *boolean* - Runtime flag used when tracking activations.
-- `currWOUNDS` - *integer* - Current wounds tracker; defaults to maximum.
-- `opName`, `opType`, `opId` - *string | null* - Additional runtime metadata slots.
 - `weapons` - *array* - Weapon entries for the operative (see below).
 - `abilities` - *array* - Special rules tied to the operative.
 - `options` - *array* - Selectable loadout or tactic options (e.g., chapter tactics).
@@ -51,7 +43,6 @@ Each operative type object provides both profile data and runtime metadata:
 - `seq` - *integer* - Display ordering.
 - `wepName` - *string* - Weapon name.
 - `wepType` - *string* - Weapon category (`R`, `M`, `P`, `E`).
-- `isDefault` - *boolean* - Indicates if the weapon is part of the default loadout.
 - `profiles` - *array* - Attack profile definitions.
 
 Weapon profiles contain:
@@ -101,27 +92,19 @@ Weapon profiles contain:
 - `description` - *string* - Markdown-formatted text.
 - `effects` - *string* - Encoded effects applied when equipped.
 
-### `mission_actions.json`
+### `actions.json`
 
-Mission-pack specific actions. Root object contains an `actions` array. Each action object contains:
+All actions (both universal and mission-pack specific) are consolidated in a single file. Root object contains an `actions` array. Each action object contains:
 
 - `id` - *string* - Action identifier.
-- `type` - *string* - Always `mission` for this dataset.
+- `type` - *string* - Action type: `universal`, `mission`, or `ability`.
 - `seq` - *integer* - Ordering for presentation.
 - `AP` - *integer* - Action Point cost.
 - `name` - *string* - Display name.
 - `description` - *string | null* - Markdown-formatted summary (may be null).
-- `effects` - *string[]* - Array of effect descriptions, each as a bullet point.
+- `effects` - *string[]* - Array of effect descriptions, each as a bullet point. May be an empty array for actions that are fully described in the `description` field.
 - `conditions` - *string[]* - Array of preconditions or restrictions.
-- `packs` - *string[]* - Mission packs where the action is available (optional field).
-
-### `universal_actions.json`
-
-Core actions available to all kill teams. Root object contains an `actions` array with the same structure as `mission_actions.json`, except:
-
-- `type` - *string* - Action type: `universal`, `mission`, or `ability`.
-- `packs` - *string[]* - Only present when an action is limited to specific killzones or mission packs.
-- `effects` - *string[]* - May be an empty array for actions that are fully described in the `description` field.
+- `packs` - *string[]* - Mission packs where the action is available (optional field, only present when an action is limited to specific killzones or mission packs).
 
 ### `universal_equipment.json`
 
@@ -138,7 +121,7 @@ Universal equipment options. Root object contains:
   - `effects` - *string* - Encoded effect string (may be empty).
   - `amount` - *integer* - Quantity of the item granted on selection.
   - `actions` - *string[]* - Optional array of action IDs that this equipment grants access to.
-- `actions` - *array* - Array of action objects associated with equipment. Each action object follows the same structure as `mission_actions.json`.
+- `actions` - *array* - Array of action objects associated with equipment. Each action object follows the same structure as `actions.json`.
 
 ### `weapon_rules.json`
 
@@ -163,7 +146,7 @@ Approved Operations (Tac Ops and Crit Ops) for 2025. Root object contains:
   - `additionalRules` - *string | null* - Additional rules text explaining special mechanics (may be null).
   - `actions` - *string[]* - Array of action IDs that this operation grants access to (may be empty).
   - `victoryPoints` - *string | string[]* - Victory point scoring conditions. May be a single string or an array of strings.
-- `actions` - *array* - Array of action objects associated with operations. Each action object follows the same structure as `mission_actions.json`.
+- `actions` - *array* - Array of action objects associated with operations. Each action object follows the same structure as `actions.json`.
 
 ## Contributing
 
@@ -218,11 +201,11 @@ This project supports translation into multiple languages. See [TRANSLATION_GUID
 
 **Quick Start for Translators:**
 
-1. Copy the English JSON file (e.g., `teams.json` → `teams.fr.json`)
+1. Copy the English JSON file structure (e.g., `en/teams/IMP-AOD.json` → `es/teams/IMP-AOD.json`)
 2. Translate all user-facing string fields (names, descriptions, etc.)
 3. Keep all IDs and structure identical
-4. Validate using `python tools/validate_translation.py en/teams.json es/teams.json`
-5. Check completeness using `python tools/check_translation_completeness.py en/teams.json es/teams.json`
+4. Validate using `python tools/validate_translation.py en/teams/IMP-AOD.json es/teams/IMP-AOD.json`
+5. Check completeness using `python tools/check_translation_completeness.py en/teams/IMP-AOD.json es/teams/IMP-AOD.json`
 
 **Translation Tooling:**
 All translation tools are located in the `tools/` folder:
