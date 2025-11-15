@@ -5,7 +5,7 @@
   "file": "https://assets.warhammer-community.com/spa_29-10_kill_team_team_rules_angels_of_death-cvitwstdty-kxkrk9lhg2.pdf",
   "killteamName": "Ángeles de la muerte",
   "description": "Los marines espaciales, guerreros transhumanos modificados genéticamente, se encuentran entre las fuerzas de combate más selectas de la humanidad.\nLos equipos de exterminio Ángeles de la Muerte están compuestos por especialistas de élite entrenados en innumerables formas de combate, capaces de vencer a casi cualquier enemigo.",
-  "composition": "El KillTeam ÁNGELES DE LA MUERTE está compuesto por:\n \n- 1 agente ÁNGEL DE LA MUERTE elegido de la siguiente lista:\n  - SARGENTO INTERCESOR DE ASALTO con una opción de cada una de las siguientes categorías:\n    - Pistola lanzallamas o pistola bólter pesada\n    - Espada sierra, puño de energía, arma de energía o martillo de trueno  \n    - O la siguiente opción:\n      - Pistola de plasma; espada sierra\n  - SARGENTO INTERCESOR con una opción de cada una de las siguientes categorías:\n    - Rifle bólter automático, rifle bólter o rifle bólter silencio\n    - Espada sierra, puños, puño de energía, arma de energía o martillo de trueno\n  - CAPITÁN MARINE ESPACIAL\n- 5 agentes ÁNGEL DE LA MUERTE elegidos de la siguiente lista:\n  - GRANADERO INTERCESOR DE ASALTO\n  - COMBATIENTE INTERCESOR DE ASALTO\n  - FRANCOTIRADOR ELIMINADOR*\n  - TIRADOR INTERCESOR PESADO*\n  - TIRADOR INTERCESOR con lanzagranadas auxiliar y una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños    \n  - COMBATIENTE INTERCESOR con una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños\n\nSalvo agentes COMBATIENTE, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.  \n*No puedes elegir más de uno de estos agentes en total.\n\nAlgunas reglas de ÁNGEL DE LA MUERTE hacen referencia a “armas bólter”. Eso es cualquier arma a distancia que incluya la palabra “bólter” en el nombre, como por ejemplo “rifle bólter silencio”, “pistola bólter pesada”, etc.\n\n---\n\n**Tácticas de capítulo:**  \nAl elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.\n",
+  "composition": "El KillTeam ÁNGELES DE LA MUERTE está compuesto por:\n \n- 1 agente ÁNGEL DE LA MUERTE elegido de la siguiente lista:\n  - SARGENTO INTERCESOR DE ASALTO con una opción de cada una de las siguientes categorías:\n    - Pistola lanzallamas o pistola bólter pesada\n    - Espada sierra, puño de energía, arma de energía o martillo de trueno  \n   - O la siguiente opción:\n      - Pistola de plasma; espada sierra\n  - SARGENTO INTERCESOR con una opción de cada una de las siguientes categorías:\n    - Rifle bólter automático, rifle bólter o rifle bólter silencio\n    - Espada sierra, puños, puño de energía, arma de energía o martillo de trueno\n  - CAPITÁN MARINE ESPACIAL\n- 5 agentes ÁNGEL DE LA MUERTE elegidos de la siguiente lista:\n  - GRANADERO INTERCESOR DE ASALTO\n  - COMBATIENTE INTERCESOR DE ASALTO\n  - FRANCOTIRADOR ELIMINADOR*\n  - TIRADOR INTERCESOR PESADO*\n  - TIRADOR INTERCESOR con lanzagranadas auxiliar y una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños    \n  - COMBATIENTE INTERCESOR con una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños\n\nSalvo agentes COMBATIENTE, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.  \n*No puedes elegir más de uno de estos agentes en total.\n\nAlgunas reglas de ÁNGEL DE LA MUERTE hacen referencia a “armas bólter”. Eso es cualquier arma a distancia que incluya la palabra “bólter” en el nombre, como por ejemplo “rifle bólter silencio”, “pistola bólter pesada”, etc.\n\n---\n\n**Tácticas de capítulo:**  \nAl elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.\n",
   "archetypes": [
     "Security",
     "Seek and destroy"
@@ -32,8 +32,8 @@
       "killteamId": "IMP-AOD",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Combat Doctrine",
-      "description": "Select one COMBAT DOCTRINE from those presented below. Whenever a friendly ANGEL OF DEATH operative is x, its weapons have the Balanced weapon rule. X is the COMBAT DOCTRINE you selected.  \n\n\n- **Devastator Doctrine:** Shooting an operative more than 6\" from it.\n- **Tactical Doctrine:** Shooting an operative within 6\" of it.\n- **Assault Doctrine:** Fighting or retaliating.\n\n**Balanced:** Can re-roll one Attack die."
+      "ployName": "Doctrina de combate",
+      "description": "Elige una DOCTRINA DE COMBATE de las siguientes. Siempre que un agente ÁNGEL DE LA MUERTE amigo haga X, sus armas tienen la regla de arma Equilibrada. X depende de la DOCTRINA DE COMBATE que hayas elegido.  \n\n\n- **Doctrina devastadora:** Disparar contra un agente a más de 6\" de él.\n- **Doctrina táctica:** Disparar contra un agente a 6\" o menos de él.\n- **Doctrina de asalto:** Combatir o contraatacar."
     },
     {
       "ployId": "IMP-AOD-S-IND",
@@ -41,23 +41,23 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Indomitus",
-      "description": "Whenever an operative is shooting a friendly ANGEL OF DEATH operative, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
+      "description": "Siempre que un agente dispara contra un agente ÁNGEL DE LA MUERTE amigo, si sacas dos o más fallos, puedes descartar uno de ellos para guardar el otro como éxito normal en su lugar"
     },
     {
       "ployId": "IMP-AOD-T-ADJT",
       "killteamId": "IMP-AOD",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Adjust Doctrine",
-      "description": "Use this firefight ploy during a friendly ANGEL OF DEATH operative's activation, before or after it performs an action. If you have used the Combat Doctrine strategy ploy during this turning point, change the COMBAT DOCTRINE you selected."
+      "ployName": "Ajustar doctrina",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ÁNGEL DE LA MUERTE amigo, antes o después de que realice una acción. Si has usado el ardid de estrategia Doctrina de combate durante este punto de inflexión, cambia la DOCTRINA DE COMBATE que hayas elegido."
     },
     {
       "ployId": "IMP-AOD-T-SA",
       "killteamId": "IMP-AOD",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Shock Assault",
-      "description": "Use this firefight ploy when a friendly ANGEL OF DEATH operative is performing the Fight action during an activation in which it has performed the Charge action, at the start of the Resolve Attack Dice step.\nUntil the end of that action:\n\n- Its melee weapon has the Shock weapon rule.\n- The first time you strike during that sequence, inflict 1 additional damage (to a maximum of 7).\n  \n**Shock:** The first time you strike with a critical success in each sequence, also discard one of your opponent's unresolved normal successes (or a critical success if there are none)."
+      "ployName": "Asalto de choque",
+      "description": "Usa este ardid de tiroteo cuando un agente ÁNGEL DE LA MUERTE amigo realiza una acción de Combatir durante una activación en la que haya realizado una acción de Cargar, al inicio del paso de resolver dados de ataque. Hasta el final de esa acción:\n\n-  Su arma de combate tiene la regla de arma Choque.\n- La primera vez que golpees durante esa secuencia, inflige 1 daño adicional (hasta un máximo de 7)."
     },
     {
       "ployId": "IMP-AOD-T-TP",
