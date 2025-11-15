@@ -237,13 +237,20 @@
           "opTypeId": "TAU-VESP-OSD",
           "abilityName": "Evasive Drone",
           "description": "\r - This operative cannot perform any action other than Aerial Guidance, Charge, Dash, Fall Back, Fight, or Reposition.\r - Whenever determining control of objective markers, treat this operative's APL stat as 1 lower.\r - Whenever determining what is Visible To this operative, the round disc at the top of the miniature is its head.\r - Whenever this operative has a Conceal order and is in Cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - Whenever an operative is shooting this operative, ignore the Piercing weapon rule.\r "
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TAU-VESP-OSD-AG",
-          "opTypeId": "TAU-VESP-OSD",
-          "abilityName": "Aerial Guidance",
+          "id": "TAU-VESP-OSD-AG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT:** Until the start of this operative's next activation, whenever another friendly VESPID STINGWING operative within 6\" of this operative is shooting an enemy operative Visible To this operative, that friendly operative's ranged weapons have the Lethal 5+ and Saturate weapon rules. This has no effect while this operative is within control range of an enemy operative.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+          "name": "Aerial Guidance",
+          "description": null,
+          "effects": [
+            "**SUPPORT:** Until the start of this operative's next activation, whenever another friendly VESPID STINGWING operative within 6\" of this operative is shooting an enemy operative Visible To this operative, that friendly operative's ranged weapons have the Lethal 5+ and Saturate weapon rules. This has no effect while this operative is within control range of an enemy operative.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -604,13 +611,21 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "TAU-VESP-VSG-ST",
-          "opTypeId": "TAU-VESP-VSG",
-          "abilityName": "Skytorch Assault",
+          "id": "TAU-VESP-VSG-ST",
+          "type": "ability",
+          "seq": 0,
           "AP": 2,
-          "description": "Perform a free Reposition action with this operative. During that action, it must FLY and can move an additional 2\". Then perform a free Shoot action. You can only select a flamer (skytorch) for that Shoot action.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative"
+          "name": "Skytorch Assault",
+          "description": null,
+          "effects": [
+            "Perform a free Reposition action with this operative. During that action, it must FLY and can move an additional 2\". Then perform a free Shoot action. You can only select a flamer (skytorch) for that Shoot action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative"
+          ]
         }
       ]
     },

@@ -1298,13 +1298,25 @@
           "opTypeId": "CHAOS-LEG-STL",
           "abilityName": "Vicious Reflexes",
           "description": "Whenever this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker)."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-LEG-STL-GM",
-          "opTypeId": "CHAOS-LEG-STL",
-          "abilityName": "Grisly Mark",
+          "id": "CHAOS-LEG-STL-GM",
+          "type": "ability",
+          "seq": 0,
           "AP": 2,
-          "description": "Place your Grisly marker within this operative's control range.\n\n- Whenever an enemy operative is within 3\" of your Grisly marker, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Grisly marker.\nNote this is not a change to the APL stat, so any changes are cumulative with this.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Grisly Mark",
+          "description": null,
+          "effects": [
+            "Place your Grisly marker within this operative's control range.",
+            "- Whenever an enemy operative is within 3\" of your Grisly marker, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.",
+            "- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Grisly marker.",
+            "Note this is not a change to the APL stat, so any changes are cumulative with this."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },

@@ -306,13 +306,23 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "ORK-WK-BBFTR-BS",
-          "opTypeId": "ORK-WK-BBFTR",
-          "abilityName": "Break Stuff",
+          "id": "ORK-WK-BBFTR-BS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select a terrain feature within this operative's control range.\nIf it is Equipment terrain, remove it. Otherwise, place one of your Breach markers within this operative's control range as close as possible to that terrain.\nWhenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within Control Range of an enemy operative, or if a terrain feature is not within its Control Range."
+          "name": "Break Stuff",
+          "description": null,
+          "effects": [
+            "Select a terrain feature within this operative's control range.",
+            "If it is Equipment terrain, remove it. Otherwise, place one of your Breach markers within this operative's control range as close as possible to that terrain.",
+            "Whenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within Control Range of an enemy operative, or if a terrain feature is not within its Control Range."
+          ]
         }
       ]
     },

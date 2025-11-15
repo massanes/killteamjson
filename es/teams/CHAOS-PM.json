@@ -348,20 +348,35 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "CHAOS-PM-MAL-PM",
-          "opTypeId": "CHAOS-PM-MAL",
-          "abilityName": "Poisonous Miasma",
+          "id": "CHAOS-PM-MAL-PM",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**PSYCHIC**\nSelect one enemy operative visible to and within 7\" of this operative, or one enemy operative that's a valid target for this operative.\nThat enemy operative gains one of your Poison tokens (if it does not already have one). If it already has one, inflict 3 damage on that enemy operative instead.  \n\nAn operative cannot perform this action while within control range of an enemy operative."
+          "name": "Poisonous Miasma",
+          "description": null,
+          "effects": [
+            "**PSYCHIC**",
+            "Select one enemy operative visible to and within 7\" of this operative, or one enemy operative that's a valid target for this operative.",
+            "That enemy operative gains one of your Poison tokens (if it does not already have one). If it already has one, inflict 3 damage on that enemy operative instead."
+          ],
+          "conditions": [
+            "An operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "CHAOS-PM-MAL-PV",
-          "opTypeId": "CHAOS-PM-MAL",
-          "abilityName": "Putrescent Vitality",
+          "id": "CHAOS-PM-MAL-PV",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**PSYCHIC**\r Select one friendly operative visible to and within 3\" of this operative, then roll 2D6: if the result is 7, the selected operative regains 7 lost wounds; otherwise, the selected operative regains lost wounds equal to the highest D6.  \n\r An operative cannot perform this action while within control range of an enemy operative, or more than once per Turning Point."
+          "name": "Putrescent Vitality",
+          "description": null,
+          "effects": [
+            "**PSYCHIC**\r Select one friendly operative visible to and within 3\" of this operative, then roll 2D6: if the result is 7, the selected operative regains 7 lost wounds; otherwise, the selected operative regains lost wounds equal to the highest D6.",
+            "An operative cannot perform this action while within control range of an enemy operative, or more than once per Turning Point."
+          ]
         }
       ]
     },
@@ -541,13 +556,19 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "CHAOS-PM-FTR-FL",
-          "opTypeId": "CHAOS-PM-FTR",
-          "abilityName": "Flail",
+          "id": "CHAOS-PM-FTR-FL",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Inflict D3+2 damage on each other operative that's both visible to and within 2\" of this operative. Roll separately for each: if it's an enemy operative, if the D3 result is a 3, that enemy operative also gains one of your Poison tokens (if it doesn't already have one).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it has performed more than one Fight action, and it cannot perform more than one Fight action during an activation in which it performs this action."
+          "name": "Flail",
+          "description": null,
+          "effects": [
+            "Inflict D3+2 damage on each other operative that's both visible to and within 2\" of this operative. Roll separately for each: if it's an enemy operative, if the D3 result is a 3, that enemy operative also gains one of your Poison tokens (if it doesn't already have one).",
+            "This operative cannot perform this action while it has a Conceal order, or during an activation in which it has performed more than one Fight action, and it cannot perform more than one Fight action during an activation in which it performs this action."
+          ]
         }
       ]
     },

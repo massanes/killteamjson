@@ -335,13 +335,21 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "CHAOS-GORE-BT-TFR",
-          "opTypeId": "CHAOS-GORE-BT",
-          "abilityName": "Transfusion Ritual",
+          "id": "CHAOS-GORE-BT-TFR",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Decrease this operative's GORE TANK. Instead of using a SANGUAVITAE rule, you can increase the GORE TANK of one other friendly GOREMONGER operative within 8\" of this operative.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if its GORE TANK is empty."
+          "name": "Transfusion Ritual",
+          "description": null,
+          "effects": [
+            "Decrease this operative's GORE TANK. Instead of using a SANGUAVITAE rule, you can increase the GORE TANK of one other friendly GOREMONGER operative within 8\" of this operative."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or if its GORE TANK is empty."
+          ]
         }
       ]
     },
@@ -515,13 +523,22 @@
           "opTypeId": "CHAOS-GORE-INC",
           "abilityName": "Incite The Hunt",
           "description": "Whenever this operative incapacitates an enemy operative from more than 2\" away, before that enemy operative is removed from the killzone, you can increase the GORE TANK of one friendly GOREMONGER operative within 8\" of that enemy operative.  \n\nWhenever this operative inflicts damage on an enemy operative with either profile of its dual autopistols but doesn't incapacitate it, that enemy operative gains one of your Bleeding tokens (if it doesn't already have one).  \n\nDuring a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action, if it's within 8\" of an enemy operative that has one of your Bleeding tokens, you can remove that token and increase that friendly operative's GORE TANK."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-GORE-INC-DAS",
-          "opTypeId": "CHAOS-GORE-INC",
-          "abilityName": "Dash And Spray",
+          "id": "CHAOS-GORE-INC-DAS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Perform a free Dash action and a free Shoot action with this operative in any order. You can only select dual autopistols (focused) for that Shoot action.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+          "name": "Dash And Spray",
+          "description": null,
+          "effects": [
+            "Perform a free Dash action and a free Shoot action with this operative in any order. You can only select dual autopistols (focused) for that Shoot action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+          ]
         }
       ]
     },
