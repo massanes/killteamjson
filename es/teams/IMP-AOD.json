@@ -2,7 +2,7 @@
   "factionId": "IMP",
   "killteamId": "IMP-AOD",
   "version": "October '25",
-  "file": "https://assets.warhammer-community.com/spa_29-10_kill_team_team_rules_angels_of_death-cvitwstdty-kxkrk9lhg2.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_angels_of_death-izke7kijsn-r2qyap8d7a.pdf",
   "killteamName": "Ángeles de la muerte",
   "description": "Los marines espaciales, guerreros transhumanos modificados genéticamente, se encuentran entre las fuerzas de combate más selectas de la humanidad.\nLos equipos de exterminio Ángeles de la Muerte están compuestos por especialistas de élite entrenados en innumerables formas de combate, capaces de vencer a casi cualquier enemigo.",
   "composition": "El KillTeam ÁNGELES DE LA MUERTE está compuesto por:\n \n- 1 agente ÁNGEL DE LA MUERTE elegido de la siguiente lista:\n  - SARGENTO INTERCESOR DE ASALTO con una opción de cada una de las siguientes categorías:\n    - Pistola lanzallamas o pistola bólter pesada\n    - Espada sierra, puño de energía, arma de energía o martillo de trueno  \n   - O la siguiente opción:\n      - Pistola de plasma; espada sierra\n  - SARGENTO INTERCESOR con una opción de cada una de las siguientes categorías:\n    - Rifle bólter automático, rifle bólter o rifle bólter silencio\n    - Espada sierra, puños, puño de energía, arma de energía o martillo de trueno\n  - CAPITÁN MARINE ESPACIAL\n- 5 agentes ÁNGEL DE LA MUERTE elegidos de la siguiente lista:\n  - GRANADERO INTERCESOR DE ASALTO\n  - COMBATIENTE INTERCESOR DE ASALTO\n  - FRANCOTIRADOR ELIMINADOR*\n  - TIRADOR INTERCESOR PESADO*\n  - TIRADOR INTERCESOR con lanzagranadas auxiliar y una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños    \n  - COMBATIENTE INTERCESOR con una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños\n\nSalvo agentes COMBATIENTE, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.  \n*No puedes elegir más de uno de estos agentes en total.\n\nAlgunas reglas de ÁNGEL DE LA MUERTE hacen referencia a “armas bólter”. Eso es cualquier arma a distancia que incluya la palabra “bólter” en el nombre, como por ejemplo “rifle bólter silencio”, “pistola bólter pesada”, etc.\n\n---\n\n**Tácticas de capítulo:**  \nAl elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.\n",
@@ -128,23 +128,23 @@
     },
     {
       "abilityId": "IMP-AOD-TA-CTHA",
-      "abilityName": "[CT] Robustos",
+      "abilityName": "[TC] Robustos",
       "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nSiempre que un agente dispare a este agente, los resultados de 5+ en los dados de defensa son éxitos críticos. Siempre que este agente esté contraatacando, la primera vez que un dado de ataque inflija un daño normal de 3 o más a este agente durante esa secuencia, ese dado le infligirá 1 punto de daño menos."
     },
     {
       "abilityId": "IMP-AOD-TA-CTMO",
-      "abilityName": "[CT] Móviles",
+      "abilityName": "[TC] Móviles",
       "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \n\n- Este agente puede realizar la acción de Retroceder por 1 PA menos.\n- Este agente puede realizar acciones de Cargar aún estando en la zona de control de un agente enemigo, y al hacerlo puede abandonar la zona de control de dicho agente (pero luego se siguen aplicando los requisitos normales para ese movimiento).\n"
     },
     {
       "abilityId": "IMP-AOD-TA-CTRE",
-      "abilityName": "[CT] Resueltos",
+      "abilityName": "[TC] Resueltos",
       "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nPuedes ignorar cualquier cambio en la estadística LPA de este operativo, y no se ve afectado por la regla de armas **Choque** de los operativos enemigos."
     },
     {
       "abilityId": "IMP-AOD-TA-CTSH",
-      "abilityName": "[CT] Sharpshooter",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+      "abilityName": "[TC] Tirador Certero",
+      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nSiempre que este agente dispare durante una activación en la que no ha realizado acciones de Cargar, Reposicionarse o Retroceder, sus armas bólter ganan las reglas de armas **Certera 1** y **Severa**.\n\n**Certera:** Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos. Si un arma tiene más de una mención de Certera x, considérala una mención de Certero 2 en su lugar (esto tiene preferencia ante las reglas x que figuran en el encabezamiento de esta sección).\n\n**Severa:** Si no guardas algún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Las reglas de arma Devastadora y Críticos de penetración aún tienen efecto; Castigadora y Desgarradora ya no."
     },
     {
       "abilityId": "IMP-AOD-TA-CTSISP",
