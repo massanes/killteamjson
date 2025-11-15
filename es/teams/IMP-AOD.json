@@ -144,17 +144,17 @@
     {
       "abilityId": "IMP-AOD-TA-CTSH",
       "abilityName": "[TC] Tirador Certero",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nSiempre que este agente dispare durante una activación en la que no ha realizado acciones de Cargar, Reposicionarse o Retroceder, sus armas bólter ganan las reglas de armas **Certera 1** y **Severa**.\n\n**Certera:** Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos. Si un arma tiene más de una mención de Certera x, considérala una mención de Certero 2 en su lugar (esto tiene preferencia ante las reglas x que figuran en el encabezamiento de esta sección).\n\n**Severa:** Si no guardas algún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Las reglas de arma Devastadora y Críticos de penetración aún tienen efecto; Castigadora y Desgarradora ya no."
+      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nSiempre que este agente dispare durante una activación en la que no ha realizado acciones de Cargar, Reposicionarse o Retroceder, sus armas bólter ganan las reglas de armas **Certera 1** y **Severa**.\n\n**Certera:** Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos. Si un arma tiene más de una mención de Certera x, considérala una mención de Certera 2 en su lugar.\n\n**Severa:** Si no guardas algún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Las reglas de arma Devastadora y Críticos de penetración aún tienen efecto; Castigadora y Desgarradora ya no."
     },
     {
       "abilityId": "IMP-AOD-TA-CTSISP",
-      "abilityName": "[CT] Siege Specialist",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist."
+      "abilityName": "[TC] Especialista en Asedios",
+      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nLas armas a distancia de este agente tienen la regla de armas Saturación.\n\n**Saturación:** El defensor no puede guardar salvaciones de cobertura..\n\nSiempre que este agente esté luchando o contraatacando, los agentes enemigos no podrán ayudarle."
     },
     {
       "abilityId": "IMP-AOD-TA-CTST",
-      "abilityName": "[CT] Stealthy",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nWhenever an operative is shooting this operative, if you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success.\nThis is not cumulative with improved cover saves from Vantage terrain."
+      "abilityName": "[CT] Sigiloso",
+      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nSiempre que un agente enemigo dispare contra este agente, si está en cobertura, puedes guardar una salvación adicional por cobertura o convertir una salvación por cobertura en una salvación crítica..\nNo se acumula con salvaciones por cobertura mejoradas por terreno Aventajado."
     }
   ],
   "opTypes": [
@@ -162,7 +162,7 @@
       "opTypeId": "IMP-AOD-CPT",
       "killteamId": "IMP-AOD",
       "seq": 0,
-      "opTypeName": "Space Marine Captain",
+      "opTypeName": "Capitán Marine Espacial",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -174,14 +174,14 @@
           "wepId": "IMP-AOD-CPT-PP",
           "opTypeId": "IMP-AOD-CPT",
           "seq": 0,
-          "wepName": "Plasma Pistol",
+          "wepName": "Pistola de Plasma",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-CPT-PP-0",
               "wepId": "IMP-AOD-CPT-PP",
               "seq": 0,
-              "profileName": "Standard",
+              "profileName": "Estandar",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/5",
@@ -200,7 +200,7 @@
               "wepprofileId": "IMP-AOD-CPT-PP-1",
               "wepId": "IMP-AOD-CPT-PP",
               "seq": 1,
-              "profileName": "Supercharge",
+              "profileName": "Sobrecarga",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "4/5",
@@ -228,7 +228,7 @@
           "wepId": "IMP-AOD-CPT-PF",
           "opTypeId": "IMP-AOD-CPT",
           "seq": 1,
-          "wepName": "Power Fist",
+          "wepName": "Puño de combate",
           "wepType": "M",
           "profiles": [
             {
@@ -252,14 +252,14 @@
         {
           "abilityId": "IMP-AOD-CPT-A-HL",
           "opTypeId": "IMP-AOD-CPT",
-          "abilityName": "Heroic Leader",
-          "description": "Once per turning point, you can do one of the following:\n- Use a firefight ploy for 0CP if this is the specified ANGEL OF DEATH operative (excluding Command Re-roll).\n- Use the Combat Doctrine strategy ploy when you activate a friendly ANGEL OF DEATH operative if this operative is in the killzone and isn't within control range of enemy operatives (pay its CP cost as normal). Note that you cannot do so if you've already used that ploy during this turning point.\n- Use the Adjust Doctrine firefight ploy for 0CP if this operative is in the killzone and not within control range of enemy operatives."
+          "abilityName": "Líder heroico",
+          "description": "Una vez por punto de inflexión, puedes elegir una de las siguientes opciones:\n-  Usar un ardid de tiroteo por 0PM si este es el agente ÁNGEL DE LA MUERTE especificado (excepto repetición de mando).\n-  Usa el ardid de estrategia Doctrina de combate cuando actives un agente ÁNGEL DE LA MUERTE si este agente está en la zona de aniquilación y no está en la zona de control de ningún agente enemigo (pagando su coste en PM de manera normal). Ten en cuenta que no puedes hacer si ya has usado ese ardida durante este punto de inflexión.\n- Usa el ardid de tiroteo Ajustar doctrina por 0PM si este agente está en la zona de aniquilación y fuera de la zona de control de todos los agentes enemigos."
         },
         {
           "abilityId": "IMP-AOD-CPT-A-IH",
           "opTypeId": "IMP-AOD-CPT",
-          "abilityName": "Iron Halo",
-          "description": "Once per battle, when an attack die inflicts Normal Damage on this operative, you can ignore that inflicted damage."
+          "abilityName": "Aura de hierro",
+          "description": "Una vez por batalla, cuando un dado de ataque inflija Daño normal a este agente, puedes ignorar ese daño infligido."
         }
       ]
     },
@@ -267,7 +267,7 @@
       "opTypeId": "IMP-AOD-ASGT",
       "killteamId": "IMP-AOD",
       "seq": 1,
-      "opTypeName": "Assault Intercessor Sergeant",
+      "opTypeName": "Sargento Intercesor de Asalto",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -279,7 +279,7 @@
           "wepId": "IMP-AOD-ASGT-HFL",
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 0,
-          "wepName": "Hand Flamer",
+          "wepName": "Pistola lanzallamas",
           "wepType": "R",
           "profiles": [
             {
@@ -310,7 +310,7 @@
           "wepId": "IMP-AOD-ASGT-HBP",
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 1,
-          "wepName": "Heavy Bolt Pistol",
+          "wepName": "Pistola bólter pesada",
           "wepType": "R",
           "profiles": [
             {
@@ -339,14 +339,14 @@
           "wepId": "IMP-AOD-ASGT-PP",
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 2,
-          "wepName": "Plasma Pistol",
+          "wepName": "Pistola de plasma",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ASGT-PP-0",
               "wepId": "IMP-AOD-ASGT-PP",
               "seq": 0,
-              "profileName": "Standard",
+              "profileName": "Estándar",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/5",
@@ -365,7 +365,7 @@
               "wepprofileId": "IMP-AOD-ASGT-PP-1",
               "wepId": "IMP-AOD-ASGT-PP",
               "seq": 1,
-              "profileName": "Supercharge",
+              "profileName": "Sobrecarga",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "4/5",
@@ -393,7 +393,7 @@
           "wepId": "IMP-AOD-ASGT-CS",
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 3,
-          "wepName": "Chainsword",
+          "wepName": "Espada sierra",
           "wepType": "M",
           "profiles": [
             {
@@ -412,7 +412,7 @@
           "wepId": "IMP-AOD-ASGT-PF",
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 4,
-          "wepName": "Power Fist",
+          "wepName": "Puño de energía",
           "wepType": "M",
           "profiles": [
             {
@@ -435,7 +435,7 @@
           "wepId": "IMP-AOD-ASGT-PW",
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 5,
-          "wepName": "Power Weapon",
+          "wepName": "Arma de energía",
           "wepType": "M",
           "profiles": [
             {
@@ -459,7 +459,7 @@
           "wepId": "IMP-AOD-ASGT-TH",
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 6,
-          "wepName": "Thunder Hammer",
+          "wepName": "Martillo de trueno",
           "wepType": "M",
           "profiles": [
             {
@@ -486,14 +486,14 @@
         {
           "abilityId": "IMP-AOD-ASGT-A-CVET",
           "opTypeId": "IMP-AOD-ASGT",
-          "abilityName": "Chapter Veteran",
-          "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select one additional CHAPTER TACTIC for it to have for the battle.\nUnlike primary and secondary CHAPTER TACTICS, you don't have to select the same one for each battle in a campaign or tournament."
+          "abilityName": "Veterano del Capítulo",
+          "description": " Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige una TÁCTICA DE CAPÍTULO adicional para que este agente la tenga durante esta batalla. A diferencia de las TÁCTICAS DE CAPÍTULO primarias y secundarias, no tienes que elegir la misma en cada batalla de una campaña o torneo."
         },
         {
           "abilityId": "IMP-AOD-ASGT-A-DW",
           "opTypeId": "IMP-AOD-ASGT",
-          "abilityName": "Doctrine Warfare",
-          "description": "You can do each of the following once per battle:\n\n- Whenever you would use the Combat Doctrine strategy ploy and then select Assault, if this operative is in the killzone, it costs you 0CP.\n- Whenever you would use the Combat Doctrine strategy ploy and then select Tactical, if this operative is in the killzone, it costs you 0CP."
+          "abilityName": "Guerra según las doctrinas",
+          "description": " Puedes realizar cada una de las siguientes opciones una vez por batalla:\n\n-  Cuando uses el ardid de estrategia Doctrina de combate y elijas Asalto, si este agente está en la zona de aniquilación, te cuesta 0PM.\n- Cuando uses el ardid de estrategia Doctrina de combate y elijas Táctica, si este agente está en la zona de aniquilación, te cuesta 0PM."
         }
       ]
     },
@@ -501,7 +501,7 @@
       "opTypeId": "IMP-AOD-ISGT",
       "killteamId": "IMP-AOD",
       "seq": 2,
-      "opTypeName": "Intercessor Sergeant",
+      "opTypeName": "Sargento intercesor",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -513,7 +513,7 @@
           "wepId": "IMP-AOD-ISGT-ABR",
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 0,
-          "wepName": "Auto Bolt Rifle",
+          "wepName": "Rifle bólter automático",
           "wepType": "R",
           "profiles": [
             {
@@ -537,7 +537,7 @@
           "wepId": "IMP-AOD-ISGT-BR",
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 1,
-          "wepName": "Bolt Rifle",
+          "wepName": "Rifle bólter",
           "wepType": "R",
           "profiles": [
             {
@@ -562,21 +562,21 @@
           "wepId": "IMP-AOD-ISGT-SBR",
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 2,
-          "wepName": "Stalker Bolt Rifle",
+          "wepName": "Rifle bólter silencio",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ISGT-SBR-0",
               "wepId": "IMP-AOD-ISGT-SBR",
               "seq": 0,
-              "profileName": "Heavy",
+              "profileName": "Pesado",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Dash"
+                  "details": "Correr"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -605,7 +605,7 @@
           "wepId": "IMP-AOD-ISGT-CS",
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 3,
-          "wepName": "Chainsword",
+          "wepName": "Espada sierra",
           "wepType": "M",
           "profiles": [
             {
@@ -624,7 +624,7 @@
           "wepId": "IMP-AOD-ISGT-F",
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 4,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -643,7 +643,7 @@
           "wepId": "IMP-AOD-ISGT-PF",
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 5,
-          "wepName": "Power Fist",
+          "wepName": "Puño de energía",
           "wepType": "M",
           "profiles": [
             {
@@ -666,7 +666,7 @@
           "wepId": "IMP-AOD-ISGT-PW",
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 6,
-          "wepName": "Power Weapon",
+          "wepName": "Arma de energía",
           "wepType": "M",
           "profiles": [
             {
@@ -690,7 +690,7 @@
           "wepId": "IMP-AOD-ISGT-TH",
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 7,
-          "wepName": "Thunder Hammer",
+          "wepName": "Martillo de trueno",
           "wepType": "M",
           "profiles": [
             {
@@ -850,7 +850,7 @@
           "wepId": "IMP-AOD-SNP-F",
           "opTypeId": "IMP-AOD-SNP",
           "seq": 2,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -942,7 +942,7 @@
           "wepId": "IMP-AOD-GRN-CS",
           "opTypeId": "IMP-AOD-GRN",
           "seq": 1,
-          "wepName": "Chainsword",
+          "wepName": "Espada sierra",
           "wepType": "M",
           "profiles": [
             {
@@ -1074,7 +1074,7 @@
           "wepId": "IMP-AOD-AWAR-CS",
           "opTypeId": "IMP-AOD-AWAR",
           "seq": 1,
-          "wepName": "Chainsword",
+          "wepName": "Espada sierra",
           "wepType": "M",
           "profiles": [
             {
@@ -1153,7 +1153,7 @@
           "wepId": "IMP-AOD-HGNR-F",
           "opTypeId": "IMP-AOD-HGNR",
           "seq": 1,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -1187,7 +1187,7 @@
           "wepId": "IMP-AOD-GNR-ABR",
           "opTypeId": "IMP-AOD-GNR",
           "seq": 0,
-          "wepName": "Auto Bolt Rifle",
+          "wepName": "Rifle bólter automático",
           "wepType": "R",
           "profiles": [
             {
@@ -1250,7 +1250,7 @@
           "wepId": "IMP-AOD-GNR-BR",
           "opTypeId": "IMP-AOD-GNR",
           "seq": 2,
-          "wepName": "Bolt Rifle",
+          "wepName": "Rifle bólter",
           "wepType": "R",
           "profiles": [
             {
@@ -1275,7 +1275,7 @@
           "wepId": "IMP-AOD-GNR-SBR",
           "opTypeId": "IMP-AOD-GNR",
           "seq": 3,
-          "wepName": "Stalker Bolt Rifle",
+          "wepName": "Rifle bólter silencio",
           "wepType": "R",
           "profiles": [
             {
@@ -1318,7 +1318,7 @@
           "wepId": "IMP-AOD-GNR-F",
           "opTypeId": "IMP-AOD-GNR",
           "seq": 4,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -1352,7 +1352,7 @@
           "wepId": "IMP-AOD-WAR-ABR",
           "opTypeId": "IMP-AOD-WAR",
           "seq": 0,
-          "wepName": "Auto Bolt Rifle",
+          "wepName": "Rifle bólter automático",
           "wepType": "R",
           "profiles": [
             {
@@ -1376,7 +1376,7 @@
           "wepId": "IMP-AOD-WAR-BR",
           "opTypeId": "IMP-AOD-WAR",
           "seq": 1,
-          "wepName": "Bolt Rifle",
+          "wepName": "Rifle bólter",
           "wepType": "R",
           "profiles": [
             {
@@ -1401,7 +1401,7 @@
           "wepId": "IMP-AOD-WAR-SBR",
           "opTypeId": "IMP-AOD-WAR",
           "seq": 2,
-          "wepName": "Stalker Bolt Rifle",
+          "wepName": "Rifle bólter silencio",
           "wepType": "R",
           "profiles": [
             {
@@ -1444,7 +1444,7 @@
           "wepId": "IMP-AOD-WAR-F",
           "opTypeId": "IMP-AOD-WAR",
           "seq": 3,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
