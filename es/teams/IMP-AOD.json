@@ -117,44 +117,49 @@
       "description": "Durante la activación de cada agente ÁNGEL DE LA MUERTE amigo, este puede realizar o bien dos acciones de Combatir, o bien dos acciones de Disparar. Si son dos acciones de Disparar, debe seleccionarse un arma bólter al menos para una de ellas, y si es un rifle bólter de francotirador o un bólter pesado, debe gastarse 1 PA adicional en la segunda acción si ambas usan esa arma  \n\nCada agente ÁNGEL DE LA MUERTE amigo puede reaccionar sin importar cuál sea su orden."
     },
     {
+      "abilityId": "IMP-AOD-TA-CT",
+      "abilityName": "Tácticas de capítulo",
+      "description": "Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan."
+    },
+    {
       "abilityId": "IMP-AOD-TA-CTAG",
       "abilityName": "[TC] Agresivo",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \nLas armas de combate de este agente tienen la regla de armas Desgarradora.\n\n**Desgarradora.:** Si guardas algún éxito crítico, puedes guardar uno de tus éxitos normales como crítico en su lugar."
+      "description": "Las armas de combate de este agente tienen la regla de armas Desgarradora.\n\n**Desgarradora.:** Si guardas algún éxito crítico, puedes guardar uno de tus éxitos normales como crítico en su lugar."
     },
     {
       "abilityId": "IMP-AOD-TA-CTDU",
       "abilityName": "[TC] Duelistas",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n   \nSiempre que este agente combata o contraataque, cada uno de tus éxitos normales puede bloquear un éxito crítico sin resolver (a menos que el arma del agente enemigo tenga la regla de arma Brutal)."
+      "description": "Siempre que este agente combata o contraataque, cada uno de tus éxitos normales puede bloquear un éxito crítico sin resolver (a menos que el arma del agente enemigo tenga la regla de arma Brutal)."
     },
     {
       "abilityId": "IMP-AOD-TA-CTHA",
       "abilityName": "[TC] Robustos",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nSiempre que un agente dispare a este agente, los resultados de 5+ en los dados de defensa son éxitos críticos. Siempre que este agente esté contraatacando, la primera vez que un dado de ataque inflija un daño normal de 3 o más a este agente durante esa secuencia, ese dado le infligirá 1 punto de daño menos."
+      "description": "Siempre que un agente dispare a este agente, los resultados de 5+ en los dados de defensa son éxitos críticos. Siempre que este agente esté contraatacando, la primera vez que un dado de ataque inflija un daño normal de 3 o más a este agente durante esa secuencia, ese dado le infligirá 1 punto de daño menos."
     },
     {
       "abilityId": "IMP-AOD-TA-CTMO",
       "abilityName": "[TC] Móviles",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \n\n- Este agente puede realizar la acción de Retroceder por 1 PA menos.\n- Este agente puede realizar acciones de Cargar aún estando en la zona de control de un agente enemigo, y al hacerlo puede abandonar la zona de control de dicho agente (pero luego se siguen aplicando los requisitos normales para ese movimiento).\n"
+      "description": "- Este agente puede realizar la acción de Retroceder por 1 PA menos.\n- Este agente puede realizar acciones de Cargar aún estando en la zona de control de un agente enemigo, y al hacerlo puede abandonar la zona de control de dicho agente (pero luego se siguen aplicando los requisitos normales para ese movimiento).\n"
     },
     {
       "abilityId": "IMP-AOD-TA-CTRE",
       "abilityName": "[TC] Resueltos",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nPuedes ignorar cualquier cambio en la estadística LPA de este operativo, y no se ve afectado por la regla de armas **Choque** de los operativos enemigos."
+      "description": "Puedes ignorar cualquier cambio en la estadística LPA de este operativo, y no se ve afectado por la regla de armas **Choque** de los operativos enemigos."
     },
     {
       "abilityId": "IMP-AOD-TA-CTSH",
       "abilityName": "[TC] Tirador Certero",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nSiempre que este agente dispare durante una activación en la que no ha realizado acciones de Cargar, Reposicionarse o Retroceder, sus armas bólter ganan las reglas de armas **Certera 1** y **Severa**.\n\n**Certera:** Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos. Si un arma tiene más de una mención de Certera x, considérala una mención de Certera 2 en su lugar.\n\n**Severa:** Si no guardas algún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Las reglas de arma Devastadora y Críticos de penetración aún tienen efecto; Castigadora y Desgarradora ya no."
+      "description": "Siempre que este agente dispare durante una activación en la que no ha realizado acciones de Cargar, Reposicionarse o Retroceder, sus armas bólter ganan las reglas de armas **Certera 1** y **Severa**.\n\n**Certera:** Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos. Si un arma tiene más de una mención de Certera x, considérala una mención de Certera 2 en su lugar.\n\n**Severa:** Si no guardas algún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Las reglas de arma Devastadora y Críticos de penetración aún tienen efecto; Castigadora y Desgarradora ya no."
     },
     {
       "abilityId": "IMP-AOD-TA-CTSISP",
       "abilityName": "[TC] Especialista en Asedios",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nLas armas a distancia de este agente tienen la regla de armas Saturación.\n\n**Saturación:** El defensor no puede guardar salvaciones de cobertura..\n\nSiempre que este agente esté luchando o contraatacando, los agentes enemigos no podrán ayudarle."
+      "description": "Las armas a distancia de este agente tienen la regla de armas Saturación.\n\n**Saturación:** El defensor no puede guardar salvaciones de cobertura..\n\nSiempre que este agente esté luchando o contraatacando, los agentes enemigos no podrán ayudarle."
     },
     {
       "abilityId": "IMP-AOD-TA-CTST",
       "abilityName": "[TC] SigilosoS",
-      "description": "*Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.*  \n  \nSiempre que un agente enemigo dispare contra este agente, si está en cobertura, puedes guardar una salvación adicional por cobertura o convertir una salvación por cobertura en una salvación crítica.\nNo se acumula con salvaciones por cobertura mejoradas por terreno Aventajado."
+      "description": "Siempre que un agente enemigo dispare contra este agente, si está en cobertura, puedes guardar una salvación adicional por cobertura o convertir una salvación por cobertura en una salvación crítica.\nNo se acumula con salvaciones por cobertura mejoradas por terreno Aventajado."
     }
   ],
   "opTypes": [
