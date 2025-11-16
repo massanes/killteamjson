@@ -83,8 +83,8 @@
       ]
     },
     {
-      "id": "datacards",
-      "name": "Datacards",
+      "id": "datacard",
+      "name": "Datacard",
       "aliases": [],
       "category": "key_principle",
       "text": "Datacards contain specific rules for each operative, including key stats.",
@@ -120,8 +120,8 @@
       ]
     },
     {
-      "id": "distances",
-      "name": "Distances",
+      "id": "distance",
+      "name": "Distance",
       "aliases": [],
       "category": "key_principle",
       "text": "Various rules have a distance requirement in inches. When measuring to and from something, do so\nfrom the closest part of it. For an operative, do so from its base, ignoring all parts of its miniature. When\nmeasuring to and from an area of the killzone, measure the horizontal distance only (in other words,\nlook from above to ignore the vertical distance).\n\nIf a rule requires something to be ‘within’ a distance, the requirement is fulfilled if any part of it is that\ndistance or less. If a rule requires something to be ‘wholly within’ a distance, the requirement is fulfilled\nif every part of it is that distance or less. An operative is always within and wholly within distance\nrequirements of itself and a marker it’s carrying. If an operative is carrying a marker, that marker is the\nsame distance as that operative.\n\nOperatives within a certain distance of an operative that’s carrying a marker are also within the same\ndistance of that marker.",
@@ -175,8 +175,8 @@
       ]
     },
     {
-      "id": "keywords",
-      "name": "Keywords",
+      "id": "keyword",
+      "name": "Keyword",
       "aliases": [],
       "category": "key_principle",
       "text": "Keywords are an identification method for certain rules. You will most commonly use keywords with\noperatives (see datacards) – some rules will only affect operatives with the relevant keywords.\n\nSome rare rules also have keywords, e.g., SUPPORT or STRATEGIC GAMBIT. These keywords mean\nnothing on their own, but other rules interact with them. Keywords are shown in KEYWORD BOLD font.\nThose in orange with a skull symbol, e.g., TEMPESTUS AQUILON, are faction keywords used to identify\nall operatives/rules from that kill team.",
@@ -191,8 +191,8 @@
       ]
     },
     {
-      "id": "markers",
-      "name": "Markers",
+      "id": "marker",
+      "name": "Marker",
       "aliases": [],
       "category": "key_principle",
       "text": "Markers are placed in precise locations (this must be a location in which they can be placed) and impact\nthe game and operatives around them. They can be placed underneath operatives (temporarily remove\noperatives to do so), and operatives can be placed upon them. Objective markers are 40mm in\ndiameter. All other markers are 20mm in diameter. Some markers are known as mission markers. This\nmeans nothing on its own, but other rules interact with it.\n\nOperatives contest markers within their control range. Friendly operatives control a marker if the total\nAPL of those contesting it is greater than that of enemy operatives, but control cannot change during\nan action. While an operative is carrying a marker (see Pick Up Marker here), it contests and controls\nthat marker, and is the only operative that can.\n\nObjective markers are the most common marker, representing vital locations in the killzone. Controlling\nthem is often required to achieve victory.\n\nIt’s fine to use a miniature to represent a marker, but have a normal marker available if it creates rules\nissues (e.g., it’s too big).",
@@ -234,8 +234,8 @@
       ]
     },
     {
-      "id": "operatives",
-      "name": "Operatives",
+      "id": "operative",
+      "name": "Operative",
       "aliases": [],
       "category": "key_principle",
       "text": "Operatives are the Citadel miniatures used in the game. Your operatives are friendly operatives, and\nyour opponent’s operatives are enemy operatives.",
@@ -251,8 +251,8 @@
       ]
     },
     {
-      "id": "orders",
-      "name": "Orders",
+      "id": "order",
+      "name": "Order",
       "aliases": [],
       "category": "key_principle",
       "text": "Engage: The operative can perform actions as normal and can counteract.\n\nConceal: The operative cannot perform Shoot and Charge actions, and it cannot\ncounteract. However, it’s not a valid target while it’s in cover.\n\nOperatives are given a Conceal order when they are set up before the battle. You can change an\noperative’s order whenever it’s activated.\n\nOrder tokens have two sides. The lighter side shows an operative is ready (it can be activated in the\nFirefight phase) and the darker side shows an operative is expended (it has been activated in the\nFirefight phase).",
@@ -269,8 +269,8 @@
       ]
     },
     {
-      "id": "ploys",
-      "name": "Ploys",
+      "id": "ploy",
+      "name": "Ploy",
       "aliases": [],
       "category": "key_principle",
       "text": "Players can spend CP on ploys to gain rules bonuses at the opportune moment. Unless otherwise\nspecified, all ploys cost 1CP. There are two types of ploys:\n\nEvery strategy ploy is a STRATEGIC GAMBIT (used in the Gambit step of the Strategy phase).\nSome apply rules that are resolved “immediately”; otherwise, they apply rules that last until the\nend of the turning point.\n\nFirefight ploys are used in the Firefight phase and apply rules as the ploy specifies.\n\nAll players have access to the Command Re-roll firefight ploy below and the ploys in their kill team’s\nrules. Other than Command Re-roll, each player cannot use each ploy more than once per turning\npoint.",
@@ -316,8 +316,8 @@
       ]
     },
     {
-      "id": "tokens",
-      "name": "Tokens",
+      "id": "token",
+      "name": "Token",
       "aliases": [],
       "category": "key_principle",
       "text": "Tokens are used to help you keep track of rules effects. They are often placed next to the relevant\noperative, but can be moved to make space for other operatives and markers as necessary. They are\nremoved when the tracked rules effect ends.",

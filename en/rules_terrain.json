@@ -1,0 +1,673 @@
+[
+    {
+      "id": "terrain-and-movement",
+      "name": "Terrain and Movement",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Operatives cannot move through terrain — they must move around, climb over or drop/jump off it.\n\nAgents must end a move in a location where they can be placed; they cannot end mid-climb, jump, or\ndrop. If that is not possible, they cannot begin the move.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "movement",
+        "terrain"
+      ],
+      "references": [
+        "climbing",
+        "dropping",
+        "jumping",
+        "ceiling",
+        "accessible"
+      ]
+    },
+    {
+      "id": "climb",
+      "name": "Climb",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "An operative must be within 1” horizontally and 3” vertically of terrain that’s visible to them to climb it.\nEach climb is treated as a minimum of 2” vertically (e.g. a 1” distance is treated as 2”).",
+      "examples": [
+        "The operative moves up 4” until it’s above the highest point it must climb over. It moves across 2” until\nits base is fully past the rampart, then drops down for 0” (as the drop is less than 2”).",
+        "The operative moves up for 2” (a 1” distance, but treated as the minimum 2”) until it’s above the highest\npoint it must climb over. It moves across 3” until its base is fully past the terrain feature, then drops\ndown for 0” (as the drop is less than 2”)."
+      ],
+      "actions": [],
+      "tags": [
+        "movement",
+        "vertical"
+      ],
+      "references": [
+        "terrain-and-movement",
+        "dropping",
+        "jumping",
+        "insignificant"
+      ]
+    },
+    {
+      "id": "drop",
+      "name": "Drop",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Operatives drop down when they move off terrain or after they’ve jumped. Ignore 2” of vertical distance\nthat they drop during each action. This means a vertical drop of 2” or less is ignored. If they drop\nmultiple times during an action, only 2” total is ignored, not 2” from each drop.",
+      "examples": [
+        "The operative moves across 2” until it’s fully off the ledge, then drops down for 2” (a 4” distance, but the\nfirst 2” is ignored). The operative could also jump off the terrain, moving 4” from one edge before it\ndrops down."
+      ],
+      "actions": [],
+      "tags": [
+        "movement",
+        "vertical"
+      ],
+      "references": [
+        "terrain-and-movement",
+        "climbing",
+        "jumping"
+      ]
+    },
+    {
+      "id": "jump",
+      "name": "Jump",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Operatives can jump from Vantage terrain higher than 2” from the killzone floor when they move off it.\nYou can move them up to 4” horizontally from the edge when they jump, done like any other move\nexcept in one straight-line increment. The operative must then drop or climb from there. When jumping\nfrom a terrain feature, if there is a rampart at the edge you would jump from, you must climb it first\nbefore doing so, but still jump from the level of the Vantage terrain. When jumping to a terrain feature,\nyou can ignore its height difference of 1” or less, including its rampart (if any). However, when jumping\nfrom a terrain feature, if it has a rampart, you must climb it first.\n\nJumping means agents can move across gaps up to 4\" wide and over things that are below them.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "movement",
+        "vantage",
+        "vertical"
+      ],
+      "references": [
+        "vantage",
+        "dropping",
+        "climbing",
+        "terrain-and-movement"
+      ]
+    },
+    {
+      "id": "terrain-feature",
+      "name": "Terrain Feature",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "A terrain feature is composed of different parts, each of which is a type of terrain (one part can be more\nthan one type). If you are using a terrain feature from a specific killzone, the type of each part of that\nterrain feature will be specified. If you are using a terrain feature from a killzone of your own creation,\nyou must specify the type of each part of that terrain feature before the battle. The most common types\nof terrain are below, but some killzones have their own types.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "types"
+      ],
+      "references": [
+        "heavy",
+        "light",
+        "blocking",
+        "vantage",
+        "accessible",
+        "insignificant",
+        "exposed",
+        "ceiling"
+      ]
+    },
+    {
+      "id": "heavy",
+      "name": "Heavy",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Larger terrain is Heavy. It can obscure operatives.\n\nIt’s good to have a mixture of Light and Heavy terrain in your killzone, as some other rules interact with\neach type differently.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "obscuring"
+      ],
+      "references": [
+        "light",
+        "obscured",
+        "cover"
+      ]
+    },
+    {
+      "id": "light",
+      "name": "Light",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Smaller terrain is Light. It doesn’t have any additional rules, but other rules interact with it differently\n(e.g., Vantage terrain here).",
+      "examples": [
+        "Light terrain.",
+        "Light terrain."
+      ],
+      "actions": [],
+      "tags": [
+        "terrain"
+      ],
+      "references": [
+        "vantage",
+        "cover"
+      ]
+    },
+    {
+      "id": "blocking",
+      "name": "Blocking",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Blocking terrain is usually attributed to gaps between or underneath a terrain feature. Visibility cannot\nbe drawn through such gaps, and for the purposes of cover and obscured, the gaps are intervening like\nthe terrain around it.\n\nTechnically, Blocking terrain isn’t actually physical terrain, but rather the gaps operatives shouldn’t be able\nto see through. Blocking terrain is rare, but it exists for the necessary instances.",
+      "examples": [
+        "The gap under this pipe is blocking terrain.",
+        "The door’s viewpoint or the broken vent is blocking terrain."
+      ],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "line-of-sight"
+      ],
+      "references": [
+        "cover",
+        "obscured",
+        "visible"
+      ]
+    },
+    {
+      "id": "vantage",
+      "name": "Vantage",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Vantage terrain is the upper levels of the killzone—areas operatives can be placed upon above the\ngame board. If terrain is not Vantage terrain, then operatives can move over it, but they cannot finish a\nmove or be set up on it. Vantage terrain is also Light terrain. Vantage terrain has the following main\nfeatures.\n\nFirstly, whenever an operative on Vantage terrain is shooting an operative that has an Engage\norder, its ranged weapon has the Accurate 1 weapon rule if the target operative is at least 2\" lower\nthan it, or Accurate 2 if the target operative is at least 4\" lower than it.\n\nSecondly, whenever you are selecting a valid target for an operative on Vantage terrain, operatives\nat least 2\" lower than that operative with a Conceal order cannot use Light terrain for cover. Whilst\nthis can allow such operatives to be targeted (assuming they’re visible), it doesn’t remove their\ncover save, and the defender can retain it as a critical success instead, or retain one additional\ncover save.\n\nThirdly, for the purposes of obscured, ignore Heavy terrain connected to Vantage terrain the active\noperative or the intended target is on.\n\nAs Vantage terrain is also Light, an operative on Vantage terrain will often be in cover from operatives\nlower than them — imagine them crouching down to gain a cover save or avoid being a valid target.\n\nIf an operative is obstructed from moving across Vantage terrain by enemy operatives or other terrain\nfeatures, it can move around these obstructions (without dropping off) so long as part of its base is always\non the Vantage terrain.",
+      "examples": [
+        "An operative on Vantage terrain can target an operative with a Conceal order that’s 2” lower than them\nand only in cover from Light terrain.",
+        "Operative B has a Conceal order and is in cover from Light terrain, but since operative A is on Vantage\nterrain and at least 2” higher, operative B is a valid target."
+      ],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "vantage",
+        "shooting",
+        "cover"
+      ],
+      "references": [
+        "light",
+        "heavy",
+        "cover",
+        "obscured",
+        "valid-target",
+        "visible"
+      ]
+    },
+    {
+      "id": "accessible",
+      "name": "Accessible",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Operatives can move through Accessible terrain (this takes precedence over Bases, and Terrain and\nMovement), but it counts as an additional 1\" to do so. Only the centre of an operative’s base needs to\nmove through Accessible terrain, so base sizes are irrelevant.",
+      "examples": [
+        "The door is accessible terrain."
+      ],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "movement"
+      ],
+      "references": [
+        "terrain-and-movement",
+        "bases",
+        "equipment-terrain-placement"
+      ]
+    },
+    {
+      "id": "insignificant",
+      "name": "Insignificant",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Insignificant terrain is usually very small. For the purposes of climbing and dropping, ignore it.\n\nAn operative can move over and across Insignificant terrain without going up and down.",
+      "examples": [
+        "Small piles of rubble are insignificant terrain."
+      ],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "movement"
+      ],
+      "references": [
+        "climbing",
+        "dropping",
+        "exposed"
+      ]
+    },
+    {
+      "id": "exposed",
+      "name": "Exposed",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Exposed terrain is usually very small, or terrain with large gaps that operatives shouldn’t be able to take\ncover behind.\n\nIt’s particularly important to identify Insignificant and Exposed terrain before the battle, to prevent\nmisunderstandings later on.",
+      "examples": [
+        "This ladder and these hanging chains are exposed terrain."
+      ],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "cover"
+      ],
+      "references": [
+        "insignificant",
+        "cover"
+      ]
+    },
+    {
+      "id": "ceiling",
+      "name": "Ceiling",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Operatives with a round base of 50mm or less, or an oval base of 60x35mm, can move underneath\nCeiling terrain regardless of the operative’s height (this takes precedence over Terrain and Movement\non pg 56). The operative must still finish the action in a location it can be placed.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "movement"
+      ],
+      "references": [
+        "terrain-and-movement",
+        "stronghold",
+        "large-ruin"
+      ]
+    },
+    {
+      "id": "gallowdark-wall",
+      "name": "Gallowdark Wall",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "A Gallowdark wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway, which is\nexplained separately on page 69.\n\nWall terrain:\n\nOperatives cannot move over or through Wall terrain (this takes precedence over all other rules).\n\nVisibility cannot be determined over or through Wall terrain.\n\nOther than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be\nmeasured over or through Wall terrain; they must be measured around it using the shortest\npossible route.\n\nFor the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene,\nunless the active operative has passed it (see examples on pages 67-68).",
+      "examples": [
+        "Operative A would usually be within 3” of operative B, but as distances cannot be measured over or\nthrough Wall terrain, it must be measured around the Gallowdark wall. This would make operative A\nmore than 3” from operative B.",
+        "Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the\nwall that protrude do not make a corner or end alone; it must be the main structure of the wall that\nturns a corner or ends, as shown in the following diagrams.",
+        "A corner of the wall is intervening, therefore operative B is in cover.",
+        "Operative A has passed the corner of the wall, therefore it’s not intervening and operative B is not in\ncover. Note that if operative A was wholly on the left side of the dotted black line, the wall would be\nintervening and operative B would be in cover.",
+        "An end of the wall is intervening, therefore operative B is in cover.",
+        "As the hatchway is open, an end of the wall is intervening. It’s more than 1” from both operatives,\ntherefore operative B is obscured."
+      ],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "wall",
+        "movement",
+        "cover",
+        "obscuring"
+      ],
+      "references": [
+        "blocking",
+        "hatchway",
+        "cover",
+        "obscured",
+        "distances"
+      ]
+    },
+    {
+      "id": "hatchway",
+      "name": "Hatchway",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "A hatchway has two statuses: closed and open. It has two parts — an access point and a hatch — and\ntheir terrain types depend upon the hatchway’s status. Operatives can perform the Operate Hatch\nmission action to change its status. Hatchways begin the battle closed.\n\nAs an open hatchway’s access point is Exposed terrain, the walls either side of it must be used for cover\nand obscuring instead of the access point.\n\nCLOSED\nWhile a hatchway is closed:\n\nIts hatch must be fully shut.\n\nThe access point and hatch are Heavy and Wall terrain.\n\nOPEN\nWhile a hatchway is open:\n\nIts hatch must be fully open (it cannot be ajar).\n\nIts access point is Accessible, Insignificant and Exposed terrain.\n\nIts hatch is Heavy and Wall terrain, and the gap directly underneath it is Blocking terrain.\n\nIf operatives would prevent the hatch from fully opening or closing, temporarily remove them from the\nkillzone, open or close the hatch, then return the operatives as close as possible to their original location. If\nan operative is within an enemy operative’s control range before a hatch is opened, it must be returned\nthere.",
+      "examples": [],
+      "actions": [
+        {
+          "id": "operate-hatch",
+          "name": "Operate Hatch",
+          "cost": "1APL",
+          "text": "Open or close a hatchway that’s access point is within the operative’s control range.\n\nAn operative can perform this action during a Dash or Reposition action, and any remaining\nmove distance can be used after it does so.\n\nAn operative cannot perform this action while within control range of an enemy operative, or if\nthat hatchway is open and its access point is within an enemy operative’s control range.\n\nOpening a hatchway can cause the operative to be within control range of an enemy operative, in which\ncase its Dash or Reposition action would immediately end (unless it has rules that allow it to move within\ncontrol range of an enemy operative).",
+          "examples": [],
+          "tags": [
+            "action",
+            "hatchway",
+            "mission-action"
+          ],
+          "references": [
+            "control-range",
+            "terrain-and-movement",
+            "accessible",
+            "exposed",
+            "insignificant",
+            "blocking"
+          ]
+        }
+      ],
+      "tags": [
+        "terrain",
+        "hatchway",
+        "wall"
+      ],
+      "references": [
+        "gallowdark-wall",
+        "blocking",
+        "accessible",
+        "insignificant",
+        "exposed"
+      ]
+    },
+    {
+      "id": "condensed-environment",
+      "name": "Condensed Environment",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Weapons with the Blast, Torrent and/or x” Devastating (i.e. Devastating with a distance requirement)\nweapon rule also have the Lethal 5+ weapon rule (pg. 111).",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "environment",
+        "weapons"
+      ],
+      "references": []
+    },
+    {
+      "id": "gantry",
+      "name": "Gantry",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Gantry floors are Accessible and Vantage terrain.\n\nGantry pillars are Heavy terrain.\n\nGantry terrain features come in three sizes: long, medium, and short. When they are connected\n(i.e., their gantry floors are touching each other), they are treated as the same terrain.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "vantage",
+        "accessible"
+      ],
+      "references": [
+        "accessible",
+        "vantage",
+        "heavy"
+      ]
+    },
+    {
+      "id": "thermometric-condenser",
+      "name": "Thermometric Condenser",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "The roof is Accessible and Vantage terrain.\n\nThe inner-ledge of the roof is Exposed and Insignificant terrain: ignore the slight difference in\nheight between the outer and inner area of the roof.\n\nThe battlements on the roof are Light terrain.\n\nAll other parts of it are Heavy terrain.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "vantage"
+      ],
+      "references": [
+        "accessible",
+        "exposed",
+        "insignificant",
+        "light",
+        "heavy"
+      ]
+    },
+    {
+      "id": "restricted-movement",
+      "name": "Restricted Movement",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "No part of an operative’s base can be touching a hazardous area.\n\nLurking predators stop operatives from venturing too close to the ocean, while strong currents and toxic\nwater prevent them from entering it.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "hazard",
+        "movement"
+      ],
+      "references": []
+    },
+    {
+      "id": "restricted-targeting",
+      "name": "Restricted Targeting",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "When selecting a valid target for an operative on the killzone floor, an intended target on the killzone\nfloor is not a valid target if 4” of hazardous area is between them.\n\nWhen selecting a valid target for an operative on Vantage terrain, an intended target on the killzone\nfloor is not a valid target if the footprint of a gantry is between them. The same is also true in reverse\n(an operative on the killzone floor to an intended target on Vantage terrain). However, in both cases,\nignore the footprint of gantry terrain features the operative or the intended target is on or in.\n\nRelentless waves, sea mist, and industrial smog make it harder for operatives to see targets over the\nocean’s surface.\n\nIn both cases, use targeting lines to determine if a hazardous area or the footprint of a gantry is\nbetween them.\n\nRestricted targeting only matters if one or more of the operatives in question are on the killzone floor; if\nthey are both on Vantage terrain, it has no effect.",
+      "examples": [
+        "4” of hazardous area is between operatives A and B, therefore operative B is not a valid target (and\nneither would operative A be in reverse).",
+        "The footprint of a gantry is between operatives A and B, therefore operative B is not a valid target (and\nneither would operative A be in reverse). Note that the left gantry is ignored when determining this, as\noperative A is on it."
+      ],
+      "actions": [],
+      "tags": [
+        "hazard",
+        "targeting",
+        "vantage"
+      ],
+      "references": [
+        "vantage",
+        "gantry",
+        "valid-target",
+        "intervening",
+        "visible"
+      ]
+    },
+    {
+      "id": "equipment-terrain-placement",
+      "name": "Equipment Placement",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Equipment can be set up on Vantage terrain, on the killzone floor and within 2\" of Accessible terrain\n(this takes precedence over the usual restrictions).",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "equipment"
+      ],
+      "references": [
+        "vantage",
+        "accessible",
+        "killzone-floor"
+      ]
+    },
+    {
+      "id": "stronghold",
+      "name": "Stronghold",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "A The upper level(s) of a stronghold terrain feature is Ceiling and Vantage terrain.\n\nB The door is Accessible and Heavy terrain.\n\nC The fire steps are Vantage, Insignificant, and Exposed terrain.\n\nD The broken vent is Blocking terrain.\n\nE The three barrel containers on Stronghold A are Blocking and Heavy terrain.\n\nF The small broken ramparts on the edge of the Vantage terrain of Stronghold A are Insignificant\nand Exposed terrain and Ceiling.\n\nG The gap on the lower Vantage terrain of Stronghold B is Accessible terrain.\n\nH You cannot have more than one friendly operative on the highest upper level of Stronghold B at\nonce, and that operative must be placed on one side or the other of that level, it cannot be placed\nin the middle (this means an enemy operative cannot be prevented from moving onto or being set\nup on the other side). If an operative’s base is too big to be placed there, it must move (or be set\nup) on as far as possible (otherwise it cannot complete that move), then place it to one side\ninstead and treat it as being there. Hold it as far on that level as possible when it matters for\nchecking other rules (e.g. control range, visibility, distance to other operatives, etc.). This takes\nprecedence over the rules for bases and being in a location it can be placed.\n\nAll other parts of it are Heavy terrain.\n\nFor the purposes of control range, ignore the door and parts of this terrain feature less than 2”\nhigh when determining visibility.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "stronghold",
+        "vantage"
+      ],
+      "references": [
+        "ceiling",
+        "accessible",
+        "insignificant",
+        "exposed",
+        "blocking",
+        "heavy",
+        "control-range",
+        "visible"
+      ]
+    },
+    {
+      "id": "large-ruin",
+      "name": "Large Ruin",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "A The upper level of a large ruin terrain feature is Ceiling and Vantage terrain. For the purposes of\nintervening and targeting lines, treat this level as the same height as the first upper level of a\nstronghold terrain feature.\n\nB The upper rampart is Light terrain.\n\nC The door is Accessible and Heavy terrain.\n\nD The door’s viewpoint is Blocking terrain.\n\nE Unbroken windows are Barred and Heavy terrain.\n\nBarred terrain: Visibility cannot be drawn through this terrain unless the operative or what they’re\ntrying to see is horizontally within 1” of it.\n\nAll other parts of it are Heavy terrain.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "ruin",
+        "vantage"
+      ],
+      "references": [
+        "ceiling",
+        "vantage",
+        "accessible",
+        "blocking",
+        "heavy",
+        "light",
+        "visible",
+        "intervening"
+      ]
+    },
+    {
+      "id": "small-ruin",
+      "name": "Small Ruin",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "This is Heavy terrain.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "ruin",
+        "heavy"
+      ],
+      "references": [
+        "heavy"
+      ]
+    },
+    {
+      "id": "heavy-rubble",
+      "name": "Heavy Rubble",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "This is Heavy terrain.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "rubble",
+        "heavy"
+      ],
+      "references": [
+        "heavy"
+      ]
+    },
+    {
+      "id": "light-rubble",
+      "name": "Light Rubble",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "This is Light terrain.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "rubble",
+        "light"
+      ],
+      "references": [
+        "light"
+      ]
+    },
+    {
+      "id": "condensed-stronghold",
+      "name": "Condensed Stronghold",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "Whenever an operative is shooting with a weapon that has the Blast, Torrent and/or x” Devastating (i.e.,\nDevastating with a distance requirement) weapon rule, it also has the Lethal 5+ weapon rule (pg. 111) if\nthe target is wholly within a stronghold terrain feature and on the killzone floor or a fire step.\n\nThe Condensed Stronghold rule always relates to the target’s location, so if the primary target is wholly\nwithin a stronghold, but the secondary target isn’t, then this rule doesn’t apply to that secondary target.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "environment",
+        "stronghold",
+        "shooting"
+      ],
+      "references": [
+        "stronghold",
+        "condensed-environment"
+      ]
+    },
+    {
+      "id": "garrisoned-stronghold",
+      "name": "Garrisoned Stronghold",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "When an operative wholly within a stronghold terrain feature is retaliating against an operative that\nisn’t, the defender resolves first (this takes precedence over the normal fight resolution order).",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "stronghold",
+        "fight"
+      ],
+      "references": [
+        "stronghold"
+      ]
+    },
+    {
+      "id": "tomb-world-wall",
+      "name": "Tomb World Wall",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway (pg 55) or a\nbreach point (pg 56).\n\nWall terrain:\n\nOperatives cannot move over or through Wall terrain (this takes precedence over all other rules).\n\nVisibility cannot be determined over or through Wall terrain.\n\nOther than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be\nmeasured over or through Wall terrain; they must be measured around it using the shortest\npossible route.\n\nFor the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene,\nunless the active operative has passed it (see examples on pg 54).",
+      "examples": [
+        "Operative A would usually be within 3” of operative B, but as distances cannot be measured over or\nthrough Wall terrain, it must be measured around the Tomb World wall. This would make operative A\nmore than 3” from operative B.",
+        "Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the\nwall that protrude do not make a corner or end alone; it must be the main structure of the wall that\nturns a corner or ends, as shown in the following diagrams.",
+        "A corner of the wall is intervening, therefore operative B is in cover.",
+        "Operative A has passed the corner of the wall, therefore it’s not intervening and operative B is not in\ncover. Note that if operative A was wholly on the left side of the dotted black line, the wall would be\nintervening and operative B would be in cover.",
+        "An end of the wall is intervening, therefore operative B is in cover.",
+        "As the hatchway is open, an end of the wall is intervening. It’s more than 1” from both operatives,\ntherefore operative B is obscured."
+      ],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "wall",
+        "movement",
+        "cover",
+        "obscuring"
+      ],
+      "references": [
+        "hatchway",
+        "breach-point",
+        "cover",
+        "obscured",
+        "distances"
+      ]
+    },
+    {
+      "id": "breach-point",
+      "name": "Breach Point",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "A breach point has two statuses: closed and open. It has two parts - an access point and a breach wall-\nand their terrain types depend upon the breach point’s status. Breach points begin the battle closed. To\nopen a breach point, operatives can perform the Breach mission action (at which point it cannot be\nclosed again).\n\nCLOSED\nWhile a breach point is closed:\n\nIts breach wall must be within its access point.\n\nThe access point and breach wall are Heavy and Wall terrain.\n\nOPEN\nWhile a breach point is open:\n\nIts breach wall must be removed from the killzone.\n\nIts access point is Accessible and Insignificant terrain.\n\nIts access point is also Exposed terrain. This means the walls either side of it must be used for\ncover and obscuring instead.",
+      "examples": [],
+      "tags": [
+        "terrain",
+        "wall",
+        "breach"
+      ],
+      "references": [
+        "tomb-world-wall",
+        "accessible",
+        "insignificant",
+        "exposed",
+        "cover",
+        "obscured"
+      ]
+    },
+    {
+      "id": "teleport-pad",
+      "name": "Teleport Pad",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "A teleport pad is Exposed, Insignificant and Vantage. Only one operative can be on it at once, and while\nan operative is on it, that operative cannot touch the killzone floor (in other words, an operative can’t\nbe both on the teleport pad and on the killzone floor).\n\nFrom the start of the second turning point, whenever a friendly operative on a teleport pad performs\nthe Charge, Fall Back or Reposition action, you can teleport it. If you do, don’t move it. Instead,\nremove it from the killzone and set it back up on the other teleport pad. It must still fulfil all other\nrequirements of that action, otherwise it cannot teleport (e.g. if it’s the Charge action, the operative\nmust finish that action within control range of an enemy operative). If another operative is on the other\nteleport pad when an operative teleports, swap them around (if it’s an enemy operative, its controlling\nplayer sets it up). Equipment terrain features cannot be set up within 2\" of a teleport pad. Whenever an\noperative’s base is touching a teleport pad, if another operative is on that teleport pad, those operatives\nare treated as being within each other’s control range.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "vantage",
+        "teleport"
+      ],
+      "references": [
+        "exposed",
+        "insignificant",
+        "vantage",
+        "killzone-floor",
+        "control-range",
+        "equipment-terrain-placement"
+      ]
+    },
+    {
+      "id": "sarcophagus-and-debris-light",
+      "name": "Sarcophagus and Debris (Light Terrain)",
+      "aliases": [],
+      "category": "terrain_rule",
+      "text": "This is Light terrain.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "light"
+      ],
+      "references": [
+        "light"
+      ]
+    }
+  ]
+  
