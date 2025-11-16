@@ -4,58 +4,58 @@
   "source": "Community Meta Analysis",
   "tiers": {
     "S": [
+      "NEC-CAN",
+      "IMP-DW"
+    ],
+    "A+": [
       "CHAOS-FELL",
-      "CHAOS-GPI",
-      "IMP-DKK",
-      "IMP-HC",
-      "IMP-RAT",
-      "IMP-SANC",
-      "IMP-SCT",
+      "AEL-MND",
       "TYR-BBRO",
-      "VOT-HKY"
+      "AEL-BOK",
+      "IMP-TEMPAQ",
+      "TYR-RAV",
+      "CHAOS-GORE",
+      "CHAOS-CULT"
     ],
     "A": [
-      "AEL-MND",
-      "AEL-VDT",
-      "CHAOS-PM",
+      "ORK-WK",
+      "TAU-VESP",
       "IMP-INQ",
-      "ORK-KOM",
-      "SPEC-NPO",
-      "SPEC-TITUS",
-      "TYR-WB",
-      "VOT-HKS"
+      "VOT-HKS",
+      "NEC-HIER",
+      "CHAOS-NC",
+      "IMP-INB",
+      "IMP-AES"
     ],
     "B": [
-      "AEL-BOK",
-      "AEL-COR",
-      "CHAOS-BLD",
       "IMP-AOD",
-      "IMP-BC",
-      "IMP-INB",
-      "IMP-PHO",
-      "NEC-HIER",
-      "TAU-PF"
+      "CHAOS-PM",
+      "IMP-SCT",
+      "IMP-RAT",
+      "TAU-FSKB",
+      "IMP-KAS",
+      "IMP-SANC"
     ],
     "C": [
-      "CHAOS-GORE",
-      "CHAOS-LEG",
-      "CHAOS-WC",
-      "IMP-ESS",
-      "IMP-KAS",
-      "IMP-TEMPAQ",
-      "NEC-CAN",
-      "ORK-WK",
-      "TAU-VESP"
+      "VOT-HKY",
+      "IMP-BC"
     ],
     "D": [
+      "CHAOS-BLD",
+      "AEL-COR",
+      "IMP-DKK",
+      "IMP-ESS",
+      "IMP-HC",
+      "CHAOS-LEG",
+      "ORK-KOM",
+      "CHAOS-GPI",
+      "TAU-PF",
+      "CHAOS-WC",
+      "TYR-WB",
       "AEL-HOTA",
-      "CHAOS-CULT",
-      "CHAOS-NC",
-      "IMP-AES",
-      "IMP-DW",
       "IMP-NOV",
-      "TAU-FSKB",
-      "TYR-RAV"
+      "IMP-PHO",
+      "AEL-VDT"
     ]
   }
 }
