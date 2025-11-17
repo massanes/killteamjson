@@ -353,7 +353,8 @@
         "exposed"
       ],
       "packs": [
-        "Killzone: Gallowdark"
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
       ]
     },
     {
@@ -370,7 +371,8 @@
       ],
       "references": [],
       "packs": [
-        "Killzone: Bheta-Decima"
+        "Killzone: Bheta-Decima",
+        "Killzone: Tomb World"
       ]
     },
     {

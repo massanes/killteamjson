@@ -354,7 +354,8 @@
         "exposed"
       ],
       "packs": [
-        "Killzone: Gallowdark"
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
       ]
     },
     {
@@ -371,7 +372,8 @@
       ],
       "references": [],
       "packs": [
-        "Killzone: Gallowdark"
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
       ]
     },
     {
