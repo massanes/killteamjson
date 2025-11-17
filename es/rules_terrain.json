@@ -1,10 +1,10 @@
 [
     {
       "id": "terrain-and-movement",
-      "name": "Terrain and Movement",
+      "name": "Terreno Y Movimiento",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Operatives cannot move through terrain — they must move around, climb over or drop/jump off it.\n\nAgents must end a move in a location where they can be placed; they cannot end mid-climb, jump, or\ndrop. If that is not possible, they cannot begin the move.",
+      "text": "Los agentes no pueden atravesar terreno; deben rodearlo, trepar por encima o saltar/dejarse caer.\n\nLos agentes deben terminar un movimiento en una ubicación en la que puedan ser colocados; no pueden terminarlo a medio trepar, saltar o\ndejarse caer. Si eso no es posible, no pueden iniciar el movimiento.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -21,10 +21,10 @@
     },
     {
       "id": "climb",
-      "name": "Climb",
+      "name": "Trepar",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "An operative must be within 1” horizontally and 3” vertically of terrain that’s visible to them to climb it.\nEach climb is treated as a minimum of 2” vertically (e.g. a 1” distance is treated as 2”).",
+      "text": "Un agente debe estar a 1\" o menos en horizontal y a 3\" o menos en vertical de un terreno que es visible para él para poder treparlo.\nTrepar se considera un movimiento vertical de 2\" como mínimo (es decir, una distancia de 1\" se considerará 2\").",
       "examples": [
         "The operative moves up 4” until it’s above the highest point it must climb over. It moves across 2” until\nits base is fully past the rampart, then drops down for 0” (as the drop is less than 2”).",
         "The operative moves up for 2” (a 1” distance, but treated as the minimum 2”) until it’s above the highest\npoint it must climb over. It moves across 3” until its base is fully past the terrain feature, then drops\ndown for 0” (as the drop is less than 2”)."
