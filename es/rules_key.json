@@ -426,6 +426,22 @@
     "tags": [
       "tournaments"
     ],
-    "references": []
+    "references": [
+      "season"
+    ]
+  },
+  {
+    "id": "season",
+    "name": "Season",
+    "aliases": [],
+    "category": "key_principle",
+    "text": "A season typically lasts around 12 months and refers to a period during which specific kill teams are available for play and receive regular updates to their rules. Each season allows players to enjoy a balanced and manageable range of teams while new content is introduced.",
+    "examples": [],
+    "tags": [
+      "seasons"
+    ],
+    "references": [
+      "classified"
+    ]
   }
 ]
