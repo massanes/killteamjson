@@ -1,27 +1,27 @@
 {
-    "title": "Game Sequence",
+    "title": "Secuencia de Partida",
     "steps": [
       {
         "id": 1,
         "icon": "⚡",
-        "name": "Set up the Battle",
+        "name": "Montar la Batalla",
         "description": [
-          "Each player selects a kill team for the battle.",
-          "Determine the killzone and set up terrain features. Ensure terrain types are specified.",
-          "Determine one shared crit op and set up objective markers. Other than in Killzone: Bheta-Decima, all objective markers must be set up on the killzone floor.",
-          "Roll-off: the winner decides who has initiative.",
-          "The player with initiative selects one drop zone. Their opponent has the other drop zone and gains the Re-roll initiative card (explained in step 4)."
+          "Cada jugador elige un comando para la batalla.",
+          "Determinad la zona de aniquilación y los elementos de terreno. Aseguraos de definir bien los tipos de terreno.",
+          "Determinad 1 operación crítica compartida para ambos y desplegad los marcadores de objetivo. Todos los marcadores de objetivo deben desplegarse en el suelo de la zona de aniquilación salvo en la Zona de aniquilación: Bheta-Decima.",
+          "Desempate: El ganador decide quién tiene la iniciativa.",
+          "El jugador con la iniciativa elige una zona de descenso. Su oponente usa la otra zona de descenso y recibe la carta de iniciativa Repite tu tirada de iniciativa (explicada en el paso 4)."
         ]
       },
       {
         "id": 2,
         "icon": "♟",
-        "name": "Select Operatives",
+        "name": "Elegir Agentes ",
         "description": [
-          "Each player secretly selects their operatives for the battle, adhering to the selection requirements in their kill team's rules. They then reveal their selections simultaneously.",
-          "Each player secretly selects up to four equipment options. Each option cannot be selected more than once per player. They then reveal their selections simultaneously.",
-          "Each player starts with 2CP.",
-          "Each player secretly selects a tac op from one of their kill team's archetypes (Infiltration, Recon, Security or Seek & Destroy, as specified in their kill team's rules)."
+          "Cada jugador elige en secreto sus agentes para la batalla según los requisitos de selección de su comando. A continuación los jugadores revelan sus selecciones a la vez.",
+          "Cada jugador elige en secreto hasta 4 opciones de equipo. Cada opción no puede ser elegida más de una vez por jugador. A continuación los jugadores revelan sus selecciones a la vez.",
+          "Cada jugador comienza con 2PM.",
+          "Cada jugador elige en secreto una operación táctica de uno de los arquetipos de su comando (Infiltración, Reconocimiento, Seguridad o Buscar y destruir, según se especifiquen en las reglas de su comando)."
         ]
       },
       {
@@ -29,21 +29,21 @@
         "icon": "🔥",
         "name": "Set Up Operatives",
         "description": [
-          "Each player alternates setting up an item of equipment that's set up before the battle (ladders, etc.), starting with the player with initiative. Note: it's item by item, not option by option.",
-          "Each player alternates setting up one third of their kill team (rounding up), starting with the player with initiative. When a player sets up an operative, it must be wholly within their drop zone and must be given a Conceal order."
+          "Empezando por el jugador con la iniciativa, los jugadores se alternan para desplegar una pieza de equipo que se despliegue antes de la batalla (p. ej. escaleras). Esto se hace pieza de equipo a pieza de equipo, no opción a opción.",
+          "Empezando por el jugador con la iniciativa, los jugadores se alternan para desplegar un tercio (redondeado al alza) de su comando. Cuando un jugador despliega un agente, lo debe hacer completamente en su zona de descenso y le debe dar una orden de ocultarse."
         ]
       },
       {
         "id": 4,
         "icon": "🕒",
-        "name": "Play the battle",
+        "name": "Librar la batalla",
         "description": [
-          "To determine initiative during each turning point (including the first), the players roll off (ties are not re-rolled). Starting with the player that lost the roll-off, each player alternates either using an initiative card to alter the result of their roll or passing, until they both pass in succession.",
-          "If player(s) would use their kill team rules to affect the roll-off, they must do so before playing initiative cards, starting with the player that's losing the roll-off.",
-          "The Re-roll initiative card allows the player to re-roll their initiative roll. The remaining initiative cards all change the player's roll result up or down (this can take it above 6 or below 1).",
-          "The winner of the roll-off decides who has initiative. Except during the fourth turning point, the loser of the roll-off gains an initiative card with a value equal to the turning point. If the roll-off is a tie, the player that didn't have initiative at that time is the winner.",
-          "As a Strategic Gambit during the first turning point, each player secretly selects one of their three operations (Crit Op, Tac Op or Kill Op) as their Primary Op. Then, each player places a card with their choice face down, or uses a die or other method to indicate it.",
-          "Each player can score a maximum of 6VP for each operation."
+          "Para determinar la iniciativa en cada punto de inflexión (incluido el primero), los jugadores desempatan (no se vuelven a tirar los empates). Empezando por el perdedor del desempate, cada jugador alterna entre usar una carta de iniciativa para modificar el resultado de su tirada o pasar, hasta que ambos pasen sucesivamente.",
+          "Si uno o varios jugadores usan reglas de su comando para modificar la tirada, deben hacerlo antes de usar cartas de iniciativa, empezando por el jugador que pierde el desempate.",
+          "La carta de iniciativa Repite tu tirada de iniciativa permite repetir la tirada. El resto de cartas modifican el resultado hacia arriba o abajo, incluso más allá de 6 o por debajo de 1.",
+          "El ganador del desempate decide quién tiene la iniciativa. El perdedor recibe una carta de iniciativa según el número del punto de inflexión. Si hay empate, el jugador sin iniciativa se convierte en el ganador.",
+          "Como Gambito Estratégico en el primer punto de inflexión, cada jugador elige en secreto una de sus tres operaciones (crítica, asesinato o táctica) como su operación primaria. Luego la indica en secreto con una carta o dado.",
+          "Cada jugador puede obtener un máximo de 6PV por cada operación"
         ]
       },
       {
@@ -51,9 +51,9 @@
         "icon": "🏆",
         "name": "End the Battle",
         "description": [
-          "The battle ends after four turning points have been completed. If a player has no operatives in the killzone but the battle has not ended, the other player completes the remaining turning points until the battle ends.",
-          "At the end of the battle, all players simultaneously reveal their primary operations. They score additional VP equal to half what they scored for that operation (rounding up).",
-          "The player with the most VP is the winner. If players are tied, the battle is a draw."
+          "La batalla termina tras haber completado cuatro puntos de inflexión. Si un jugador no tiene agentes en la zona de aniquilación pero la batalla no ha terminado, el otro jugador completa los turnos restantes hasta el final.çf",
+          "Al final de la batalla, todos los jugadores revelan sus operaciones primarias de manera simultánea. Obtienen PV adicionales igual a la mitad de lo que puntuaron con esa operación (redondeando al alza).",
+          "El jugador con más PV es el ganador. Si hay empate, la batalla acaba en empate."
         ]
       }
     ]
