@@ -70,7 +70,7 @@
       "name": "Jump",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Operatives can jump from Vantage terrain higher than 2” from the killzone floor when they move off it.\nYou can move them up to 4” horizontally from the edge when they jump, done like any other move\nexcept in one straight-line increment. The operative must then drop or climb from there. When jumping\nfrom a terrain feature, if there is a rampart at the edge you would jump from, you must climb it first\nbefore doing so, but still jump from the level of the Vantage terrain. When jumping to a terrain feature,\nyou can ignore its height difference of 1” or less, including its rampart (if any). However, when jumping\nfrom a terrain feature, if it has a rampart, you must climb it first.\n\nJumping means agents can move across gaps up to 4\" wide and over things that are below them.",
+      "text": "Operatives can jump from Vantage terrain higher than 2” from the killzone floor when they move off it.\nYou can move them up to 4” horizontally from the edge when they jump, done like any other move\nexcept in one straight-line increment. The operative must then drop or climb from there. When jumping\nfrom a terrain feature, if there is a rampart at the edge you would jump from, you must climb it first\nbefore doing so, but still jump from the level of the Vantage terrain. When jumping to a terrain feature,\nyou can ignore its height difference of 1” or less, including its rampart (if any).",
       "examples": [],
       "actions": [],
       "tags": [

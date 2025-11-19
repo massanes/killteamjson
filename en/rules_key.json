@@ -320,7 +320,7 @@
       "name": "Precedence",
       "aliases": [],
       "category": "key_principle",
-      "text": "Some rare rules will conflict with each other, so it must be established which takes precedence. In order of priority, a rule takes precedence if: 1. It specifically says so. 2. The online designer’s commentary says so. 3. It’s not found in the core book (i.e., other rules take precedence over core book rules). 4. It says \"cannot\". 5. The player with initiative decides.",
+      "text": "Some rare rules will conflict with each other, so it must be established which takes precedence. In order of priority, a rule takes precedence if: 1. It specifically says so. 2. The online designer’s commentary says so. 3. It’s not found in the core book (i.e., other rules take precedence over core book rules). 4. It says \"cannot\". 5. The active operative’s controlling player decides. 6. The player with initiative decides.",
       "examples": [],
       "tags": [
         "rules",

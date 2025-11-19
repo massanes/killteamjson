@@ -7,7 +7,7 @@
       "title": "Flank",
       "archetype": "Recon",
       "reveal": "As a STRATEGIC GAMBIT.",
-      "additionalRules": "Divide the killzone into two flanks (left and right) by drawing an imaginary line that's just like the centreline, except it runs from the centre of each player's killzone edge. An operative contests a flank while both wholly within it and within their opponent's territory. Friendly operatives control a flank if the total APL stat of those contesting it is greater than that of enemy operatives.",
+      "additionalRules": "Divide the killzone into two flanks (left and right) by drawing an imaginary line that's just like the centreline, except it runs from the centre of each player's killzone edge. An operative contests a flank while both wholly within it and wholly within their opponent's territory. Friendly operatives control a flank if the total APL stat of those contesting it is greater than that of enemy operatives.",
       "actions": [],
       "victoryPoints": [
         "After you reveal this op, at the end of each turning point after the first, for each flank friendly operatives control, you score 1VP.\nIf friendly operatives also controlled that flank at the end of the previous turning point (excluding the first), you score 2VP instead.\nYou cannot score more than 2VP from this op per turning point."
@@ -105,7 +105,7 @@
       "title": "Envoy",
       "archetype": "Security",
       "reveal": "The first time you select an envoy.",
-      "additionalRules": "As a STRATEGIC GAMBIT in each turning point after the first, select one friendly operative to be your envoy until the Ready step of the next Strategy phase. You cannot select an operative you selected during a previous turning point.",
+      "additionalRules": "As a STRATEGIC GAMBIT in each turning point after the first, select one friendly operative to be your envoy until the Ready step of the next Strategy phase. You cannot select an operative you selected during a previous turning point or an operative that's ignored for the kill op.",
       "actions": [],
       "victoryPoints": "At the end of each turning point after the first, if your envoy is wholly within enemy territory and not within control range of enemy operatives, you score 1VP; if this is true and your envoy has not lost any wounds during that turning point, you score 2VP instead."
     },
