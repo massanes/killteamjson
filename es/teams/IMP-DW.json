@@ -5,9 +5,9 @@
   "classified": true,
   "season": "Tomb world",
   "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_deathwatch-n9uexmycj0-mnutiohz2j.pdf",
-  "killteamName": "Deathwatch",
-  "description": "Deathwatch kill teams combat the xenos foes of the Imperium with adaptive expertise and specialist weaponry.  \n\nThey wield some of Humanity's most highly advanced weapons alongside more esoteric equipment. Besides their superhuman strength and speed, the Deathwatch bring to the battlefield their hatred of the xenos in all its forms.",
-  "composition": "\nA DEATHWATCH Killteam is composed of 5 DEATHWATCH operatives selected from the following list:\n- WATCH SERGEANT\n- AEGIS\n- BLADEMASTER\n- BOMBARD\n- BREACHER\n- DEMOLISHER\n- DISRUPTOR\n- GUNNER\n- HEADTAKER\n- HORDE-SLAYER\n- MARKSMAN\n\nYour kill team can only include each operative on this list once, and can only include up to one GRAVIS operative.",
+  "killteamName": "Vigías de la muerte",
+  "description": "Los equipos de exterminio de los Vigías de la Muerte luchan contra los enemigos alienígenas del Imperio con experiencia consagrada y armamento especializado.  \n\nEmpuñan algunas de las armas más avanzadas de la Humanidad junto con equipamiento más esotérico. Además de su fuerza y velocidad sobrehumanas, los Vigías de la muerte llevan al campo de batalla su odio hacia los xenos en todas sus formas.",
+  "composition": "\nA El equipo de exterminio de los VIGÍAS DE LA MUERTE está compuesto por 5 agentes VIGÍAS DE LA MUERTE elegidos de la siguiente lista:\n- SARGENTO VIGÍA\n- ÉGIDA\n- ESPADERO\n- BOMBARDERO\n- IRRUPTOR\n- DEMOLEDOR\n- DISRUPTOR\n- TIRADOR\n- CORTACABEZAS\n- MATAHORDAS\n- OJO PRECISO\n\nTu comando solo puede incluir a cada agente de esta lista una vez, y solo puede incluir hasta un agente **GRAVIS**.",
   "archetypes": [
     "Seek & Destroy",
     "Security"
@@ -18,64 +18,64 @@
       "killteamId": "IMP-DW",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Mission Tactics",
-      "description": "Select Conceal or Engage. Whenever a friendly DEATHWATCH operative is shooting against or fighting against an enemy operative that has that order, that friendly operative's weapons have the Balanced weapon rule."
+      "ployName": "TÁCTICAS DE MISIÓN",
+      "description": "Elige Ocultarse o Trabarse. Siempre que un agente VIGÍAS DE LA MUERTE amigo dispare o combata contra un agente enemigo que tenga la orden elegida, las armas de ese agente amigo tienen la regla de armas Equilibrada."
     },
     {
       "ployId": "IMP-DW-S-TLV",
       "killteamId": "IMP-DW",
       "ployType": "S",
       "seq": 2,
-      "ployName": "The Long Vigil",
-      "description": "Whenever an operative is shooting a friendly DEATHWATCH operative that's within your territory, you can re-roll one of your defence dice."
+      "ployName": "LA LARGA VIGILIA",
+      "description": "Siempre que un agente dispare contra un agente VIGÍAS DE LA MUERTE amigo que esté dentro de tu territorio, puedes repetir uno de tus dados de defensa."
     },
     {
       "ployId": "IMP-DW-S-TSTS",
       "killteamId": "IMP-DW",
       "ployType": "S",
       "seq": 3,
-      "ployName": "The Shield That Slays",
-      "description": "Whenever a friendly DEATHWATCH operative is within your opponent's territory, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
+      "ployName": "EL ESCUDO QUE MATA",
+      "description": "Siempre que un agente VIGÍAS DE LA MUERTE amigo se encuentre en el territorio de tu oponente, el Daño normal y crítico de 4+ le inflige 1 punto de daño menos."
     },
     {
       "ployId": "IMP-DW-S-ATSKNF",
       "killteamId": "IMP-DW",
       "ployType": "S",
       "seq": 4,
-      "ployName": "And They Shall Know No Fear",
-      "description": "You can ignore any changes to the stats of friendly DEATHWATCH operatives from being injured (including their weapons' stats)."
+      "ployName": "Y NO CONOCERÁN EL MIEDO",
+      "description": "Puedes ignorar cualquier cambio en los atributos de los agentes VIGÍAS DE LA MUERTE amigos por estar lesionados (incluidos los atributos de sus armas)."
     },
     {
       "ployId": "IMP-DW-T-SNTA",
       "killteamId": "IMP-DW",
       "ployType": "T",
       "seq": 5,
-      "ployName": "Suffer Not The Alien",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATHWATCH operative, if it's shooting against or fighting against an operative that doesn't have the CHAOS or IMPERIUM keyword. You can re-roll any of your attack dice."
+      "ployName": "NO TOLERES AL ALIENÍGENA",
+      "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque por un agente VIGÍAS DE LA MUERTE amigo, si está disparando o combatiendo contra un agente que no tiene la clave CAOS o IMPERIUM. Puedes repetir cualesquiera de tus dados de ataque."
     },
     {
       "ployId": "IMP-DW-T-AT",
       "killteamId": "IMP-DW",
       "ployType": "T",
       "seq": 6,
-      "ployName": "Auspicator Tracking",
-      "description": "Use this firefight ploy when a friendly DEATHWATCH operative is counteracting, before it performs any actions. You can change its order."
+      "ployName": "RASTREO AUSPICATOR",
+      "description": "Usa este ardid de tiroteo cuando un agente VIGÍAS DE LA MUERTE amigo esté reaccionando, antes de que empiece a realizar acciones. Puedes cambiar su orden."
     },
     {
       "ployId": "IMP-DW-T-AAS",
       "killteamId": "IMP-DW",
       "ployType": "T",
       "seq": 7,
-      "ployName": "Advanced Auspex Scan",
-      "description": "Use this firefight ploy when a friendly DEATHWATCH operative performs the Shoot action. Until the end of the activation/counteraction, its ranged weapons have the Saturate weapon rule and enemy operatives cannot be obscured."
+      "ployName": "LECTURAS DE ÁUSPEX AVANZADAS",
+      "description": "Usa este ardid de tiroteo cuando un agente VIGÍAS DE LA MUERTE amigo realice la acción Disparar. Hasta el final de la activación/reacción, sus armas a distancia tienen la regla de armas Saturación y los agentes enemigos no pueden estar ofuscados."
     },
     {
       "ployId": "IMP-DW-T-THP",
       "killteamId": "IMP-DW",
       "ployType": "T",
       "seq": 8,
-      "ployName": "Transhuman Physiology",
-      "description": "Use this firefight ploy when an operative is shooting a friendly DEATHWATCH operative, in the Roll Defence Dice step. You can retain one of your normal successes as a critical success instead."
+      "ployName": "FISIOLOGÍA TRANSHUMANA",
+      "description": "Usa este ardid de tiroteo cuando un agente dispare contra un agente VIGÍAS DE LA MUERTE amigo, en el paso de Tirar dados de defensa. Puedes guardar uno de tus éxitos normales como éxito crítico en su lugar."
     }
   ],
   "equipments": [
@@ -83,45 +83,45 @@
       "eqId": "IMP-DW-DW",
       "killteamId": "IMP-DW",
       "seq": 1,
-      "eqName": "Digital Weapons",
-      "description": "Once per turning point, when a friendly DEATHWATCH operative performs the Fight action, at the start of the Roll Attack Dice step, you can use this rule. If you do, inflict 1 damage on the enemy operative in that sequence.",
+      "eqName": "ARMAS DIGITALES",
+      "description": "Una vez por punto de inflexión, cuando un agente VIGÍAS DE LA MUERTE amigo realice la acción Combatir, al inicio del paso de Tirar dados de ataque puedes usar esta regla. Si lo haces, inflige 1 de daño al agente enemigo en esa secuencia.",
       "effects": ""
     },
     {
       "eqId": "IMP-DW-SST",
       "killteamId": "IMP-DW",
       "seq": 2,
-      "eqName": "Scrutavore Servo-Thrall",
-      "description": "Once per turning point, during a friendly DEATHWATCH operative's activation, you can use this rule. If you do, during that activation, that operative can perform a mission action for 1 less AP.\nHaving an enemy operative within its control range doesn't prevent that friendly operative from performing that mission action.\nHowever, in such an instance, after it does so, you and your opponent roll-off. If your opponent wins, you cannot use this equipment for the rest of the battle.",
+      "eqName": "SERVOSIERVO ESCRUTAVORO",
+      "description": "Una vez por punto de inflexión, durante la activación de un agente VIGÍAS DE LA MUERTE amigo, puedes usar esta regla. Si lo haces, durante esa activación ese agente puede realizar una acción de misión por 1 PA menos.\nTener a un agente enemigo en su zona de control no impide que ese agente amigo realice dicha acción de misión.\nEn tal caso, después de realizarla, tú y tu oponente hacéis una tirada de desempate; si tu oponente la gana, no podrás usar esta pieza de equipo durante el resto de la batalla.",
       "effects": ""
     },
     {
       "eqId": "IMP-DW-SVBSC",
       "killteamId": "IMP-DW",
       "seq": 3,
-      "eqName": "Sanctus-V Bioscryer Cuffs",
-      "description": "Once during each friendly DEATHWATCH operative's activation, before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, select one of the following:\n- That friendly operative regains up to D3 lost wounds.\n- Remove any changes to that friendly operative's APL stat.\n- Remove one of the following tokens that friendly operative has (before that token's activation effects are resolved, if relevant): Neutron Fragment, Poison, Terrorchem.",
+      "eqName": "BRAZALETES DE BIOESCRUTINIO SANCTUS-V",
+      "description": "Una vez durante la activación de cada agente VIGÍAS DE LA MUERTE amigo, antes o después de que realice una acción, si no está en la zona de control de agentes enemigos puedes usar esta regla. Si lo haces, elige una de las siguientes opciones:\n- Ese agente amigo recupera 1D3 heridas perdidas.\n- Retira cualesquiera cambios al atributo LPA de ese agente amigo.\n- Retira una de las siguientes fichas que tenga ese agente amigo (antes de que los efectos de activación de esa ficha se resuelvan, si es relevante): fragmento de neutrones, Veneno, Terrotoxina.",
       "effects": ""
     },
     {
       "eqId": "IMP-DW-AR",
       "killteamId": "IMP-DW",
       "seq": 4,
-      "eqName": "Ammunition Reserve",
-      "description": "Once per battle, you can use the Special Issue Ammunition faction rule for up to two Shoot actions during one turning point, but you must select different weapon rules for both uses. This takes precedence over the normal Special Issue Ammunition rules.",
+      "eqName": "RESERVA DE MUNICIÓN",
+      "description": "Una vez por batalla, puedes usar la regla de facción Munición especial para hasta dos acciones de Disparar durante un punto de inflexión, pero debes elegir reglas de armas distintas para ambos usos. Esto tiene preferencia sobre las reglas normales de Munición especial.",
       "effects": ""
     }
   ],
   "teamAbilities": [
     {
       "abilityId": "IMP-DW-TA-VEAS",
-      "abilityName": "Veteran Astartes",
-      "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
+      "abilityName": "ASTARTES VETERANOS",
+      "description": "Durante la activación de cada agente VIGÍAS DE LA MUERTE amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir. Si son dos acciones de Disparar y en ambas se selecciona un lanzagranadas auxiliar, cañón frag, incinerador de plasma pesado, bólter pesado infernus, pistola de plasma o rifle bólter silencio, debe gastarse 1 PA adicional para la segunda acción.\n\nCada agente VIGÍAS DE LA MUERTE amigo puede reaccionar con independencia de su orden. Siempre que lo haga, puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas."
     },
     {
       "abilityId": "IMP-DW-TA-SPISAM",
       "abilityName": "Special Issue Ammunition",
-      "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
+      "description": "Una vez por punto de inflexión, cuando un agente VIGÍAS DE LA MUERTE amigo esté realizando la acción Disparar, en el paso de Elegir arma, puedes usar esta regla. Si lo haces, elige una de las siguientes reglas de armas para que la tengan las armas a distancia de ese agente hasta el final de la acción.\nEsta regla no puede usarse con granadas explosivas (ver equipo universal) ni con bombas de fusión.\n\n- Area 1\" (no puedes elegir esta munición si el perfil del arma que se está usando tiene la regla de armas Ráfaga)\n- Devastadora 1\n- Letal 5+\n- Penetración 1\n- Desgarradora\n- Saturación\n- Severa"
     }
   ],
   "opTypes": [
@@ -129,7 +129,7 @@
       "opTypeId": "IMP-DW-SGT",
       "killteamId": "IMP-DW",
       "seq": 1,
-      "opTypeName": "Deathwatch Watch Sergeant",
+      "opTypeName": "Sargento Vigía",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -141,14 +141,14 @@
           "wepId": "IMP-DW-SGT-PP",
           "opTypeId": "IMP-DW-SGT",
           "seq": 1,
-          "wepName": "Plasma Pistol",
+          "wepName": "Pistola de plasma",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-SGT-PP-01",
               "wepId": "IMP-DW-SGT-PP",
               "seq": 1,
-              "profileName": "Standard",
+              "profileName": "Estándar",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/5",
@@ -167,7 +167,7 @@
               "wepprofileId": "IMP-DW-SGT-PP-02",
               "wepId": "IMP-DW-SGT-PP",
               "seq": 2,
-              "profileName": "Supercharge",
+              "profileName": "Sobrecarga",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "4/5",
@@ -195,7 +195,7 @@
           "wepId": "IMP-DW-SGT-PW",
           "opTypeId": "IMP-DW-SGT",
           "seq": 2,
-          "wepName": "Power Weapon",
+          "wepName": "Arma de energía",
           "wepType": "M",
           "profiles": [
             {
@@ -220,14 +220,14 @@
         {
           "abilityId": "IMP-DW-SGT-AA",
           "opTypeId": "IMP-DW-SGT",
-          "abilityName": "Adaptable Armoury",
-          "description": "You can select one additional equipment option."
+          "abilityName": "Armería adaptable",
+          "description": "Puedes elegir una opción de equipo adicional."
         },
         {
           "abilityId": "IMP-DW-SGT-SC",
           "opTypeId": "IMP-DW-SGT",
-          "abilityName": "Strategic Command",
-          "description": "You can do each of the following once per battle if this operative is in the killzone:\n- Use a DEATHWATCH strategy ploy for 0CP.\n- Use a DEATHWATCH firefight ploy for 0CP."
+          "abilityName": "Mando estratégico",
+          "description": "Puedes hacer cada una de las siguientes cosas una vez por batalla si este agente se encuentra en la zona de aniquilación:\n- Usar un ardid de estrategia VIGÍAS DE LA MUERTE por 0 PM.\n- Usar un ardid de tiroteo VIGÍAS DE LA MUERTE por 0 PM."
         }
       ]
     },
@@ -235,7 +235,7 @@
       "opTypeId": "IMP-DW-AEG",
       "killteamId": "IMP-DW",
       "seq": 2,
-      "opTypeName": "Deathwatch Aegis Veteran",
+      "opTypeName": "Veterano Égida",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "2+",
@@ -247,7 +247,7 @@
           "wepId": "IMP-DW-AEG-BP",
           "opTypeId": "IMP-DW-AEG",
           "seq": 1,
-          "wepName": "Bolt Pistol",
+          "wepName": "Pistola bólter",
           "wepType": "R",
           "profiles": [
             {
@@ -271,7 +271,7 @@
           "wepId": "IMP-DW-AEG-PMSS",
           "opTypeId": "IMP-DW-AEG",
           "seq": 2,
-          "wepName": "Power Maul & Storm Shield",
+          "wepName": "Maza de energía y escudo tormenta",
           "wepType": "M",
           "profiles": [
             {
@@ -287,7 +287,7 @@
                   "id": "WR-UNIV-SHOCK"
                 },
                 {
-                  "id": "WR-CHAOS-BLD-SHIELD"
+                  "id": "IMP-DW-AEG-SH"
                 }
               ]
             }
@@ -298,14 +298,14 @@
         {
           "abilityId": "IMP-DW-AEG-SH",
           "opTypeId": "IMP-DW-AEG",
-          "abilityName": "*Shield",
-          "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
+          "abilityName": "*Escudo",
+          "description": "Cuando este agente combate o contraataca con esta arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno)."
         },
         {
           "abilityId": "IMP-DW-AEG-SS",
           "opTypeId": "IMP-DW-AEG",
-          "abilityName": "Storm Shield",
-          "description": "Whenever an operative is shooting this operative, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored."
+          "abilityName": "Escudo de tormenta",
+          "description": "Siempre que un agente dispare contra este agente, empeora en 1 la x de la regla de armas Penetración (si la hay). Esto significa que Penetración 1 se ignora."
         }
       ]
     },
@@ -313,7 +313,7 @@
       "opTypeId": "IMP-DW-BLM",
       "killteamId": "IMP-DW",
       "seq": 3,
-      "opTypeName": "Deathwatch Blademaster Veteran",
+      "opTypeName": "Espadero Veterano",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -325,7 +325,7 @@
           "wepId": "IMP-DW-BLM-SIBP",
           "opTypeId": "IMP-DW-BLM",
           "seq": 1,
-          "wepName": "Special Issue Bolt Pistol",
+          "wepName": "Pistola bólter especial",
           "wepType": "R",
           "profiles": [
             {
@@ -423,7 +423,7 @@
           "wepId": "IMP-DW-BOM-BP",
           "opTypeId": "IMP-DW-BOM",
           "seq": 1,
-          "wepName": "Bolt Pistol",
+          "wepName": "Pistola bólter",
           "wepType": "R",
           "profiles": [
             {
@@ -657,7 +657,7 @@
           "wepId": "IMP-DW-DEM-BP",
           "opTypeId": "IMP-DW-DEM",
           "seq": 1,
-          "wepName": "Bolt Pistol",
+          "wepName": "Pistola bólter",
           "wepType": "R",
           "profiles": [
             {
@@ -806,7 +806,7 @@
           "wepId": "IMP-DW-GNR-BP",
           "opTypeId": "IMP-DW-GNR",
           "seq": 1,
-          "wepName": "Bolt Pistol",
+          "wepName": "Pistola bólter",
           "wepType": "R",
           "profiles": [
             {
@@ -837,7 +837,7 @@
               "wepprofileId": "IMP-DW-GNR-HPI-01",
               "wepId": "IMP-DW-GNR-HPI",
               "seq": 1,
-              "profileName": "Standard",
+              "profileName": "Estándar",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "4/6",
@@ -852,7 +852,7 @@
               "wepprofileId": "IMP-DW-GNR-HPI-02",
               "wepId": "IMP-DW-GNR-HPI",
               "seq": 2,
-              "profileName": "Supercharge",
+              "profileName": "Sobrecarga",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "5/6",
@@ -910,7 +910,7 @@
           "wepId": "IMP-DW-HTK-SIBP",
           "opTypeId": "IMP-DW-HTK",
           "seq": 1,
-          "wepName": "Special Issue Bolt Pistol",
+          "wepName": "Pistola bólter especial",
           "wepType": "R",
           "profiles": [
             {
@@ -985,7 +985,7 @@
           "wepId": "IMP-DW-HSL-BP",
           "opTypeId": "IMP-DW-HSL",
           "seq": 1,
-          "wepName": "Bolt Pistol",
+          "wepName": "Pistola bólter",
           "wepType": "R",
           "profiles": [
             {
