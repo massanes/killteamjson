@@ -260,8 +260,9 @@
                                     "number": 9
                                 },
                                 {
-                                    "id": "WR-UNIV-PIERCING-CRITS",
-                                    "number": 1
+                                    "id": "WR-UNIV-PIERCING",
+									"number": 1,
+									"details": "Crits"
                                 }
                             ]
                         }
@@ -335,8 +336,9 @@
                                     "details": "solo Correr"
                                 },
                                 {
-                                    "id": "WR-UNIV-PIERCING-CRITS",
-                                    "number": 1
+                                    "id": "WR-UNIV-PIERCING",
+									"number": 1,
+									"details": "Crits"
                                 },
                                 {
                                     "id": "WR-UNIV-SILENT"
@@ -388,14 +390,14 @@
                 {
                     "abilityId": "IMP-WS-FE-SVE",
                     "opTypeId": "IMP-WS-FE",
-                    "abilityName": "Storm-veiled Execution",
-                    "description": "Whenever this operative is within your STORM:\n- It can perform the Guard action regardless of the killzone (see close quarters rules, Kill Team Core Book).\n- It can perform the Guard action while it has a Conceal order, but if it does, it cannot perform more than one Shoot action for the rest of the turning point (i.e. it cannot Shoot both during the interruption and during counteract)."
+                    "abilityName": "Tormenta ejecutora",
+                    "description": " Siempre que este agente esté en tu TORMENTA:\n- Puede realizar la acción de Ponerse en guardia independientemente de la zona de aniquilación (ver reglas de combate cerrado, Reglamento básico de Kill Team).\n- Puede realizar la acción de Ponerse en guardia mientras tiene una orden de ocultarse, pero, si lo hace, no puede realizar más de una acción de Disparar durante el resto del punto de inflexión (p. ej. no puede Disparar durante la interrupción y durante la reacción)."
                 },
                 {
                     "abilityId": "IMP-WS-FE-HS",
                     "opTypeId": "IMP-WS-FE",
-                    "abilityName": "Hunter's Senses",
-                    "description": "1AP. Select one of the following rules for all profiles of this operative's instigator bolt carbine to have until the start of its next activation:\n- Severe.\n- Saturate, and whenever this operative is shooting with that weapon, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+                    "abilityName": "SENTIDOS DE CAZADOR",
+                    "description": "1AP. Elige 1 de las siguientes reglas para todos los perfiles de la carabina bólter instigador de este agente. La tendrán hasta el inicio de su siguiente activación:\n- Severa.\n- Saturación, y siempre que este agente dispare con esa arma, los agentes enemigos no pueden estar ofuscados.\n\nThis operative cannot perform this action while within control range of an enemy operative."
                 }
             ]
         },
@@ -403,7 +405,7 @@
             "opTypeId": "IMP-WS-GNR",
             "killteamId": "IMP-WS",
             "seq": 4,
-            "opTypeName": "Wolf Scout Gunner",
+            "opTypeName": "TIRADOR",
             "MOVE": "7\"",
             "APL": 3,
             "SAVE": "3+",
@@ -415,7 +417,7 @@
                     "wepId": "IMP-WS-GNR-PG",
                     "opTypeId": "IMP-WS-GNR",
                     "seq": 1,
-                    "wepName": "Plasma Gun",
+                    "wepName": "Rifle de plasma",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -481,8 +483,8 @@
                 {
                     "abilityId": "IMP-WS-GNR-TF",
                     "opTypeId": "IMP-WS-GNR",
-                    "abilityName": "Tempest's Fury",
-                    "description": "Whenever this operative is within your STORM:\n- All profiles of its plasma gun have the Punishing weapon rule.\n- Its plasma gun (Sobrecarga) doesn't have the Hot weapon rule."
+                    "abilityName": "Furia de la tempestad",
+                    "description": "Siempre que este agente esté en tu TORMENTA:\n- Todos los perfiles de su rifle de plasma tienen la regla de armas Castigadora\n- Su rifle de plasma (sobrecarga) no tiene la regla de armas Sobrecalentamiento."
                 }
             ]
         },
@@ -490,7 +492,7 @@
             "opTypeId": "IMP-WS-HNT",
             "killteamId": "IMP-WS",
             "seq": 5,
-            "opTypeName": "Wolf Scout Hunter",
+            "opTypeName": "CAZADOR",
             "MOVE": "7\"",
             "APL": 3,
             "SAVE": "3+",
@@ -576,8 +578,8 @@
                 {
                     "abilityId": "IMP-WS-HNT-FT",
                     "opTypeId": "IMP-WS-HNT",
-                    "abilityName": "Fierce Temperament",
-                    "description": "Whenever this operative is within your STORM, its weapons have the Severe weapon rule."
+                    "abilityName": "Temperamento fiero",
+                    "description": " Siempre que este agente esté en tu TORMENTA, sus armas tienen la regla de armas Severa."
                 }
             ]
         },
@@ -585,7 +587,7 @@
             "opTypeId": "IMP-WS-RPS",
             "killteamId": "IMP-WS",
             "seq": 6,
-            "opTypeName": "Wolf Scout Rune Priest Skjald",
+            "opTypeName": "SACERDOTE RÚNICO ESCALDO",
             "MOVE": "7\"",
             "APL": 3,
             "SAVE": "3+",
@@ -597,7 +599,7 @@
                     "wepId": "IMP-WS-RPS-BP",
                     "opTypeId": "IMP-WS-RPS",
                     "seq": 1,
-                    "wepName": "Bolt Pistol",
+                    "wepName": "Pistola bólter",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -621,7 +623,7 @@
                     "wepId": "IMP-WS-RPS-JWW",
                     "opTypeId": "IMP-WS-RPS",
                     "seq": 2,
-                    "wepName": "Jaws of the World Wolf",
+                    "wepName": "Fauces del Mundo Lobo",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -651,7 +653,7 @@
                     "wepId": "IMP-WS-RPS-TC",
                     "opTypeId": "IMP-WS-RPS",
                     "seq": 3,
-                    "wepName": "Thunderclap",
+                    "wepName": "Golpe de trueno",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -691,7 +693,7 @@
                     "wepId": "IMP-WS-RPS-RS",
                     "opTypeId": "IMP-WS-RPS",
                     "seq": 4,
-                    "wepName": "Runic Stave",
+                    "wepName": "Báculo rúnico",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -718,14 +720,14 @@
                 {
                     "abilityId": "IMP-WS-RPS-CTR",
                     "opTypeId": "IMP-WS-RPS",
-                    "abilityName": "Cast the Runes",
-                    "description": "After selecting this operative, before the battle, roll three D6 and put them to one side. For each result of 1-4, you can use the Command Re-roll firefight ploy for 0CP once during the turning point that matches the result. For each result of 5-6, you gain 1CP. For example, if you roll 2, 2 and 5, you gain 1CP and twice during the second turning point you can use Command Re-roll for 0CP."
+                    "abilityName": "Lanzar las runas",
+                    "description": " Tras elegir este agente, antes de la batalla, tira tres D6 y déjalos a un lado. Por cada 1-4, puedes usar el ardid de tiroteo Repetición de mando por 0PM una vez durante el punto de inflexión que coincida con el resultado. Por cada 5-6, ganas 1PM. Por ejemplo, si obtuviste 2, 2, y 5, ganas 1PM y durante el segundo punto de inflexión podrás usar Repetición de mando dos veces por 0PM."
                 },
                 {
                     "abilityId": "IMP-WS-RPS-CTS",
                     "opTypeId": "IMP-WS-RPS",
-                    "abilityName": "Call the Storm",
-                    "description": "1AP. PSYCHIC. Remove your Storm marker from the killzone (if any), then place it in the killzone.\n\nPSYCHIC. Alternatively, instead of resolving the above effect, select one friendly WOLF SCOUT operative. Until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first), whenever that friendly operative is within your STORM and more than 3\" from the active operative, it's obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+                    "abilityName": "LLAMAR A LA TORMENTA",
+                    "description": "1AP. PSÍQUICA. Retira tu marcador de Tormenta de la zona de aniquilación (si lo hay). A continuación, colócalo en la zona de aniquilación.\n\nPSÍQUICA. Alternativamente, en lugar de resolver el efecto anterior, elige 1 agente EXPLORADOR LOBO amigo. Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado, o hasta que realice esta acción de nuevo (lo que ocurra antes), siempre que ese agente amigo esté en tu TORMENTA y a más de 3\" del agente activo, estará ofuscado.\n\nEste agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo."
                 }
             ]
         },
@@ -733,7 +735,7 @@
             "opTypeId": "IMP-WS-TM",
             "killteamId": "IMP-WS",
             "seq": 7,
-            "opTypeName": "Wolf Scout Trapmaster",
+            "opTypeName": "MAESTRO TRAMPERO",
             "MOVE": "7\"",
             "APL": 3,
             "SAVE": "3+",
@@ -819,14 +821,14 @@
                 {
                     "abilityId": "IMP-WS-TM-HM",
                     "opTypeId": "IMP-WS-TM",
-                    "abilityName": "Haywire Mine",
-                    "description": "This operative is carrying your Haywire Mine marker. It can perform the Pick Up Marker action on that marker, but that marker cannot be placed within another operative's control range (if this operative is incapacitated while carrying that marker and that marker cannot be placed, it's removed with this operative)."
+                    "abilityName": "Mina de disrupción",
+                    "description": "Este agente lleva tu marcador de Mina de disrupción. Puede realizar la acción de Recoger marcador sobre ese marcador, pero ese marcador no puede ser colocado en la zona de control de un agente enemigo (si este agente queda incapacitado mientras lleva el marcador en cuestión y el marcador no puede ser colocado, es retirado junto con este agente)."
                 },
                 {
                     "abilityId": "IMP-WS-TM-PM",
                     "opTypeId": "IMP-WS-TM",
-                    "abilityName": "Proximity Mine",
-                    "description": "The first time your Haywire Mine marker is within another operative's control range, remove that marker, subtract 1 from that operative's APL stat until the end of its next activation, and inflict 2D3+3 damage on it (or D3+6 if that marker is within 6\" horizontally of your Storm marker); if it isn't incapacitated, end its action (if any), even if that action's effects aren't fulfilled. If it cannot be placed, move it the minimum amount to do so. Note that this operative is ignored for these effects (i.e. it cannot set it off or take damage from that marker)."
+                    "abilityName": "Mina de proximidad",
+                    "description": "La primera vez que tu marcador de Mina de disrupción quede dentro de la zona de control de otro agente, retira ese marcador, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación, e inflígele 2D3+3 daños (o 1D3+6 si ese marcador está a 6” o menos horizontalmente de tu marcador de Tormenta); si no resulta incapacitado, termina su acción (si está realizando una), aunque los efectos de la misma no se hayan completado. Si no puede ser colocado, muévelo la distancia mínima hasta que pueda. Este agente se ignora de cara a esos efectos (no puede activar ese marcador ni sufrir daños debido al mismo)."
                 }
             ]
         },
@@ -834,7 +836,7 @@
             "opTypeId": "IMP-WS-FW",
             "killteamId": "IMP-WS",
             "seq": 8,
-            "opTypeName": "Wolf Scout Fenrisian Wolf",
+            "opTypeName": "LOBO FENRISIANO",
             "MOVE": "8\"",
             "APL": 2,
             "SAVE": "5+",
@@ -846,7 +848,7 @@
                     "wepId": "IMP-WS-FW-F",
                     "opTypeId": "IMP-WS-FW",
                     "seq": 1,
-                    "wepName": "Fangs",
+                    "wepName": "Colmillos",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -870,14 +872,14 @@
                 {
                     "abilityId": "IMP-WS-FW-IP",
                     "opTypeId": "IMP-WS-FW",
-                    "abilityName": "Instinctive Predator",
-                    "description": "This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight and Reposition. It cannot use any weapons that aren't on its datacard. This operative can perform the Charge action while it has a Conceal order."
+                    "abilityName": "Depredador instintivo",
+                    "description": "Este agente solo puede realizar las acciones de Cargar, Correr, Retroceder, Combatir y Reposicionarse. No puede usar armas que no estén en su hoja de datos. Este agente puede realizar la acción de Cargar mientras tenga una orden de ocultarse."
                 },
                 {
                     "abilityId": "IMP-WS-FW-P",
                     "opTypeId": "IMP-WS-FW",
-                    "abilityName": "Pounce",
-                    "description": "Once per battle STRATEGIC GAMBIT. If this operative's APL stat is 2 or more, this operative can perform a free Charge, Fall Back or Reposition action. If it does, until the end of its next activation, subtract 1 from its APL stat and it cannot perform any of the aforementioned actions."
+                    "abilityName": "Sin parar",
+                    "description": " Una vez por batalla GAMBITO ESTRATÉGICO. Si el atributo LPA de este agente es 2 o más, este agente puede realizar una acción libre de Cargar, Retroceder o Reposicionarse. Si lo hace, hasta el final de su siguiente activación, resta 1 a su atributo LPA y no puede realizar ninguna de las acciones anteriores"
                 }
             ]
         }
