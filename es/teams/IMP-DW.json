@@ -708,7 +708,7 @@
         {
           "abilityId": "IMP-DW-DEM-AF",
           "opTypeId": "IMP-DW-DEM",
-          "abilityName": "Fuerza agresiva:",
+          "abilityName": "Fuerza agresiva",
           "description": "Siempre que este agente combata o contraataque, resta 1 a ambos atributos de Daño de las armas que tenga el agente enemigo en esa secuencia (hasta un mínimo de 2). Esto no es acumulable con el ardid estratégico **El escudo que mata**."
         },
         {
