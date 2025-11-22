@@ -287,7 +287,7 @@
                   "id": "WR-UNIV-SHOCK"
                 },
                 {
-                  "id": "Escudo"
+                  "id": "Escudo*"
                 }
               ]
             }
@@ -353,14 +353,14 @@
           "wepId": "IMP-DW-BLM-XPB",
           "opTypeId": "IMP-DW-BLM",
           "seq": 2,
-          "wepName": "Xenophase Blade",
+          "wepName": "Espada xenofase",
           "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BLM-XPB-01",
               "wepId": "IMP-DW-BLM-XPB",
               "seq": 1,
-              "profileName": "Duel",
+              "profileName": "Duelo",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "4/6",
@@ -378,7 +378,7 @@
               "wepprofileId": "IMP-DW-BLM-XPB-02",
               "wepId": "IMP-DW-BLM-XPB",
               "seq": 2,
-              "profileName": "Phase Sweep",
+              "profileName": "Barrido de phase",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "4/6",
@@ -402,8 +402,8 @@
         {
           "abilityId": "IMP-DW-BLM-AS",
           "opTypeId": "IMP-DW-BLM",
-          "abilityName": "Adaptive Swordsmanship",
-          "description": "You can ignore any changes to the Hit stat of this operative's Xenophase blade. Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
+          "abilityName": "Esgrimista versátil:",
+          "description": "Puedes ignorar cualquier cambio al atributo **Impactar** de la espada xenofase de este agente. Cuando este agente combata o contraataque, puedes resolver uno de tus éxitos antes del orden normal. Si lo haces, ese éxito debe usarse para **bloquear**."
         }
       ]
     },
@@ -411,7 +411,7 @@
       "opTypeId": "IMP-DW-BOM",
       "killteamId": "IMP-DW",
       "seq": 4,
-      "opTypeName": "Deathwatch Bombard Veteran",
+      "opTypeName": "Veterano Bombardero",
       "MOVE": "5\"",
       "APL": 3,
       "SAVE": "3+",
@@ -447,14 +447,14 @@
           "wepId": "IMP-DW-BOM-FC",
           "opTypeId": "IMP-DW-BOM",
           "seq": 2,
-          "wepName": "Frag Cannon",
+          "wepName": "Cañón frag",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BOM-FC-01",
               "wepId": "IMP-DW-BOM-FC",
               "seq": 1,
-              "profileName": "Shell",
+              "profileName": "Proyectil",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "5/7",
@@ -469,7 +469,7 @@
               "wepprofileId": "IMP-DW-BOM-FC-02",
               "wepId": "IMP-DW-BOM-FC",
               "seq": 2,
-              "profileName": "Shrapnel",
+              "profileName": "Metralla",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "4/5",
@@ -486,7 +486,7 @@
           "wepId": "IMP-DW-BOM-F",
           "opTypeId": "IMP-DW-BOM",
           "seq": 3,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -508,7 +508,7 @@
       "opTypeId": "IMP-DW-BRC",
       "killteamId": "IMP-DW",
       "seq": 5,
-      "opTypeName": "Deathwatch Breacher Veteran",
+      "opTypeName": "Veterano Irruptor",
       "MOVE": "5\"",
       "APL": 3,
       "SAVE": "3+",
@@ -520,7 +520,7 @@
           "wepId": "IMP-DW-BRC-AGL",
           "opTypeId": "IMP-DW-BRC",
           "seq": 1,
-          "wepName": "Auxiliary Grenade Launcher",
+          "wepName": "Lanzagranadas auxiliar",
           "wepType": "R",
           "profiles": [
             {
@@ -559,7 +559,7 @@
           "wepId": "IMP-DW-BRC-HSBR",
           "opTypeId": "IMP-DW-BRC",
           "seq": 2,
-          "wepName": "Hellstorm Bolt Rifle",
+          "wepName": "Rifle bolter tormenta infernal",
           "wepType": "R",
           "profiles": [
             {
@@ -583,7 +583,7 @@
           "wepId": "IMP-DW-BRC-MB",
           "opTypeId": "IMP-DW-BRC",
           "seq": 3,
-          "wepName": "Melta Bomb",
+          "wepName": "Bomba de fusión",
           "wepType": "R",
           "profiles": [
             {
@@ -605,7 +605,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Reposition"
+                  "details": "Reposicionarse"
                 },
                 {
                   "id": "WR-UNIV-LIMITED",
@@ -623,7 +623,7 @@
           "wepId": "IMP-DW-BRC-F",
           "opTypeId": "IMP-DW-BRC",
           "seq": 4,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -645,7 +645,7 @@
       "opTypeId": "IMP-DW-DEM",
       "killteamId": "IMP-DW",
       "seq": 6,
-      "opTypeName": "Deathwatch Demolisher Veteran",
+      "opTypeName": "Veterano Demoledor",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -681,7 +681,7 @@
           "wepId": "IMP-DW-DEM-HTH",
           "opTypeId": "IMP-DW-DEM",
           "seq": 2,
-          "wepName": "Heavy Thunder Hammer",
+          "wepName": "Martillo trueno pesado",
           "wepType": "M",
           "profiles": [
             {
@@ -708,14 +708,14 @@
         {
           "abilityId": "IMP-DW-DEM-AF",
           "opTypeId": "IMP-DW-DEM",
-          "abilityName": "Aggressive Force",
-          "description": "Whenever this operative is fighting or retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less damage on it. This isn't cumulative with the Shield that Slays strategy ploy."
+          "abilityName": "Fuerza agresiva:",
+          "description": "Siempre que este agente combata o contraataque, resta 1 a ambos atributos de Daño de las armas que tenga el agente enemigo en esa secuencia (hasta un mínimo de 2). Esto no es acumulable con el ardid estratégico **El escudo que mata**."
         },
         {
           "abilityId": "IMP-DW-DEM-BA",
           "opTypeId": "IMP-DW-DEM",
-          "abilityName": "Brutal Assault",
-          "description": "Whenever this operative is fighting, its Heavy thunder hammer has the Brutal weapon rule. Whenever this operative performs the Charge action, its Heavy thunder hammer has the Ceaseless weapon rule until the end of the activation/counteraction."
+          "abilityName": "Asalto brutal",
+          "description": " Siempre que este agente combate, su martillo de trueno pesado tiene la regla de armas Brutal. Siempre que este agente realiza la acción Cargar, su martillo de trueno pesado tiene la regla de armas Incesante hasta el final de la activación/reacción."
         }
       ]
     },
@@ -723,7 +723,7 @@
       "opTypeId": "IMP-DW-DIS",
       "killteamId": "IMP-DW",
       "seq": 7,
-      "opTypeName": "Deathwatch Disruptor Veteran",
+      "opTypeName": "Veterano Disruptor",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "3+",
@@ -735,7 +735,7 @@
           "wepId": "IMP-DW-DIS-MBC",
           "opTypeId": "IMP-DW-DIS",
           "seq": 1,
-          "wepName": "Marksman Bolt Carbine",
+          "wepName": "Carabina bólter de tirador",
           "wepType": "R",
           "profiles": [
             {
@@ -759,7 +759,7 @@
           "wepId": "IMP-DW-DIS-F",
           "opTypeId": "IMP-DW-DIS",
           "seq": 2,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -779,14 +779,14 @@
         {
           "abilityId": "IMP-DW-DIS-AOS",
           "opTypeId": "IMP-DW-DIS",
-          "abilityName": "Advanced Omni-Scrambler",
-          "description": "STRATEGIC GAMBIT.\nSelect one enemy operative visible to or within 6\" of this operative, then roll one D6. In the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n- Your opponent has activated a number of enemy operatives equal to the result of the D6.\n- It's the last enemy operative to be activated."
+          "abilityName": "Omniinterferidor avanzado",
+          "description": "GAMBITO ESTRATÉGICO.\nElige un agente enemigo visible para este agente o a 6\" o menos de él, y a continuación tira 1D6. En la fase de tiroteo del punto de inflexión, dicho agente enemigo no puede ser activado ni realizar acciones hasta que se dé una de las siguientes circunstancias:\n-  Tu oponente ha activado a un número de agentes enemigos igual al resultado del 1D6.\n-  Es el último agente enemigo en ser activado."
         },
         {
           "abilityId": "IMP-DW-DIS-AT",
           "opTypeId": "IMP-DW-DIS",
-          "abilityName": "Auspex Triangulation",
-          "description": "The Advanced Auspex Scan firefight ploy costs you 0CP when both of the following are true:\n- This operative isn't within control range of enemy operatives.\n- The target of that Shoot action (primary target, if relevant) is visible to this operative.\n\nNote that it doesn't have to be this operative performing the Shoot action."
+          "abilityName": "Triangulación Auspex",
+          "description": " El ardid de tiroteo Lecturas de Auspex avanzadas te costará 0 PM cuando se den las dos siguientes circunstancias:\n- Este agente no se encuentra en la zona de control de los agentes enemigos\n-  El blanco de esa acción de Disparar (el blanco principal, en caso de que proceda) es visible para este agente\n\nTen en cuenta que no es necesario que sea este agente quien realice la acción de Disparar, y que cualquier acción de Disparar subsiguiente durante esa activación/reacción debe cumplir los mismos requisitos (o ese ardid no tiene efecto en las acciones de Disparar subsiguientes)."
         }
       ]
     },
@@ -794,7 +794,7 @@
       "opTypeId": "IMP-DW-GNR",
       "killteamId": "IMP-DW",
       "seq": 8,
-      "opTypeName": "Deathwatch Gunner Veteran",
+      "opTypeName": "Veterano Tirador",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -830,7 +830,7 @@
           "wepId": "IMP-DW-GNR-HPI",
           "opTypeId": "IMP-DW-GNR",
           "seq": 2,
-          "wepName": "Heavy Plasma Incinerator",
+          "wepName": "Incinerador de plasma pesado",
           "wepType": "R",
           "profiles": [
             {
@@ -876,7 +876,7 @@
           "wepId": "IMP-DW-GNR-F",
           "opTypeId": "IMP-DW-GNR",
           "seq": 3,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -898,7 +898,7 @@
       "opTypeId": "IMP-DW-HTK",
       "killteamId": "IMP-DW",
       "seq": 9,
-      "opTypeName": "Deathwatch Headtaker Veteran",
+      "opTypeName": "Veterano Cortacabezas",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "3+",
@@ -938,7 +938,7 @@
           "wepId": "IMP-DW-HTK-CK",
           "opTypeId": "IMP-DW-HTK",
           "seq": 2,
-          "wepName": "Combat Knives",
+          "wepName": "Filoarmas",
           "wepType": "M",
           "profiles": [
             {
@@ -958,14 +958,14 @@
         {
           "abilityId": "IMP-DW-HTK-CHT",
           "opTypeId": "IMP-DW-HTK",
-          "abilityName": "Clandestine Headtaker",
-          "description": "This operative can perform the Charge action while it has a Conceal order. Whenever this operative is fighting against an operative it wasn't visible to at the start of the activation/counteraction, the first time you strike during that sequence, you can immediately resolve another of your successes as a strike (before your opponent)."
+          "abilityName": "Cortacabezas clandestino:",
+          "description": "Este agente puede realizar la acción de Cargar mientras tenga una orden de ocultarse. Cuando este agente combata contra un agente para el que no era visible al inicio de la activación/reacción, la primera vez que golpees durante esa secuencia puedes resolver de inmediato otro de tus éxitos como un golpe (antes que tu oponente)."
         },
         {
           "abilityId": "IMP-DW-HTK-GCGL",
           "opTypeId": "IMP-DW-HTK",
-          "abilityName": "Grav-chute and Grapnel Launcher",
-          "description": "Whenever this operative is climbing, treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically). Whenever this operative is dropping, ignore the vertical distance."
+          "abilityName": "Paracaídas gravitatorio y lanzagarfios:",
+          "description": "Cuando este agente esté trepando, considera la distancia vertical como 2\" (sin importar lo lejos que se mueva verticalmente el agente en realidad). Cuando este agente se deje caer, ignora la distancia vertical."
         }
       ]
     },
@@ -973,7 +973,7 @@
       "opTypeId": "IMP-DW-HSL",
       "killteamId": "IMP-DW",
       "seq": 10,
-      "opTypeName": "Deathwatch Horde-Slayer Veteran",
+      "opTypeName": "Veterano matahordas",
       "MOVE": "5\"",
       "APL": 3,
       "SAVE": "3+",
@@ -1009,14 +1009,14 @@
           "wepId": "IMP-DW-HSL-IHB",
           "opTypeId": "IMP-DW-HSL",
           "seq": 2,
-          "wepName": "Infernus Heavy Bolter",
+          "wepName": "Bólter pesado infernus",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-HSL-IHB-01",
               "wepId": "IMP-DW-HSL-IHB",
               "seq": 1,
-              "profileName": "Flame",
+              "profileName": "Llamas",
               "ATK": "5",
               "HIT": "2+",
               "DMG": "3/3",
@@ -1038,7 +1038,7 @@
               "wepprofileId": "IMP-DW-HSL-IHB-02",
               "wepId": "IMP-DW-HSL-IHB",
               "seq": 2,
-              "profileName": "Focused Bolt",
+              "profileName": "Concentrado",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "4/5",
@@ -1054,7 +1054,7 @@
               "wepprofileId": "IMP-DW-HSL-IHB-03",
               "wepId": "IMP-DW-HSL-IHB",
               "seq": 3,
-              "profileName": "Sweeping Bolt",
+              "profileName": "Barrido",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "4/5",
@@ -1076,7 +1076,7 @@
           "wepId": "IMP-DW-HSL-F",
           "opTypeId": "IMP-DW-HSL",
           "seq": 3,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -1098,7 +1098,7 @@
       "opTypeId": "IMP-DW-MRK",
       "killteamId": "IMP-DW",
       "seq": 11,
-      "opTypeName": "Deathwatch Marksman Veteran",
+      "opTypeName": "Veterano Ojo Preciso",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -1110,14 +1110,14 @@
           "wepId": "IMP-DW-MRK-SBR",
           "opTypeId": "IMP-DW-MRK",
           "seq": 1,
-          "wepName": "Stalker Bolt Rifle",
+          "wepName": "Rifle bólter silencio",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-MRK-SBR-01",
               "wepId": "IMP-DW-MRK-SBR",
               "seq": 1,
-              "profileName": "Mobile",
+              "profileName": "Móvil",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/4",
@@ -1127,14 +1127,14 @@
               "wepprofileId": "IMP-DW-MRK-SBR-02",
               "wepId": "IMP-DW-MRK-SBR",
               "seq": 2,
-              "profileName": "Heavy",
+              "profileName": "Pesada",
               "ATK": "4",
               "HIT": "2+",
               "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Dash"
+                  "details": "Correr"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -1153,7 +1153,7 @@
           "wepId": "IMP-DW-MRK-F",
           "opTypeId": "IMP-DW-MRK",
           "seq": 2,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -1173,8 +1173,8 @@
         {
           "abilityId": "IMP-DW-MRK-VIG",
           "opTypeId": "IMP-DW-MRK",
-          "abilityName": "Vigilant Marksman",
-          "description": "This operative can perform the Guard action during its activation regardless of the killzone (see close quarters rules, Kill Team: Tomb World).\nWhen using the close quarters rules, once per turning point, after this operative performs a free Shoot action on guard, it can immediately perform a free Guard action.\nHowever, if it does, it cannot counteract (nor Guard twice if it's counteracted)."
+          "abilityName": "Tirador vigilante",
+          "description": "Este agente puede realizar la acción En guardia (ver las reglas de combate cerrado, pág. 58) en cualquier zona de aniquilación.\nAl usar las reglas de combate cerrado, una vez por punto de inflexión, después de que este agente realice una acción libre de Disparar estando en guardia, puede realizar de inmediato una acción libre de En guardia.\nNo obstante, si lo hace, no podrá reaccionar (ni ponerse En guardia dos veces si sufre una reacción)."
         }
       ]
     }
