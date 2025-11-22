@@ -121,7 +121,7 @@
     {
       "abilityId": "IMP-DW-TA-SPISAM",
       "abilityName": "MUNICIÓN ESPECIAL",
-      "description": "Una vez por punto de inflexión, cuando un agente VIGÍAS DE LA MUERTE amigo esté realizando la acción Disparar, en el paso de Elegir arma, puedes usar esta regla. Si lo haces, elige una de las siguientes reglas de armas para que la tengan las armas a distancia de ese agente hasta el final de la acción.\nEsta regla no puede usarse con granadas explosivas (ver equipo universal) ni con bombas de fusión.\n\n- Area 1\" (no puedes elegir esta munición si el perfil del arma que se está usando tiene la regla de armas Ráfaga)\n- Devastadora 1\n- Letal 5+\n- Penetración 1\n- Desgarradora\n- Saturación\n- Severa"
+      "description": "Una vez por punto de inflexión, cuando un agente VIGÍAS DE LA MUERTE amigo esté realizando la acción Disparar, en el paso de Elegir arma, puedes usar esta regla. Si lo haces, elige una de las siguientes reglas de armas para que la tengan las armas a distancia de ese agente hasta el final de la acción.\nEsta regla no puede usarse con granadas explosivas (ver equipo universal) ni con bombas de fusión.\n\n- Área 1\" (no puedes elegir esta munición si el perfil del arma que se está usando tiene la regla de armas Ráfaga)\n- Devastadora 1\n- Letal 5+\n- Penetración 1\n- Desgarradora\n- Saturación\n- Severa"
     }
   ],
   "opTypes": [
