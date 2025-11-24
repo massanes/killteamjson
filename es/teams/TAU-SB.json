@@ -18,64 +18,64 @@
             "killteamId": "TAU-SB",
             "ployType": "S",
             "seq": 1,
-            "ployName": "Patient Hunters",
-            "description": "Whenever a friendly XV26 STEALTH BATTLESUIT operative is shooting against or fighting against an expended enemy operative, that friendly operative's weapons have the Balanced weapon rule and its ranged weapons have the Saturate weapon rule."
+            "ployName": "CAZADORES PACIENTES",
+            "description": "Siempre que un agente **EXOARMADURA XV26 SIGILO** amigo dispare o combata contra un agente enemigo usado, las armas de dicho agente amigo tienen la regla de armas Equilibrada y sus armas a distancia, además, tienen la regla de armas Saturación."
         },
         {
             "ployId": "TAU-SB-S-BOU",
             "killteamId": "TAU-SB",
             "ployType": "S",
             "seq": 2,
-            "ployName": "Bonds of Unity",
-            "description": "Whenever a friendly XV26 STEALTH BATTLESUIT operative is activated (excluding DRONE), if it's visible to and within 6\" of another friendly XV26 STEALTH BATTLESUIT operative (excluding DRONE), you can ignore any changes to that first friendly operative's APL stat and select one of the following:\n- Ignore any changes to that first friendly operative's Move stat from being injured until the end of that activation.\n- Ignore any changes to the Hit stat of that first friendly operative's weapons from being injured until the end of that activation."
+            "ployName": "VÍNCULOS DE UNIDAD",
+            "description": "Siempre que un agente EXOARMADURA XV26 SIGILO amigo (salvo DRON) se active, si es visible para otro agente **EXOARMADURA XV26 SIGILO** amigo (salvo DRON) y está a 6\" o menos de él, puedes ignorar cualquier modificador al LPA de ese primer agente amigo y elegir una de las siguientes opciones:\n- Ignora cualquier cambio al atributo Movimiento de ese primer agente amigo por estar lesionado hasta el final de esa activación.\n- Ignora cualquier cambio al atributo Impactar de las armas de ese primer agente amigo por estar lesionado hasta el final de esa activación."
         },
         {
             "ployId": "TAU-SB-S-PA",
             "killteamId": "TAU-SB",
             "ployType": "S",
             "seq": 3,
-            "ployName": "Prepare Ambush",
-            "description": "Place one of your Ambush markers wholly within your territory and more than 2\" from enemy operatives. Whenever a friendly XV26 STEALTH BATTLESUIT operative is shooting an enemy operative that's within 2\" of that marker, you can use this rule. If you do, remove that marker and that friendly operative's ranged weapons have the Seek weapon rule until the end of the action. In the Ready step of the next Strategy phase, if that marker is still in the killzone, remove that marker."
+            "ployName": "PREPARAR EMBOSCADA",
+            "description": "1 de tus marcadores de Emboscada completamente en tu territorio y a más de 2\" de todo agente enemigo. Puedes usar Coloca esta regla siempre que un agente EXOARMADURA XV26 SIGILO amigo dispare a un agente enemigo que esté a 2\" o menos de ese marcador. Si lo haces, retira ese marcador y las armas a distancia de ese agente amigo tienen la regla de armas Buscadora hasta el final de la acción. En el paso de Preparación de la siguiente fase de Estrategia, si ese marcador está aún en la zona de aniquilación, retíralo del juego."
         },
         {
             "ployId": "TAU-SB-S-HC",
             "killteamId": "TAU-SB",
             "ployType": "S",
             "seq": 4,
-            "ployName": "Holowave Countermeasures",
-            "description": "Whenever an operative is shooting a friendly XV26 STEALTH BATTLESUIT operative more than 6\" from it, in the Roll Attack Dice step, the attacker must discard one of their unresolved normal successes (or one of their critical successes if there are none). This isn't cumulative with being obscured."
+            "ployName": "CONTRAMEDIDAS DE OLEADA HOLOGRÁFICA",
+            "description": "Siempre que un agente dispare a un agente EXOARMADURA XV26 SIGILO amigo a más de 6\" de él, en el paso de Tirar dados de ataque, el atacante debe descartar 1 de sus éxitos normales sin resolver (o 1 de sus éxitos críticos si no hay normales). Esto no es acumulativo con estar ofuscado."
         },
         {
             "ployId": "TAU-SB-T-G",
             "killteamId": "TAU-SB",
             "ployType": "T",
             "seq": 5,
-            "ployName": "Ghostshroud",
-            "description": "Use this firefight ploy at the end of a friendly XV26 STEALTH BATTLESUIT operative's activation. If that operative has an Engage order, change it to Conceal. You cannot use this ploy for each friendly operative more than once per battle."
+            "ployName": "CAMUFLAJE FANTASMAL",
+            "description": "Usa este ardid de tiroteo al final de la activación de un agente EXOARMADURA XV26 SIGILO amigo. Si ese agente tiene una orden de trabarse, cámbiala a ocultarse. Cada agente amigo solo puede usar este ardid una vez por batalla."
         },
         {
             "ployId": "TAU-SB-T-VRT",
             "killteamId": "TAU-SB",
             "ployType": "T",
             "seq": 6,
-            "ployName": "Vectored Retro-Thrusters",
-            "description": "Use this firefight ploy when an enemy operative ends the Charge action within control range of a friendly XV26 STEALTH BATTLESUIT operative (excluding DRONE). Interrupt that action to use this rule. If you do, that friendly operative can immediately perform a free Fall Back action, but it cannot move more than 3\" during that action. Then, that enemy operative can immediately perform a free Reposition action using any remaining move distance it had from that first Charge action, and can do so even if it's performed an action that prevents it from performing the Reposition action."
+            "ployName": "RETROPROPULSORES VECTORIZADOS",
+            "description": "Usa este ardid de tiroteo cuando un agente enemigo termine una acción de Cargar dentro de la zona de control de un agente EXOARMADURA XV26 SIGILO amigo (salvo DRON). Interrumpe esa acción para usar esta regla. Si lo haces, ese agente amigo puede realizar inmediatamente una acción libre de Retroceder, pero no puede mover más de 3\" durante ella. Después, ese agente enemigo puede realizar inmediatamente una acción libre de Reposicionarse usando el movimiento que le quede de la primera acción de Cargar, y puede hacerlo aunque haya realizado una acción que prohíba realizar la acción de Reposicionarse."
         },
         {
             "ployId": "TAU-SB-T-EJP",
             "killteamId": "TAU-SB",
             "ployType": "T",
             "seq": 7,
-            "ployName": "Engage Jet Pack",
-            "description": "Use this firefight ploy when a friendly XV26 STEALTH BATTLESUIT operative (excluding DRONE) is activated or counteracts. Until the end of that activation/counteraction, you can ignore the vertical distance they move during one climb and one drop."
+            "ployName": "PROPULSORES AL MÁXIMO",
+            "description": "Usa este ardid de tiroteo cuando un agente EXOARMADURA XV26 SIGILO amigo (salvo DRON) se active o reaccione. Hasta el final de esa activación/reacción, puedes ignorar la distancia vertical que mueve una de las veces que trepe o se deje caer."
         },
         {
             "ployId": "TAU-SB-T-SP",
             "killteamId": "TAU-SB",
             "ployType": "T",
             "seq": 8,
-            "ployName": "Saviour Protocols",
-            "description": "Use this firefight ploy when a friendly XV26 STEALTH BATTLESUIT operative (excluding DRONE) is selected as the valid target of a Shoot action. Select one friendly XV26 STEALTH BATTLESUIT DRONE operative visible to and within 3\" of that first friendly operative to become the valid target instead (even if it wouldn't normally be valid for this). That friendly DRONE operative is only in cover or obscured if the original target was. This ploy has no effect if the ranged weapon has the Blast or Torrent weapon rule."
+            "ployName": "PROTOCOLOS DE SALVAMENTO",
+            "description": "Usa este ardid de tiroteo cuando un agente EXOARMADURA XV26 SIGILO amigo (salvo DRON) sea elegido como blanco válido de una acción de Disparar. Elige un agente EXOARMADURA XV26 SIGILO DRON amigo, visible para ese agente amigo y a 3\" o menos de él, para que sea tomado como blanco válido en su lugar (aunque no fuera válido normalmente en este caso). Ese agente DRON amigo solo está en cobertura u ofuscado si el blanco original lo está. Este ardid no tiene efecto si el arma a distancia tiene las reglas de armas Área o Ráfaga."
         }
     ],
     "equipments": [
@@ -83,41 +83,41 @@
             "eqId": "TAU-SB-XM",
             "killteamId": "TAU-SB",
             "seq": 1,
-            "eqName": "XV26 Multitrackers",
-            "description": "Once per turning point, when a friendly XV26 STEALTH BATTLESUIT operative is performing the Shoot action and you select a burst cannon (sweeping), you can use this rule. If you do, until the end of that action, that weapon has the Torrent 2\" weapon rule."
+            "eqName": "MULTIAPUNTADORES XV26",
+            "description": "Una vez por punto de inflexión, cuando un agente EXOARMADURA XV26 SIGILO amigo realice la acción de Disparar y elijas un cañón rotativo (barrido), puedes usar esta regla. Si lo haces, hasta el final de esa acción, esa arma tiene la regla de armas Ráfaga 2\""
         },
         {
             "eqId": "TAU-SB-CNJ",
             "killteamId": "TAU-SB",
             "seq": 2,
-            "eqName": "Counter-Network Jammers",
-            "description": "Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if only one friendly XV26 STEALTH BATTLESUIT operative and only two enemy operatives contest it. That friendly XV26 STEALTH BATTLESUIT operative cannot be a DRONE operative. Note this isn't a change to the APL stat, so any changes are cumulative with this."
+            "eqName": "INTERFERIDORES DE REDES",
+            "description": "Siempre que determines el control de un marcador, trata el atributo LPA total de los agentes enemigos que lo disputan como 1 menos si lo disputan exactamente 1 agente EXOARMADURA XV26 SIGILO amigo y 2 agentes enemigos. Ese agente EXOARMADURA XV26 SIGILO amigo no puede ser DRON. Ten en cuenta que esto no es un cambio a su atributo LPA, de modo que cualquier cambio será acumulable con esto."
         },
         {
             "eqId": "TAU-SB-ABF",
             "killteamId": "TAU-SB",
             "seq": 3,
-            "eqName": "Advanced Blacksun Filters",
-            "description": "Whenever a friendly XV26 STEALTH BATTLESUIT operative is shooting an operative that's obscured, you don't have to discard one success as a result of that rule. All other effects of obscured apply as normal."
+            "eqName": "FILTROS SOLNEGRO AVANZADOS",
+            "description": "Siempre que un agente EXOARMADURA XV26 SIGILO amigo dispare a un agente ofuscado, no tienes que descartar un éxito por ello. Todos los demás efectos de ofuscado se siguen aplicando normalmente."
         },
         {
             "eqId": "TAU-SB-HTL",
             "killteamId": "TAU-SB",
             "seq": 4,
-            "eqName": "Hardwired Target Locks",
-            "description": "Whenever you would counteract, you can do so with one friendly XV26 STEALTH BATTLESUIT operative that has a Conceal order and is more than 3\" from enemy operatives, but before it counteracts, you must change its order to Engage and it cannot perform any actions other than Shoot during that counteraction."
+            "eqName": "SELECTORES DE OBJETIVO INTEGRADOS",
+            "description": "Siempre que reacciones, puedes hacerlo con 1 AGENTE EXOARMADURA XV26 SIGILO amigo que tenga una orden de ocultarse y que esté a más de 3\" de todo agente enemigo, pero, antes de reaccionar, debes cambiar su orden a trabarse y solo puede realizar la acción Disparar durante esa reacción."
         }
     ],
     "teamAbilities": [
         {
             "abilityId": "TAU-SB-TA-K",
-            "abilityName": "Kauyon",
-            "description": "Whenever a friendly XV26 STEALTH BATTLESUIT operative is shooting an enemy operative, its ranged weapons have the Accurate X weapon rule. X is determined by that enemy operative's location:\n- Within 3\" of your territory: Accurate 1\n- Within your territory: Accurate 2\n- Within 3\" of your drop zone: Accurate 3"
+            "abilityName": "KAUYON",
+            "description": "Siempre que un agente EXOARMADURA XV26 SIGILO amigo dispare a un agente enemigo, sus armas a distancia tienen la regla de armas Certera X. X se determina según la posición de ese agente enemigo:\n- A 3\" o menos de tu territorio: Certera 1\n- En tu territorio: Certera 2\n- A 3\" o menos de tu zona de descenso.: Certera 3"
         },
         {
             "abilityId": "TAU-SB-TA-SF",
-            "abilityName": "Stealth Fields",
-            "description": "Whenever a friendly XV26 STEALTH BATTLESUIT operative has a Conceal order, it cannot be visible to enemy operatives more than 3\" from it (this takes precedence over all other rules).\n\nWhenever a friendly XV26 STEALTH BATTLESUIT operative has a Conceal order, it can perform the Fall Back action for 1 less AP."
+            "abilityName": "CAMPOS DE SIGILO",
+            "description": "Un agente EXOARMADURA XV26 SIGILO amigo no puede ser visible para los agentes enemigos a más de 3\" de él mientras tenga una orden de ocultarse (esto tiene preferencia sobre cualquier otra regla).\n\nUn agente EXOARMADURA XV26 SIGILO amigo puede realizar la acción Retroceder por 1PA menos mientras tenga una orden de ocultarse"
         }
     ],
     "opTypes": [
@@ -125,7 +125,7 @@
             "opTypeId": "TAU-SB-SHAS",
             "killteamId": "TAU-SB",
             "seq": 1,
-            "opTypeName": "XV26 Shas'vre",
+            "opTypeName": "SHAS’VRE",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -137,14 +137,14 @@
                     "wepId": "TAU-SB-SHAS-BC",
                     "opTypeId": "TAU-SB-SHAS",
                     "seq": 1,
-                    "wepName": "Burst Cannon",
+                    "wepName": "Cañón rotativo",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-SHAS-BC-01",
                             "wepId": "TAU-SB-SHAS-BC",
                             "seq": 1,
-                            "profileName": "Focused",
+                            "profileName": "Concentrado",
                             "ATK": "5",
                             "HIT": "3+",
                             "DMG": "3/4",
@@ -158,7 +158,7 @@
                             "wepprofileId": "TAU-SB-SHAS-BC-02",
                             "wepId": "TAU-SB-SHAS-BC",
                             "seq": 2,
-                            "profileName": "Sweeping",
+                            "profileName": "Barrido",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "3/4",
@@ -178,14 +178,14 @@
                     "wepId": "TAU-SB-SHAS-FB",
                     "opTypeId": "TAU-SB-SHAS",
                     "seq": 2,
-                    "wepName": "Fusion Blaster",
+                    "wepName": "Bláster fundidor",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-SHAS-FB-01",
                             "wepId": "TAU-SB-SHAS-FB",
                             "seq": 1,
-                            "profileName": "Short Range",
+                            "profileName": "Corto alcance",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "6/3",
@@ -208,7 +208,7 @@
                             "wepprofileId": "TAU-SB-SHAS-FB-02",
                             "wepId": "TAU-SB-SHAS-FB",
                             "seq": 2,
-                            "profileName": "Long Range",
+                            "profileName": "Largo alcance",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/5",
@@ -229,14 +229,14 @@
                     "wepId": "TAU-SB-SHAS-PP",
                     "opTypeId": "TAU-SB-SHAS",
                     "seq": 3,
-                    "wepName": "Pulse Pistol",
+                    "wepName": "Pistola de inducción",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-SHAS-PP-01",
                             "wepId": "TAU-SB-SHAS-PP",
                             "seq": 1,
-                            "profileName": "Ranged",
+                            "profileName": "A distancia",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/5",
@@ -251,7 +251,7 @@
                             "wepprofileId": "TAU-SB-SHAS-PP-02",
                             "wepId": "TAU-SB-SHAS-PP",
                             "seq": 2,
-                            "profileName": "Point-blank",
+                            "profileName": "A bocajarro",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/5",
@@ -269,14 +269,14 @@
                 {
                     "abilityId": "TAU-SB-SHAS-DC",
                     "opTypeId": "TAU-SB-SHAS",
-                    "abilityName": "XV26 Drone Controller",
-                    "description": "STRATEGIC GAMBIT whenever this operative is in the killzone. Select one friendly XV26 STEALTH BATTLESUIT DRONE operative in the killzone. Until the end of that operative's next activation, ignore the first two bullet points of its Drone rule (this takes precedence over that rule)."
+                    "abilityName": "Controlador de Dron XV26",
+                    "description": "**GAMBITO ESTRATÉGICO** siempre que este agente se encuentre en la zona de aniquilación. Elige 1 agente **EXOARMADURA XV26 SIGILO DRON** amigo en la zona de aniquilación. Hasta el final de la siguiente activación de ese agente, ignora los dos primeros puntos de su regla de Dron (esto tiene prioridad frente a esa regla)."
                 },
                 {
                     "abilityId": "TAU-SB-SHAS-FGG",
                     "opTypeId": "TAU-SB-SHAS",
-                    "abilityName": "For the Greater Good",
-                    "description": "Whenever determining the value of Accurate X for the Kauyon faction rule, if this operative is in the killzone, add 1 to the result if 2 or more friendly XV26 STEALTH BATTLESUIT operatives (excluding DRONE) are incapacitated (to a maximum of Accurate 3). Note that you must have a minimum of Accurate 1 to use this rule."
+                    "abilityName": "Por el Bien Supremo",
+                    "description": "Al determinar el valor de Certera X de la regla de facción Kauyon, si este agente se encuentra en la zona de aniquilación, suma 1 al resultado si al menos 2 agentes EXOARMADURA XV26 SIGILO amigos (salvo DRON) están incapacitados (hasta un máximo de Certera 3). Recuerda que debes tener un mínimo de Certera 1 para usar esta regla."
                 }
             ]
         },
@@ -284,7 +284,7 @@
             "opTypeId": "TAU-SB-DES",
             "killteamId": "TAU-SB",
             "seq": 2,
-            "opTypeName": "XV26 Designator",
+            "opTypeName": "DESIGNADOR",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -296,14 +296,14 @@
                     "wepId": "TAU-SB-DES-BC",
                     "opTypeId": "TAU-SB-DES",
                     "seq": 1,
-                    "wepName": "Burst Cannon",
+                    "wepName": "Cañón rotativo",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-DES-BC-01",
                             "wepId": "TAU-SB-DES-BC",
                             "seq": 1,
-                            "profileName": "Focused",
+                            "profileName": "Concentrado",
                             "ATK": "5",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -317,7 +317,7 @@
                             "wepprofileId": "TAU-SB-DES-BC-02",
                             "wepId": "TAU-SB-DES-BC",
                             "seq": 2,
-                            "profileName": "Sweeping",
+                            "profileName": "Barrido",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -337,14 +337,14 @@
                     "wepId": "TAU-SB-DES-FB",
                     "opTypeId": "TAU-SB-DES",
                     "seq": 2,
-                    "wepName": "Fusion Blaster",
+                    "wepName": "Bláster fundidor",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-DES-FB-01",
                             "wepId": "TAU-SB-DES-FB",
                             "seq": 1,
-                            "profileName": "Short Range",
+                            "profileName": "Corto alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "6/3",
@@ -367,7 +367,7 @@
                             "wepprofileId": "TAU-SB-DES-FB-02",
                             "wepId": "TAU-SB-DES-FB",
                             "seq": 2,
-                            "profileName": "Long Range",
+                            "profileName": "Largo alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "4/5",
@@ -388,7 +388,7 @@
                     "wepId": "TAU-SB-DES-F",
                     "opTypeId": "TAU-SB-DES",
                     "seq": 3,
-                    "wepName": "Fists",
+                    "wepName": "Puños",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -408,8 +408,8 @@
                 {
                     "abilityId": "TAU-SB-DES-ML",
                     "opTypeId": "TAU-SB-DES",
-                    "abilityName": "Markerlight",
-                    "description": "Whenever an enemy operative is a valid target for this operative, or is visible to this operative and within 2\" of your Ambush marker (see Prepare Ambush strategy ploy), it's marked. Whenever a friendly XV26 STEALTH BATTLESUIT operative is shooting an operative that's marked, that friendly operative's ranged weapons have the Severe weapon rule. Note that an operative can be a valid target for this operative even if this operative isn't the active operative."
+                    "abilityName": "Marcador telemétrico",
+                    "description": "Siempre que un agente enemigo sea un blanco válido de este agente, o sea visible para este agente y se encuentre a 2\" o menos de tu marcador de Emboscada (ver ardid de estrategia Preparar emboscada), está marcado. Siempre que un agente EXOARMADURA XV26 SIGILO amigo dispare a un agente marcado, sus armas a distancia tienen la regla de armas Severa. Recuerda que un agente puede ser un blanco válido para este agente aunque este agente no sea el agente activo."
                 }
             ]
         },
@@ -417,7 +417,7 @@
             "opTypeId": "TAU-SB-INF",
             "killteamId": "TAU-SB",
             "seq": 3,
-            "opTypeName": "XV26 Infiltrator",
+            "opTypeName": "INFILTRADOR",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -429,14 +429,14 @@
                     "wepId": "TAU-SB-INF-BC",
                     "opTypeId": "TAU-SB-INF",
                     "seq": 1,
-                    "wepName": "Burst Cannon",
+                    "wepName": "Cañón rotativo",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-INF-BC-01",
                             "wepId": "TAU-SB-INF-BC",
                             "seq": 1,
-                            "profileName": "Focused",
+                            "profileName": "Concentrado",
                             "ATK": "5",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -450,7 +450,7 @@
                             "wepprofileId": "TAU-SB-INF-BC-02",
                             "wepId": "TAU-SB-INF-BC",
                             "seq": 2,
-                            "profileName": "Sweeping",
+                            "profileName": "Barrido",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -470,14 +470,14 @@
                     "wepId": "TAU-SB-INF-FB",
                     "opTypeId": "TAU-SB-INF",
                     "seq": 2,
-                    "wepName": "Fusion Blaster",
+                    "wepName": "Bláster fundidor",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-INF-FB-01",
                             "wepId": "TAU-SB-INF-FB",
                             "seq": 1,
-                            "profileName": "Short Range",
+                            "profileName": "Corto alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "6/3",
@@ -500,7 +500,7 @@
                             "wepprofileId": "TAU-SB-INF-FB-02",
                             "wepId": "TAU-SB-INF-FB",
                             "seq": 2,
-                            "profileName": "Long Range",
+                            "profileName": "Largo alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "4/5",
@@ -521,7 +521,7 @@
                     "wepId": "TAU-SB-INF-F",
                     "opTypeId": "TAU-SB-INF",
                     "seq": 3,
-                    "wepName": "Fists",
+                    "wepName": "Puños",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -541,8 +541,8 @@
                 {
                     "abilityId": "TAU-SB-INF-CP",
                     "opTypeId": "TAU-SB-INF",
-                    "abilityName": "Covert Protocols",
-                    "description": "This operative can counteract regardless of its order, but if it has a Conceal order during that counteraction, it cannot perform any actions other than Pick Up Marker, Place Marker or mission actions."
+                    "abilityName": "Protocolos de encubrimiento",
+                    "description": " Este agente puede reaccionar independientemente de su orden, pero si tiene una orden de Ocultarse, durante esa reacción solo podrá realizar acciones de Recoger marcador, Colocar marcador o de misión."
                 }
             ]
         },
@@ -550,7 +550,7 @@
             "opTypeId": "TAU-SB-LIB",
             "killteamId": "TAU-SB",
             "seq": 4,
-            "opTypeName": "XV26 Liberator",
+            "opTypeName": "LIBERADOR",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -562,14 +562,14 @@
                     "wepId": "TAU-SB-LIB-BC",
                     "opTypeId": "TAU-SB-LIB",
                     "seq": 1,
-                    "wepName": "Burst Cannon",
+                    "wepName": "Cañón rotativo",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-LIB-BC-01",
                             "wepId": "TAU-SB-LIB-BC",
                             "seq": 1,
-                            "profileName": "Focused",
+                            "profileName": "Concentrado",
                             "ATK": "5",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -583,7 +583,7 @@
                             "wepprofileId": "TAU-SB-LIB-BC-02",
                             "wepId": "TAU-SB-LIB-BC",
                             "seq": 2,
-                            "profileName": "Sweeping",
+                            "profileName": "Barrido",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -603,7 +603,7 @@
                     "wepId": "TAU-SB-LIB-EMP",
                     "opTypeId": "TAU-SB-LIB",
                     "seq": 2,
-                    "wepName": "EMP Bomb",
+                    "wepName": "Bomba PEM",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -650,14 +650,14 @@
                     "wepId": "TAU-SB-LIB-FB",
                     "opTypeId": "TAU-SB-LIB",
                     "seq": 3,
-                    "wepName": "Fusion Blaster",
+                    "wepName": "Bláster fundidor",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-LIB-FB-01",
                             "wepId": "TAU-SB-LIB-FB",
                             "seq": 1,
-                            "profileName": "Short Range",
+                            "profileName": "Corto alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "6/3",
@@ -680,7 +680,7 @@
                             "wepprofileId": "TAU-SB-LIB-FB-02",
                             "wepId": "TAU-SB-LIB-FB",
                             "seq": 2,
-                            "profileName": "Long Range",
+                            "profileName": "Largo alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "4/5",
@@ -701,7 +701,7 @@
                     "wepId": "TAU-SB-LIB-F",
                     "opTypeId": "TAU-SB-LIB",
                     "seq": 4,
-                    "wepName": "Fists",
+                    "wepName": "Puños",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -721,8 +721,8 @@
                 {
                     "abilityId": "TAU-SB-LIB-G",
                     "opTypeId": "TAU-SB-LIB",
-                    "abilityName": "Grenadier",
-                    "description": "This operative can use frag, krak, smoke and stun grenades (see universal equipment). Doing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives). Whenever this operative is using a frag or krak grenade, improve the Hit stat of that weapon by 1."
+                    "abilityName": "Granadero",
+                    "description": " Este agente puede usar granadas frag, perforantes, de humo y aturdidoras (ver equipo universal). Hacer esto no cuenta de cara a los usos limitados que tengas (es decir, si también seleccionas esas granadas como equipo para otros agentes). Cuando este agente usa una granada frag o perforante, mejora en 1 el atributo Impactar de esa arma."
                 }
             ]
         },
@@ -730,7 +730,7 @@
             "opTypeId": "TAU-SB-LOD",
             "killteamId": "TAU-SB",
             "seq": 5,
-            "opTypeName": "XV26 Lodestar",
+            "opTypeName": "FARO CELESTE",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -742,14 +742,14 @@
                     "wepId": "TAU-SB-LOD-BC",
                     "opTypeId": "TAU-SB-LOD",
                     "seq": 1,
-                    "wepName": "Burst Cannon",
+                    "wepName": "Cañón rotativo",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-LOD-BC-01",
                             "wepId": "TAU-SB-LOD-BC",
                             "seq": 1,
-                            "profileName": "Focused",
+                            "profileName": "Concentrado",
                             "ATK": "5",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -763,7 +763,7 @@
                             "wepprofileId": "TAU-SB-LOD-BC-02",
                             "wepId": "TAU-SB-LOD-BC",
                             "seq": 2,
-                            "profileName": "Sweeping",
+                            "profileName": "Barrido",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -783,14 +783,14 @@
                     "wepId": "TAU-SB-LOD-FB",
                     "opTypeId": "TAU-SB-LOD",
                     "seq": 2,
-                    "wepName": "Fusion Blaster",
+                    "wepName": "Bláster fundidor",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-LOD-FB-01",
                             "wepId": "TAU-SB-LOD-FB",
                             "seq": 1,
-                            "profileName": "Short Range",
+                            "profileName": "Corto alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "6/3",
@@ -813,7 +813,7 @@
                             "wepprofileId": "TAU-SB-LOD-FB-02",
                             "wepId": "TAU-SB-LOD-FB",
                             "seq": 2,
-                            "profileName": "Long Range",
+                            "profileName": "Largo alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "4/5",
@@ -834,7 +834,7 @@
                     "wepId": "TAU-SB-LOD-F",
                     "opTypeId": "TAU-SB-LOD",
                     "seq": 3,
-                    "wepName": "Fists",
+                    "wepName": "Puños",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -854,14 +854,14 @@
                 {
                     "abilityId": "TAU-SB-LOD-EL",
                     "opTypeId": "TAU-SB-LOD",
-                    "abilityName": "Electrochaff Launcher",
-                    "description": "Once per turning point, when an enemy operative is performing the Shoot action and your opponent selects a valid target (excluding DRONE), you can use this rule, providing this operative isn't within control range of enemy operatives. If you do, until the end of that action, whenever an enemy operative is shooting a friendly XV26 STEALTH BATTLESUIT operative that's both visible to and within 3\" of this operative and more than 2\" from that enemy operative:\n- Ignore the Piercing weapon rule.\n- That friendly operative is obscured."
+                    "abilityName": "Lanzador de electrobengalas",
+                    "description": " Una vez por punto de inflexión, cuando un agente enemigo realice la acción Disparar y tu oponente elija un blanco válido (salvo DRON), puedes usar esta regla, siempre y cuando este agente no esté en la zona de control de agentes enemigos. Si lo haces, hasta el final de esa acción, siempre que un agente enemigo dispare a un agente EXOARMADURA XV26 SIGILO amigo que sea visible para este agente, se encuentre a 3\" o menos de él y a más de 2\" de ese agente enemigo:\n-  Ignora la reglas de armas Penetración.\n- Ese agente amigo está ofuscado."
                 },
                 {
                     "abilityId": "TAU-SB-LOD-HB",
                     "opTypeId": "TAU-SB-LOD",
-                    "abilityName": "Homing Beacon",
-                    "description": "This operative is carrying your Homing Beacon marker. Operatives (excluding DRONE) can perform the Pick Up Marker action on that marker. The first time an enemy operative performs the Pick Up Marker action on your Homing Beacon marker, discard that marker (remove it from the battle).\n\nIn the Ready step of each Strategy phase, when you gain CP, if your Homing Beacon marker is in the killzone, roll one D6 if it's more than 6\" from your drop zone; roll two D6 instead if it's within your opponent's territory; roll three D6 instead if it's within 6\" of your opponent's drop zone. If any result is a 4+, you gain one additional CP."
+                    "abilityName": "Baliza",
+                    "description": "Este agente porta tu marcador de baliza. Los agentes (salvo DRON) pueden realizar la acción Recoger marcador sobre ese marcador. La primera vez que un agente enemigo realice la acción Recoger marcador sobre tu marcador de baliza, descarta ese marcador (retíralo del juego).\n\nEn el paso de Preparación de cada fase de estrategia, cuando ganes PM, si tu marcador de baliza está en la zona de aniquilación y a más de 6\" de tu zona de descenso, tira 1D6. Si está en el territorio de tu oponente, en lugar de eso tira 2D6, o 3D6 si está a 6\" o menos de la zona de descenso de tu oponente. Si alguno de esos dados saca 4+, ganas 1PM adicional."
                 }
             ]
         },
@@ -869,7 +869,7 @@
             "opTypeId": "TAU-SB-NEU",
             "killteamId": "TAU-SB",
             "seq": 6,
-            "opTypeName": "XV26 Neutraliser",
+            "opTypeName": "NEUTRALIZADOR",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -881,14 +881,14 @@
                     "wepId": "TAU-SB-NEU-BC",
                     "opTypeId": "TAU-SB-NEU",
                     "seq": 1,
-                    "wepName": "Burst Cannon",
+                    "wepName": "Cañón rotativo",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-NEU-BC-01",
                             "wepId": "TAU-SB-NEU-BC",
                             "seq": 1,
-                            "profileName": "Focused",
+                            "profileName": "Concentrado",
                             "ATK": "5",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -902,7 +902,7 @@
                             "wepprofileId": "TAU-SB-NEU-BC-02",
                             "wepId": "TAU-SB-NEU-BC",
                             "seq": 2,
-                            "profileName": "Sweeping",
+                            "profileName": "Barrido",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "3/4",
@@ -922,14 +922,14 @@
                     "wepId": "TAU-SB-NEU-FB",
                     "opTypeId": "TAU-SB-NEU",
                     "seq": 2,
-                    "wepName": "Fusion Blaster",
+                    "wepName": "Bláster fundidor",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "TAU-SB-NEU-FB-01",
                             "wepId": "TAU-SB-NEU-FB",
                             "seq": 1,
-                            "profileName": "Short Range",
+                            "profileName": "Corto alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "6/3",
@@ -952,7 +952,7 @@
                             "wepprofileId": "TAU-SB-NEU-FB-02",
                             "wepId": "TAU-SB-NEU-FB",
                             "seq": 2,
-                            "profileName": "Long Range",
+                            "profileName": "Largo alcance",
                             "ATK": "4",
                             "HIT": "4+",
                             "DMG": "4/5",
@@ -973,7 +973,7 @@
                     "wepId": "TAU-SB-NEU-F",
                     "opTypeId": "TAU-SB-NEU",
                     "seq": 3,
-                    "wepName": "Fists",
+                    "wepName": "Puños",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -993,14 +993,14 @@
                 {
                     "abilityId": "TAU-SB-NEU-MSP",
                     "opTypeId": "TAU-SB-NEU",
-                    "abilityName": "Multispectrum Sensor Package",
-                    "description": "SUPPORT. Once per turning point, when an enemy operative visible to and within 8\" of this operative is activated, you can use this rule. If you do, each friendly XV26 STEALTH BATTLESUIT operative within 3\" of this operative can immediately do one of the following:\n- Perform a free Dash action (in an order of your choice).\n- Change its order.\n\nEach friendly operative that performs the Dash action cannot end that move within 3\" of an enemy operative. Note that a Comms Device from universal equipment only affects the second distance of this rule."
+                    "abilityName": "Pack de sensores multiespectro: APOYO",
+                    "description": "APOYO. Puedes usar esta regla una vez por punto de inflexión, cuando un agente enemigo visible para este agente y a 8\" o menos de él se active. Si lo haces, cada agente EXOARMADURA XV26 SIGILO amigo a 3\" o menos de este agente puede hacer de inmediato una de las siguientes opciones:\n-  Cambia su orden.\n\n Realizar una acción libre de Correr (en el orden que elijas).\n\n Los agentes amigos que realicen la acción de Correr no pueden terminar ese movimiento a 3\" o menos de algún agente enemigo. Recuerda que el equipo universal Aparato de comunicaciones solo afecta a la segunda distancia de esta regla."
                 },
                 {
                     "abilityId": "TAU-SB-NEU-SJ",
                     "opTypeId": "TAU-SB-NEU",
-                    "abilityName": "System Jam",
-                    "description": "1/2AP. Select one enemy operative visible to this operative. Until the end of that operative's next activation, subtract 1 from its APL stat. Whenever this operative has a Conceal order, you must spend 1 additional AP to perform this action.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+                    "abilityName": "INTERFERIR SISTEMAS",
+                    "description": "1/2AP. Elige un agente enemigo visible para este agente. Hasta el final de la siguiente activación de ese agente, resta 1 a su atributo LPA. Mientras este agente tenga una orden de ocultarse, debes gastar 1PA adicional para realizar esta acción.\n\nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo."
                 }
             ]
         },
@@ -1008,7 +1008,7 @@
             "opTypeId": "TAU-SB-GD",
             "killteamId": "TAU-SB",
             "seq": 7,
-            "opTypeName": "MV15 Gun Drone",
+            "opTypeName": "DRON DE COMBATE MV15",
             "MOVE": "6\"",
             "APL": 2,
             "SAVE": "4+",
@@ -1020,7 +1020,7 @@
                     "wepId": "TAU-SB-GD-TPC",
                     "opTypeId": "TAU-SB-GD",
                     "seq": 1,
-                    "wepName": "Twin Pulse Carbine",
+                    "wepName": "Carabina de inducción doble",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -1043,7 +1043,7 @@
                     "wepId": "TAU-SB-GD-R",
                     "opTypeId": "TAU-SB-GD",
                     "seq": 2,
-                    "wepName": "Ram",
+                    "wepName": "Topetazo",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -1063,14 +1063,14 @@
                 {
                     "abilityId": "TAU-SB-GD-D",
                     "opTypeId": "TAU-SB-GD",
-                    "abilityName": "Drone",
-                    "description": "- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Photon Grenade Launcher, Reposition and Shoot.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\n- This operative cannot use any weapons that aren't on its datacard.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n- This operative is ignored for your opponent's kill/elimination op (when it's incapacitated, and when determining your starting number of operatives). It's also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
+                    "abilityName": "Dron",
+                    "description": "-  Este agente solo puede realizar acciones de **Cargar, Correr,Retroceder, Combatir, Lanzador de granada de fotones. Reposicionarse y Disparar.**\n-  Al determinar el control de un marcador de objetivo, trata el atributo LPA de este agente como si fuera 1 inferior. Ten en cuenta que esto no es un cambio a su atributo LPA, de modo que cualquier cambio será acumulable con esto.\n-  Este agente no puede usar armas que no aparezcan en su tarjeta de datos\n- Al determinar qué es visible para este agente, el disco redondo en la parte superior de la miniatura es su cabeza\n-  Este agente se ignora para las operaciones de asesinato/eliminación de tu oponente (al quedar incapacitado, y al determinar tu número inicial de agentes). También se ignora para las condiciones de victoria y la obtención de PV si requieren que los agentes “escapen”, “sobrevivan” o queden incapacitados por agentes enemigos (si escapa/sobrevive/queda incapacitado, determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc). "
                 },
                 {
                     "abilityId": "TAU-SB-GD-PGL",
                     "opTypeId": "TAU-SB-GD",
-                    "abilityName": "Photon Grenade Launcher",
-                    "description": "1AP. Select one enemy operative visible to this operative and roll one D6: on a 3+, until the end of that operative's next activation, subtract 2\" from its Move stat.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+                    "abilityName": "LANZADOR DE GRANADA DE FOTONES",
+                    "description": "1AP. Elige 1 agente enemigo visible para este agente y tira 1D6. Con 3+, Hasta el final de la siguiente activación de ese agente, resta 2\" a su atributo Movimiento.\n\nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo."
                 }
             ]
         },
@@ -1078,7 +1078,7 @@
             "opTypeId": "TAU-SB-MD",
             "killteamId": "TAU-SB",
             "seq": 8,
-            "opTypeName": "MV75 Marker Drone",
+            "opTypeName": "DRON DE COMBATE MV15",
             "MOVE": "6\"",
             "APL": 2,
             "SAVE": "4+",
@@ -1090,7 +1090,7 @@
                     "wepId": "TAU-SB-MD-R",
                     "opTypeId": "TAU-SB-MD",
                     "seq": 1,
-                    "wepName": "Ram",
+                    "wepName": "Topetazo",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -1110,14 +1110,14 @@
                 {
                     "abilityId": "TAU-SB-MD-D",
                     "opTypeId": "TAU-SB-MD",
-                    "abilityName": "Drone",
-                    "description": "- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Reposition and Shoot.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\n- This operative cannot use any weapons that aren't on its datacard.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n- This operative is ignored for your opponent's kill/elimination op (when it's incapacitated, and when determining your starting number of operatives). It's also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
+                    "abilityName": "Dron",
+                    "description": "-  Este agente solo puede realizar acciones de **Cargar, Correr,Retroceder, Combatir, Lanzador de granada de fotones. Reposicionarse y Disparar.**\n-  Al determinar el control de un marcador de objetivo, trata el atributo LPA de este agente como si fuera 1 inferior. Ten en cuenta que esto no es un cambio a su atributo LPA, de modo que cualquier cambio será acumulable con esto.\n-  Este agente no puede usar armas que no aparezcan en su tarjeta de datos\n- Al determinar qué es visible para este agente, el disco redondo en la parte superior de la miniatura es su cabeza\n-  Este agente se ignora para las operaciones de asesinato/eliminación de tu oponente (al quedar incapacitado, y al determinar tu número inicial de agentes). También se ignora para las condiciones de victoria y la obtención de PV si requieren que los agentes “escapen”, “sobrevivan” o queden incapacitados por agentes enemigos (si escapa/sobrevive/queda incapacitado, determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc)."
                 },
                 {
                     "abilityId": "TAU-SB-MD-ML",
                     "opTypeId": "TAU-SB-MD",
-                    "abilityName": "Markerlight",
-                    "description": "Whenever an enemy operative is a valid target for this operative, or is visible to this operative and within 2\" of your Ambush marker (see Prepare Ambush strategy ploy), it's marked. Whenever a friendly XV26 STEALTH BATTLESUIT operative is shooting an operative that's marked, that friendly operative's ranged weapons have the Severe weapon rule. Note that an operative can be a valid target for this operative even if this operative isn't the active operative."
+                    "abilityName": "Marcador telemétrico",
+                    "description": "Siempre que un agente enemigo sea un blanco válido de este agente, o sea visible para este agente y esté a 2\" o menos de tu marcador de Emboscada (ver ardid de estrategia Preparar emboscada), está marcado. Siempre que un agente **EXOARMADURA XV26 SIGILO** amigo dispare a un agente marcado, sus armas a distancia tienen la regla de armas Severa. Recuerda que un agente puede ser un blanco válido para este agente aunque este agente no sea el agente activo."
                 }
             ]
         }
