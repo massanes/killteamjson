@@ -116,7 +116,7 @@
     {
       "abilityId": "AEL-HOTA-TA-POFRPA",
       "abilityName": "PODER DEL DOLOR",
-      "description": "Después de que un agente MANO DEL ARCONTE amigo realice una acción, ganará una de tus fichas de Dolor si:\n\n- Un agente enemigo ha sido lesionado durante esa acción, pero no ha quedado incapacitado.\n- Un agente enemigo ha quedado incapacitado durante esa acción. Si ese agente enemigo tenía un atributo Heridas de 12 o más, en lugar de lo anterior el agente amigo en cuestión gana dos de tus fichas de Dolor.\n\nPuedes gastar fichas de Dolor de agentes amigos en potenciaciones siempre que se cumpla la condición \"cuándo\". No puedes usar más de una potenciación por activación o reacción, excepto Sentidos estimulados, que puede utilizarse una vez por activación o reacción además de otra potenciación.  \n  \n\n**Ánima oscura**\n\n- **Cuándo:**  Durante la activación del agente, antes o después de que realice una acción.\n- **Efecto:** Hasta el inicio de la siguiente activación del agente, suma 1 a su atributo LPA\n\n**Rejuvenecimiento acelerado**\n\n- **Cuándo:** Durante la activación o la reacción del agente, antes o después de que realice una acción\n- **Efecto:** El agente recupera 1D3+1 heridas perdidas.\n\n**Incremento de vitalidad**\n\n- **Cuándo:** Después de que el agente incapacite a un agente enemigo y dicho agente enemigo sea retirado de la zona de aniquilación.\n- **Efecto:** El agente puede realizar de inmediato una acción libre de Correr, incluso aunque hubiese realizado una acción que le impidiera realizar acciones de Correr.\n\n**Sentidos estimulados**\n\n- **Cuándo:** Tras tirar tus dados de ataque o de defensa por el agente.\n- **Efecto:** Puedes repetir cualquiera de tus dados que tengan un resultado concreto (p. ej., los que hayan obtenido un resultado de 2).\n"
+      "description": "Después de que un agente **MANO DEL ARCONTE** amigo realice una acción, ganará una de tus fichas de Dolor si:\n\n- Un agente enemigo ha sido lesionado durante esa acción, pero no ha quedado incapacitado.\n- Un agente enemigo ha quedado incapacitado durante esa acción. Si ese agente enemigo tenía un atributo Heridas de 12 o más, en lugar de lo anterior el agente amigo en cuestión gana dos de tus fichas de Dolor.\n\nPuedes gastar fichas de Dolor de agentes amigos en potenciaciones siempre que se cumpla la condición **\"cuándo\"**. No puedes usar más de una potenciación por activación o reacción, excepto Sentidos estimulados, que puede utilizarse una vez por activación o reacción además de otra potenciación.  \n  \n\n**Ánima oscura**\n\n- **Cuándo:**  Durante la activación del agente, antes o después de que realice una acción.\n- **Efecto:** Hasta el inicio de la siguiente activación del agente, suma 1 a su atributo LPA\n\n**Rejuvenecimiento acelerado**\n\n- **Cuándo:** Durante la activación o la reacción del agente, antes o después de que realice una acción\n- **Efecto:** El agente recupera 1D3+1 heridas perdidas.\n\n**Incremento de vitalidad**\n\n- **Cuándo:** Después de que el agente incapacite a un agente enemigo y dicho agente enemigo sea retirado de la zona de aniquilación.\n- **Efecto:** El agente puede realizar de inmediato una acción libre de Correr, incluso aunque hubiese realizado una acción que le impidiera realizar acciones de Correr.\n\n**Sentidos estimulados**\n\n- **Cuándo:** Tras tirar tus dados de ataque o de defensa por el agente.\n- **Efecto:** Puedes repetir cualquiera de tus dados que tengan un resultado concreto (p. ej., los que hayan obtenido un resultado de 2).\n"
     }
   ],
   "opTypes": [
@@ -124,7 +124,7 @@
       "opTypeId": "AEL-HOTA-KAS",
       "killteamId": "AEL-HOTA",
       "seq": 1,
-      "opTypeName": "ARCHISIBARITA KABALISTA",
+      "opTypeName": "ARCHISIBARITA",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -329,7 +329,7 @@
       "opTypeId": "AEL-HOTA-KAG",
       "killteamId": "AEL-HOTA",
       "seq": 2,
-      "opTypeName": "ESPÍA KABALISTA",
+      "opTypeName": "ESPÍA",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -400,7 +400,7 @@
       "opTypeId": "AEL-HOTA-KCD",
       "killteamId": "AEL-HOTA",
       "seq": 3,
-      "opTypeName": "DUELISTA CARMESÍ KABALISTA",
+      "opTypeName": "DUELISTA CARMESÍ",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -482,7 +482,7 @@
       "opTypeId": "AEL-HOTA-KDOY",
       "killteamId": "AEL-HOTA",
       "seq": 4,
-      "opTypeName": "Kabalite Disciple Of Yaelindra",
+      "opTypeName": "DISCÍPULO DE YAELINDRA KABALISTA",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
