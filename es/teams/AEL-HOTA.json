@@ -5,9 +5,9 @@
   "classified": true,
   "season": "Gallowdark",
   "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_hand_of_the_archon-zmsq14qmmy-z4ekml4ysz.pdf",
-  "killteamName": "Hand Of The Archon",
-  "description": "The Archons of the Drukhari Kabals are forever plotting to expand their sprawling criminal empires. Should their\nschemes require a subtle touch, they may turn to Hand of the Archon kill teams. These bands of assassins, thieves,\ntorturers and worse wield an array of esoteric and macabre weapons to aid them in their diabolical missions.",
-  "composition": "A HAND OF THE ARCHON KillTeam is composed of:\n\n- 1 HAND OF THE ARCHON ARCHSYBARITE operative with one of the following options:\n  - Blast pistol; venom blade\n  - Splinter pistol; venom blade\n  - Splinter pistol; agoniser\n  - Splinter pistol; power weapon\n  - Splinter rifle; array of blades\n- 8 HAND OF THE ARCHON operatives selected from the following list:\n  - AGENT\n  - CRIMSON DUELLIST\n  - DISCIPLE OF YAELINDRA\n  - ELIXICANT\n  - FLAYER\n  - GUNNER with one of the following options:\n    - Blaster; array of blades\n    - Shredder; array of blades\n  - HEAVY GUNNER with one of the following options:\n    - Dark lance; array of blades\n    - Splinter cannon; array of blades\n  - SKYSPLINTER ASSASSIN\n\nOther than AGENT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two darklight weapons (blast pistol, blaster and dark lance are darklight weapons).",
+  "killteamName": "Mano del arconte",
+  "description": "Los Arcontes de las Cábala Drukhari están siempre tramando cómo expandir sus extensos imperios criminales. Si sus planes requieren un toque sutil, pueden recurrir a los equipos de exterminio Mano del Arconte. Estas bandas de asesinos, ladrones, torturadores y peores cosas empuñan una variedad de armas esotéricas y macabras que les ayudan en sus misiones diabólicas.",
+  "composition": "El comando MANO DEL ARCONTE  está compuesto por:\n\n- 1 agente ARCHISIBARITA **MANO DEL ARCONTE** con una de las siguientes opciones:\n  - Pistola bláster; espada venenosa\n  - Pistola cristalina; espada venenosa\n  - Pistola cristalina; agonizador\n  - Pistola cristalina; arma de energía\n  - Rifle cristalino; cuchillas por doquier\n- 8  agentes **MANO DEL ARCONTE** elegidos dela siguiente lista:\n  - ESPÍA\n  - DUELISTA CARMESÍ\n  - DISCÍPULO DE YAELINDRA\n  - ELIXICANTE\n  - DESPELLEJADOR\n  - TIRADOR con una de las siguientes opciones:\n    - Blaster; cuchillas por doquier\n    - Desgarrador; cuchillas por doquier\n  - TIRADOR PESADO con una de las siguientes opciones:\n    - Lanza oscura; cuchillas por doquier\n    - Cañón cristalino; cuchillas por doquier\n  - ASESINO PARTECIELOS\n\nSalvo agentes **ESPÍA**, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.  \n\nTu comando solo puede incluir hasta dos armas de luzoscura (la pistola bláster, el bláster y la lanza oscura son armas de luzoscura).",
   "archetypes": [
     "Recon",
     "Seek and Destroy"
@@ -18,64 +18,64 @@
       "killteamId": "AEL-HOTA",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Blade Artists",
-      "description": "Friendly HAND OF THE ARCHON operatives' melee weapons have the Rending weapon rule.  \n**Rending:** If you retain any critical hits, retain 1 normal hit as a critical hit instead."
+      "ployName": "ARTISTAS DE LA HOJA",
+      "description": "Las armas de combate de los agentes **MANO DEL ARCONTE** amigos tienen la regla de armas Desgarradora."
     },
     {
       "ployId": "AEL-HOTA-S-DON",
       "killteamId": "AEL-HOTA",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Denizens Of Night",
-      "description": "Whenever an enemy operative is shooting a friendly HAND OF THE ARCHON operative that's more than 2\" from enemy operatives, if Heavy or Light terrain is intervening,\nor any part of that friendly operative's base is underneath Vantage terrain, you can re-roll one of your defence dice."
+      "ployName": "MORADORES DE LA NOCHE",
+      "description": "Siempre que un agente enemigo dispare contra un agente MANO DEL ARCONTE amigo a más de 2\" de todo agente enemigo, si hay terreno Pesado o Ligero interpuesto o cualquier parte de la peana de ese agente amigo se encuentra bajo terreno Aventajado, puedes repetir uno de tus dados de defensa."
     },
     {
       "ployId": "AEL-HOTA-S-FDD",
       "killteamId": "AEL-HOTA",
       "ployType": "S",
       "seq": 1,
-      "ployName": "From Darkness, Death",
-      "description": "Whenever a friendly HAND OF THE ARCHON operative is activated, before you determine its order, you can select one enemy operative that friendly operative isn't a valid target for.\nUntil the end of that activation, the first time that friendly operative is shooting against or fighting against that enemy operative, you can retain one of your normal successes as a critical success instead."
+      "ployName": "DESDE LA OSCURIDAD, MUERTE",
+      "description": "Cuando un agente **MANO DEL ARCONTE** amigo sea activado, antes de determinar su orden puedes elegir un agente enemigo para el que dicho agente amigo no sea un blanco válido\nHasta el final de esa activación, la primera vez que ese agente amigo dispare o combata contra ese agente enemigo, puedes guardar uno de tus éxitos normales como éxito crítico en su lugar."
     },
     {
       "ployId": "AEL-HOTA-S-MS",
       "killteamId": "AEL-HOTA",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Merciless Sadists",
-      "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting against or fighting against a wounded enemy operative, that friendly operative's weapons have the Balanced weapon rule.  \n**Balanced:** Can re-roll one Attack die."
+      "ployName": "SÁDICOS DESPIADADOS",
+      "description": "Siempre que un agente **MANO DEL ARCONTE** amigo dispare o combata contra un agente enemigo herido, las armas de dicho agente amigo tienen la regla de armas Equilibrada."
     },
     {
       "ployId": "AEL-HOTA-T-CD",
       "killteamId": "AEL-HOTA",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Cruel Deception",
-      "description": "Use this firefight ploy during a friendly HAND OF THE ARCHON operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
+      "ployName": "ENGAÑO CRUEL",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente MANO DEL ARCONTE amigo, antes o después de que realice una acción. Durante esa activación, ese agente puede realizar una acción de **Retroceder** por 1 PA menos."
     },
     {
       "ployId": "AEL-HOTA-T-CS",
       "killteamId": "AEL-HOTA",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Devious Scheme",
-      "description": "Use this firefight ploy after an opponent uses a firefight ploy (excluding one that costs 0CP).\nThe next time they would use that ploy, they must spend 1 additional CP to do so (at which point this effect ends).\nYou cannot use this ploy again during the battle until its effect has ended."
+      "ployName": "ARGUCIA RETORCIDA",
+      "description": "Usa este ardid de tiroteo después de que un oponente utilice un ardid de tiroteo (excepto uno que cueste 0PM).\n La siguiente vez que fuera a usar ese ardid, debe gastar 1 PM adicional para hacerlo (y en ese momento este efecto termina).\n No puedes usar este ardid de nuevo durante la batalla hasta que su efecto haya terminado."
     },
     {
       "ployId": "AEL-HOTA-T-HA",
       "killteamId": "AEL-HOTA",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Heinous Arrogance",
-      "description": "Use this firefight ploy when it's your turn to activate a friendly operative. You can skip that activation."
+      "ployName": "ARROGANCIA ATROZ",
+      "description": "Usa este ardid de tiroteo cuando sea tu turno de activar un agente amigo. Puedes saltarte esa activación."
     },
     {
       "ployId": "AEL-HOTA-T-POTW",
       "killteamId": "AEL-HOTA",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Prey On The Wounded",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly HAND OF THE ARCHON operative, if it's shooting against or fighting against a wounded enemy operative. You can re-roll any of your attack dice."
+      "ployName": "DEPREDAR A LOS HERIDOS",
+      "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque por un agente **MANO DEL ARCONTE** amigo, si está disparando o combatiendo contra un agente enemigo herido. Puedes repetir cualquiera de tus dados de ataque."
     }
   ],
   "equipments": [
@@ -83,40 +83,40 @@
       "eqId": "AEL-HOTA-CS",
       "killteamId": "AEL-HOTA",
       "seq": 1,
-      "eqName": "Chain Snare",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly HAND OF THE ARCHON operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it).",
+      "eqName": "CEPO DE CADENA",
+      "description": "Cuando un agente enemigo vaya a realizar una acción de Retroceder mientras se encuentra en la zona de control de un agente **MANO DEL ARCONTE** amigo, si no hay otros agente enemigos en la zona de control de ese agente amigo, puedes usar esta regla.\n En tal caso, tira dos D6, o un D6 si ese agente enemigo tiene un atributo Heridas mayor que el del agente amigo en cuestión.\n Si cualquier resultado es un 4+, dicho agente enemigo no puede realizar esa acción durante esta activación o reacción (no se gastan PA en ella).",
       "effects": ""
     },
     {
       "eqId": "AEL-HOTA-WB",
       "killteamId": "AEL-HOTA",
       "seq": 2,
-      "eqName": "Wicked Blades",
-      "description": "Add 1 to the Atk stat of friendly HAND OF THE ARCHON operatives' array of blades.",
+      "eqName": "HOJAS MEZQUINAS",
+      "description": "Suma 1 al atributo Ataque de las cuchillas por doquier de los agentes MANO DEL ARCONTE amigos.",
       "effects": "wepid:AOB|ATK:+1"
     },
     {
       "eqId": "AEL-HOTA-TC",
       "killteamId": "AEL-HOTA",
       "seq": 3,
-      "eqName": "Toxic Coating",
-      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is fighting or retaliating and you're selecting a melee weapon, you can use this rule.\nIf you do, until the end of that sequence, that operative's melee weapon has the Lethal 5+ weapon rule.",
+      "eqName": "COBERTURA TÓXICA",
+      "description": "Hasta dos veces por punto de inflexión, cuando un agente MANO DEL ARCONTE amigo combata o contraataque y estés eligiendo un arma de combate, puedes usar esta regla.\nSi lo haces, hasta el final de esa secuencia el arma de combate de dicho agente tiene la regla de armas Letal 5+.",
       "effects": ""
     },
     {
       "eqId": "AEL-HOTA-RP",
       "killteamId": "AEL-HOTA",
       "seq": 4,
-      "eqName": "Refined Poison",
-      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is performing the Shoot action and you select a shardcarbine, splinter cannon, splinter pistol, splinter rifle or stinger pistol,\nyou can use this rule. If you do, until the end of that action, add 1 to the Normal Dmg stat of that weapon.",
+      "eqName": "VENENO REFINADO",
+      "description": "Hasta dos veces por punto de inflexión, cuando un agente MANO DEL ARCONTE amigo realice la acción Disparar y elijas una carabina cristalina, un cañón cristalino, una pistola cristalina, un rifle cristalino o una pistola aguijón, puedes usar esta regla.\n Si lo haces, hasta el final de la acción suma al atributo Daño normal de dicha arma.",
       "effects": ""
     }
   ],
   "teamAbilities": [
     {
       "abilityId": "AEL-HOTA-TA-POFRPA",
-      "abilityName": "Power From Pain",
-      "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
+      "abilityName": "PODER DEL DOLOR",
+      "description": "Después de que un agente MANO DEL ARCONTE amigo realice una acción, ganará una de tus fichas de Dolor si:\n\n- Un agente enemigo ha sido lesionado durante esa acción, pero no ha quedado incapacitado.\n- Un agente enemigo ha quedado incapacitado durante esa acción. Si ese agente enemigo tenía un atributo Heridas de 12 o más, en lugar de lo anterior el agente amigo en cuestión gana dos de tus fichas de Dolor.\n\nPuedes gastar fichas de Dolor de agentes amigos en potenciaciones siempre que se cumpla la condición \"cuándo\". No puedes usar más de una potenciación por activación o reacción, excepto Sentidos estimulados, que puede utilizarse una vez por activación o reacción además de otra potenciación.  \n  \n\n**Ánima oscura**\n\n- **Cuándo:**  Durante la activación del agente, antes o después de que realice una acción.\n- **Efecto:** Hasta el inicio de la siguiente activación del agente, suma 1 a su atributo LPA\n\n**Rejuvenecimiento acelerado**\n\n- **Cuándo:** Durante la activación o la reacción del agente, antes o después de que realice una acción\n- **Efecto:** El agente recupera 1D3+1 heridas perdidas.\n\n**Incremento de vitalidad**\n\n- **Cuándo:** Después de que el agente incapacite a un agente enemigo y dicho agente enemigo sea retirado de la zona de aniquilación.\n- **Efecto:** El agente puede realizar de inmediato una acción libre de Correr, incluso aunque hubiese realizado una acción que le impidiera realizar acciones de Correr.\n\n**Sentidos estimulados**\n\n- **Cuándo:** Tras tirar tus dados de ataque o de defensa por el agente.\n- **Efecto:** Puedes repetir cualquiera de tus dados que tengan un resultado concreto (p. ej., los que hayan obtenido un resultado de 2).\n"
     }
   ],
   "opTypes": [
@@ -124,7 +124,7 @@
       "opTypeId": "AEL-HOTA-KAS",
       "killteamId": "AEL-HOTA",
       "seq": 1,
-      "opTypeName": "Kabalite Archsybarite",
+      "opTypeName": "ARCHISIBARITA KABALISTA",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -136,7 +136,7 @@
           "wepId": "AEL-HOTA-KAS-BP",
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 0,
-          "wepName": "Blast Pistol",
+          "wepName": "Pistola bláster",
           "wepType": "R",
           "profiles": [
             {
@@ -164,7 +164,7 @@
           "wepId": "AEL-HOTA-KAS-SP",
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 1,
-          "wepName": "Splinter Pistol",
+          "wepName": "Pistola cristalina",
           "wepType": "R",
           "profiles": [
             {
@@ -192,7 +192,7 @@
           "wepId": "AEL-HOTA-KAS-SR",
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 2,
-          "wepName": "Splinter Rifle",
+          "wepName": "Rifle cristalino",
           "wepType": "R",
           "profiles": [
             {
@@ -216,7 +216,7 @@
           "wepId": "AEL-HOTA-KAS-AG",
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 3,
-          "wepName": "Agoniser",
+          "wepName": "Agonizador",
           "wepType": "M",
           "profiles": [
             {
@@ -246,7 +246,7 @@
           "wepId": "AEL-HOTA-KAS-AOB",
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 4,
-          "wepName": "Array Of Blades",
+          "wepName": "Cuchillas por doquier",
           "wepType": "M",
           "profiles": [
             {
@@ -265,7 +265,7 @@
           "wepId": "AEL-HOTA-KAS-PW",
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 5,
-          "wepName": "Power Weapon",
+          "wepName": "Arma de energía",
           "wepType": "M",
           "profiles": [
             {
@@ -289,7 +289,7 @@
           "wepId": "AEL-HOTA-KAS-VB",
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 6,
-          "wepName": "Venom Blade",
+          "wepName": "Espada venenosa",
           "wepType": "M",
           "profiles": [
             {
@@ -314,14 +314,14 @@
         {
           "abilityId": "AEL-HOTA-KAS-A-CUN",
           "opTypeId": "AEL-HOTA-KAS",
-          "abilityName": "Cunning",
-          "description": "In the Gambit step of each Strategy phase, if you pass at the first opportunity, you gain 1CP. Ignore each STRATEGIC GAMBIT from the mission pack (if any) when determining this."
+          "abilityName": "Astucia",
+          "description": " En el paso de gambito de cada fase de estrategia, si este agente está en la zona de aniquilación y pasas en la primera oportunidad que tengas, ganas 1PM. Ignora cada **GAMBITO ESTRATÉGICO** del pack de misiones (si lo hay) al determinar esto."
         },
         {
           "abilityId": "AEL-HOTA-KAS-A-RIF",
           "opTypeId": "AEL-HOTA-KAS",
           "abilityName": "Rifles",
-          "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting with a splinter rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat weapon has the Accurate 1 weapon rule. Note that operative isn't restricted from performing those actions after shooting."
+          "description": "Siempre que un agente **MANO DEL ARCONTE** amigo dispara con un rifle cristalino durante una activación en la que no haya realizado una acción de **Cargar**, **Retroceder** o **Reposicionarse**, \n esa arma tiene la regla de armas Certera 1. Ten en cuenta que el agente no se ve impedido de realizar esas acciones después de disparar."
         }
       ]
     },
@@ -329,7 +329,7 @@
       "opTypeId": "AEL-HOTA-KAG",
       "killteamId": "AEL-HOTA",
       "seq": 2,
-      "opTypeName": "Kabalite Agent",
+      "opTypeName": "ESPÍA KABALISTA",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -341,7 +341,7 @@
           "wepId": "AEL-HOTA-KAG-SR",
           "opTypeId": "AEL-HOTA-KAG",
           "seq": 0,
-          "wepName": "Splinter Rifle",
+          "wepName": "Rifle cristalino",
           "wepType": "R",
           "profiles": [
             {
@@ -365,7 +365,7 @@
           "wepId": "AEL-HOTA-KAG-AOB",
           "opTypeId": "AEL-HOTA-KAG",
           "seq": 1,
-          "wepName": "Array Of Blades",
+          "wepName": "Cuchillas por doquier",
           "wepType": "M",
           "profiles": [
             {
@@ -386,13 +386,13 @@
           "abilityId": "AEL-HOTA-KAG-A-RIF",
           "opTypeId": "AEL-HOTA-KAG",
           "abilityName": "Rifles",
-          "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting with a splinter rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat weapon has the Accurate 1 weapon rule. Note that operative isn't restricted from performing those actions after shooting."
+          "description": "Siempre que un agente **MANO DEL ARCONTE** amigo dispara con un rifle cristalino durante una activación en la que no haya realizado una acción de **Cargar**, **Retroceder** o **Reposicionarse**, \n esa arma tiene la regla de armas Certera 1. Ten en cuenta que el agente no se ve impedido de realizar esas acciones después de disparar."
         },
         {
           "abilityId": "AEL-HOTA-KAG-A-SC",
           "opTypeId": "AEL-HOTA-KAG",
-          "abilityName": "Sadistic Competition",
-          "description": "Once per turning point, when a friendly HAND OF THE ARCHON operative gains one of your Pain tokens, one friendly HAND OF THE ARCHON AGENT operative that doesn't have one of your Pain tokens can also gain one."
+          "abilityName": "Competición sádica",
+          "description": " Una vez por punto de inflexión que otro agente MANO DEL ARCONTE amigo obtenga una de tus fichas de Dolor, un ESPÍA MANO DEL ARCONTE amigo que no tenga una de tus fichas de Dolor puede también obtener una."
         }
       ]
     },
@@ -400,7 +400,7 @@
       "opTypeId": "AEL-HOTA-KCD",
       "killteamId": "AEL-HOTA",
       "seq": 3,
-      "opTypeName": "Kabalite Crimson Duellist",
+      "opTypeName": "DUELISTA CARMESÍ KABALISTA",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -412,7 +412,7 @@
           "wepId": "AEL-HOTA-KCD-SP",
           "opTypeId": "AEL-HOTA-KCD",
           "seq": 0,
-          "wepName": "Splinter Pistol",
+          "wepName": "Pistola cristalina",
           "wepType": "R",
           "profiles": [
             {
@@ -440,7 +440,7 @@
           "wepId": "AEL-HOTA-KCD-RF",
           "opTypeId": "AEL-HOTA-KCD",
           "seq": 1,
-          "wepName": "Razorflail",
+          "wepName": "Enredador cuchilla",
           "wepType": "M",
           "profiles": [
             {
@@ -467,8 +467,14 @@
         {
           "abilityId": "AEL-HOTA-KCD-A-CD",
           "opTypeId": "AEL-HOTA-KCD",
-          "abilityName": "Crimson Duellist",
-          "description": "This operative can perform two Fight actions during its activation."
+          "abilityName": "Duelista Carmesí",
+          "description": " Este agente puede realizar 2 acciones de Combatir durante su activación."
+        },
+		{
+          "abilityId": "AEL-HOTA-KCD-A-EB",
+          "opTypeId": "AEL-HOTA-KCD",
+          "abilityName": "Exhibición brutal",
+          "description": "Una vez por punto de inflexión, cuando este agente incapacite a un agente enemigo en su zona de control, puedes elegir a otro agente enemigo a 6\" o menos de cualquier agente o del agente enemigo incapacitado y que sea visible para él. Hasta el inicio del siguiente punto de inflexión, ese otro agente enemigo no puede controlar marcadores ni realizar acciones de Recoger marcador ni de misión."
         }
       ]
     },
@@ -519,7 +525,7 @@
           "wepId": "AEL-HOTA-KDOY-AOB",
           "opTypeId": "AEL-HOTA-KDOY",
           "seq": 1,
-          "wepName": "Array Of Blades",
+          "wepName": "Cuchillas por doquier",
           "wepType": "M",
           "profiles": [
             {
@@ -571,7 +577,7 @@
           "wepId": "AEL-HOTA-KELX-SR",
           "opTypeId": "AEL-HOTA-KELX",
           "seq": 0,
-          "wepName": "Splinter Rifle",
+          "wepName": "Rifle cristalino",
           "wepType": "R",
           "profiles": [
             {
@@ -626,7 +632,7 @@
           "wepId": "AEL-HOTA-KELX-AOB",
           "opTypeId": "AEL-HOTA-KELX",
           "seq": 2,
-          "wepName": "Array Of Blades",
+          "wepName": "Cuchillas por doquier",
           "wepType": "M",
           "profiles": [
             {
@@ -653,7 +659,7 @@
           "abilityId": "AEL-HOTA-KELX-A-RIF",
           "opTypeId": "AEL-HOTA-KELX",
           "abilityName": "Rifles",
-          "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting with a splinter rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat weapon has the Accurate 1 weapon rule. Note that operative isn't restricted from performing those actions after shooting."
+          "description": "Siempre que un agente **MANO DEL ARCONTE** amigo dispara con un rifle cristalino durante una activación en la que no haya realizado una acción de **Cargar**, **Retroceder** o **Reposicionarse**, \n esa arma tiene la regla de armas Certera 1. Ten en cuenta que el agente no se ve impedido de realizar esas acciones después de disparar."
         }
       ],
       "actions": [
@@ -763,7 +769,7 @@
           "wepId": "AEL-HOTA-KGNR-SH",
           "opTypeId": "AEL-HOTA-KGNR",
           "seq": 1,
-          "wepName": "Shredder",
+          "wepName": "Desgarrador",
           "wepType": "R",
           "profiles": [
             {
@@ -790,7 +796,7 @@
           "wepId": "AEL-HOTA-KGNR-AOB",
           "opTypeId": "AEL-HOTA-KGNR",
           "seq": 2,
-          "wepName": "Array Of Blades",
+          "wepName": "Cuchillas por doquier",
           "wepType": "M",
           "profiles": [
             {
@@ -824,7 +830,7 @@
           "wepId": "AEL-HOTA-KHGNR-DL",
           "opTypeId": "AEL-HOTA-KHGNR",
           "seq": 0,
-          "wepName": "Dark Lance",
+          "wepName": "Lanza oscura",
           "wepType": "R",
           "profiles": [
             {
@@ -852,7 +858,7 @@
           "wepId": "AEL-HOTA-KHGNR-SC",
           "opTypeId": "AEL-HOTA-KHGNR",
           "seq": 1,
-          "wepName": "Splinter Cannon",
+          "wepName": "Cañón cristalino",
           "wepType": "R",
           "profiles": [
             {
@@ -903,7 +909,7 @@
           "wepId": "AEL-HOTA-KHGNR-AOB",
           "opTypeId": "AEL-HOTA-KHGNR",
           "seq": 2,
-          "wepName": "Array Of Blades",
+          "wepName": "Cuchillas por doquier",
           "wepType": "M",
           "profiles": [
             {
@@ -994,7 +1000,7 @@
           "wepId": "AEL-HOTA-KSA-AOB",
           "opTypeId": "AEL-HOTA-KSA",
           "seq": 2,
-          "wepName": "Array Of Blades",
+          "wepName": "Cuchillas por doquier",
           "wepType": "M",
           "profiles": [
             {
