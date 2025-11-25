@@ -7,7 +7,7 @@
   "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_raveners-xxitloe7cr-ek2wvejuci.pdf",
   "killteamName": "Mántifex",
   "description": "Los comandos de Mántifex están hiperadaptados hasta tal punto que superan todo tipo de defensas sus presas. Guiados por sus imperativos sinápticos, los Mántifex excavan a velocidad horripilante para atacar a su presa desde ángulos vulnerables, antes de usar sus espolones afilados, garras quitinosas y virulentas biotoxinas para ejecutar la voluntad de la Mente Colmena..",
-  "composition": "Los comandos de MÁNTIFEX está compuesto por:\n\n- 1 MÁNTIFEX PRIMUS\n- 4 agentes MÁNTIFEX elegidos de la siguiente lista:\n  - GARRAVIL\n  - GUADAÑA TRÉMULA\n  - ESCUPEVENENO\n  - COMBATIENTE\n  -  DEMOLEDOR\n\nSalvo agentes **COMBATIENTE**, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.",
+  "composition": "Los comandos de **MÁNTIFEX** está compuesto por:\n\n- 1 **MÁNTIFEX** PRIMUS\n- 4 agentes **MÁNTIFEX** elegidos de la siguiente lista:\n  - GARRAVIL\n  - GUADAÑA TRÉMULA\n  - ESCUPEVENENO\n  - COMBATIENTE\n  -  DEMOLEDOR\n\nSalvo agentes **COMBATIENTE**, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.",
   "archetypes": [
     "Seek & Destroy",
     "Infiltration"
@@ -19,7 +19,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "ACECHADORES DESDE EL TÚNEL",
-      "description": "Siempre que un agente MÁNTIFEX amigo se encuentre en tu **TÚNEL** estará tras cobertura, a menos que se encuentre a 2\" o menos del agente activo. Considera esto como una cobertura brindada por terreno ligero (y a la que, por tanto, le afectan las reglas que evitan esto, como Buscadora (Ligero) y terreno Aventajado)."
+      "description": "Siempre que un agente **MÁNTIFEX** amigo se encuentre en tu **TÚNEL** estará tras cobertura, a menos que se encuentre a 2\" o menos del agente activo. Considera esto como una cobertura brindada por terreno ligero (y a la que, por tanto, le afectan las reglas que evitan esto, como Buscadora (Ligero) y terreno Aventajado)."
     },
     {
       "ployId": "TYR-RAV-S-WOOS",
@@ -27,7 +27,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "DESAPARICIÓN SIBILINA",
-      "description": "Elige un agente MÁNTIFEX amigo en la zona de aniquilación. Puedes realizar de inmediato una acción libre de Excavar con ese agente. Si se encuentra a 2\" o menos de tu **TÚNEL**, puedes realizar de inmediato una acción libre de Retroceder o Reposicionarse antes de que lo haga."
+      "description": "Elige un agente **MÁNTIFEX** amigo en la zona de aniquilación. Puedes realizar de inmediato una acción libre de Excavar con ese agente. Si se encuentra a 2\" o menos de tu **TÚNEL**, puedes realizar de inmediato una acción libre de Retroceder o Reposicionarse antes de que lo haga."
     },
     {
       "ployId": "TYR-RAV-S-WCE",
@@ -92,7 +92,7 @@
       "killteamId": "TYR-RAV",
       "seq": 2,
       "eqName": "SANGRE ÁCIDA",
-      "description": "Siempre que un agente MÁNTIFEX amigo esté combatiendo o contraatacando, siempre que un dado de ataque le inflija daño, tira 1D6: con un 5+, inflige 1 daño al agente enemigo en esa secuencia.",
+      "description": "Siempre que un agente **MÁNTIFEX** amigo esté combatiendo o contraatacando, siempre que un dado de ataque le inflija daño, tira 1D6: con un 5+, inflige 1 daño al agente enemigo en esa secuencia.",
       "effects": ""
     },
     {
@@ -115,19 +115,19 @@
   "teamAbilities": [
     {
       "abilityId": "TYR-RAV-TA-BU",
-      "abilityName": "Burrow",
+      "abilityName": "EXCAVAR",
       "AP": 1,
-      "description": "When setting up a RAVENER kill team before the battle, your first two operatives must be set up as normal.\nEach other friendly RAVENER operative thereafter can be set up underground: place it to one side instead of in the killzone.  \n\nIn the Firefight phase, friendly RAVENER operatives set up underground are activated and can counteract as normal. Whenever a friendly RAVENER operative is underground, it cannot perform any actions other than Burrow.\nAt the end of the battle, each friendly RAVENER operative that's underground is incapacitated.  \n\nFriendly RAVENER operatives can perform the following action:  \n\n**BURROW (1 AP)**:  \n\nIf this operative is underground, set it up on your TUNNEL in a location it can be placed (it's no longer underground, and it can be set up within control range of enemy operatives).\nUntil the end of the activation/counteraction, subtract 2\" from its Move stat.\nAlternatively, instead of resolving the above effect, if this operative is in the killzone and on your TUNNEL, remove it from the killzone: it's now underground.\nAn operative cannot perform this action while carrying a marker."
+      "description": "Al desplegar un comando **MÁNTIFEX** antes de la batalla, tus primeros dos agentes deben colocarse de manera normal.\n Cada otro agente **MÁNTIFEX** amigo posterior puede ser desplegado bajo tierra: colócalo a un lado en lugar de colocarlo en la zona de aniquilación.  \n\nEn la fase de tiroteo, los agentes **MÁNTIFEX** amigos desplegados bajo tierra se activan y pueden reaccionar de forma normal. Siempre que un agente **MÁNTIFEX** amigo esté bajo tierra, no puede realizar más acciones que Excavar\nAl final de la batalla, todos los agentes **MÁNTIFEX** amigos bajo tierra quedan incapacitados.  \n\nLos agentes **MÁNTIFEX** amigos pueden realizar la siguiente acción única:  \n\n**EXCAVAR (1 AP)**:  \n\nSi este agente está bajo tierra, despliégalo en tu **TÚNEL** en una ubicación en la que pueda colocarse (ya no está bajo tierra y puede desplegarse dentro de la zona de control de agentes enemigos).\nHasta el final de la activación/reacción, resta 2\" a su atributo Movimiento.\nAlternativamente, en lugar de resolver el efecto de arriba, si este agente se encuentra en la zona de aniquilación y en tu **TÚNEL**, retíralo de la zona de aniquilación; ahora está bajo tierra.\nUn agente no puede realizar esta acción mientras transporta un marcador, o si no está ni bajo tierra ni en tu **TÚNEL**."
     },
     {
       "abilityId": "TYR-RAV-TA-PRIN",
-      "abilityName": "Predatory Instincts",
-      "description": "During each friendly RAVENER operative's activation, it can perform two Fight actions.  \n\nEach friendly RAVENER operative can counteract regardless of its order. Whenever it does:\n\n- You can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point).\n- During that counteraction, if it doesn't perform a mission action it can perform a free Burrow action.\n"
+      "abilityName": "INSTINTOS DE DEPREDADOR",
+      "description": "Durante la activación de cada agente **MÁNTIFEX** amigo, puede realizar dos acciones de **Combatir**.\nCada agente MÁNTIFEX amigo puede reaccionar sin importar cuál sea su orden.\n\n- Puedes cambiar su orden primero o cambiar su orden en lugar de realizar una acción (en el segundo caso, se sigue considerando que ha reaccionado este punto de inflexión).\n- Durante la reacción, si no realiza una acción de misión puede realizar una acción libre de **Excavar**.\n"
     },
     {
       "abilityId": "TYR-RAV-TA-TU",
-      "abilityName": "Tunnel",
-      "description": "At the end of the Set Up Operatives step, place your Tunnel marker numbered '0' on the killzone floor, wholly within your drop zone and touching your killzone edge.\nAs a STRATEGIC GAMBIT in the first four turning points, you can place your next numbered Tunnel marker on the killzone floor wholly within 5\" of your preceding Tunnel marker.\nThis means that, as the battle progresses, you can have a series of sequentially numbered Tunnel markers (0, 1, 2, 3 and 4).\nOnce you have placed five Tunnel markers, don't place any more (i.e. if your battle lasts more than four turning points).  \n\nYour Tunnel markers and the area between your sequentially numbered markers (i.e. between 0 and 1, 1 and 2, etc.), create your TUNNEL.  \n\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), your TUNNEL and the distance between your Tunnel markers can be measured through Wall terrain. In a killzone that uses the hazardous areas rules (e.g. Killzone: Bheta Decima), for the purposes of the Restricted Movement rule, parts of a Tunnel marker that are touching a hazardous area are treated as a hazardous area."
+      "abilityName": "TÚNEL",
+      "description": "Al final del paso de Desplegar agentes, coloca tu marcador de Túnel numerado con el “0” en el suelo de la zona de aniquilación, completamente dentro de tu zona de descenso y tocando tu borde de la zona de aniquilación.\nComo **GAMBITO ESTRATÉGICO**, en los primeros cuatro puntos de inflexión puedes colocar tu siguiente marcador de Túnel numerado en el suelo de la zona de aniquilación completamente a 5” o menos del marcador de Túnel que lo precede.\nEsto significa que, a medida que progresa la batalla, puedes tener una serie de marcadores de Túnel numerados en secuencia (0, 1, 2, 3 y 4).\nUna vez que hayas colocado cinco marcadores de Túnel, no coloques más (en caso de que la batalla dure más de cuatro puntos de inflexión).  \n\nTus marcadores de Túnel y el área entre los marcadores numerados en secuencia (es decir, entre el 0 y el 1, 1 y 2, etc.) crean tu **TÚNEL**.  \n\nEn una zona de aniquilación que usa las reglas de combate cerrado (p. ej., Zona de Aniquilación: Mundo Necrópolis), tu TÚNEL y la distancia entre tus marcadores de Túnel se pueden medir a través de terreno Muro. En una zona de aniquilación que use reglas de áreas peligrosas (p. ej., Zona de aniquilación: Bheta Decima), en relación a la regla Movimiento restringido, las partes de un marcador de Túnel que toquen un área peligrosa se consideran un área peligrosa."
     }
   ],
   "opTypes": [
@@ -135,7 +135,7 @@
       "opTypeId": "TYR-RAV-PRM",
       "killteamId": "TYR-RAV",
       "seq": 1,
-      "opTypeName": "Ravener Prime",
+      "opTypeName": "PRIMUS",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
@@ -147,7 +147,7 @@
           "wepId": "TYR-RAV-PRM-TB",
           "opTypeId": "TYR-RAV-PRM",
           "seq": 1,
-          "wepName": "Tail Blade",
+          "wepName": "Hoja de cola",
           "wepType": "R",
           "profiles": [
             {
@@ -177,7 +177,7 @@
           "wepId": "TYR-RAV-PRM-STRC",
           "opTypeId": "TYR-RAV-PRM",
           "seq": 2,
-          "wepName": "Scything Talons & Rending Claws",
+          "wepName": "Garras afiladas y garras aceradas",
           "wepType": "M",
           "profiles": [
             {
@@ -201,14 +201,14 @@
         {
           "abilityId": "TYR-RAV-PRM-A-NPC",
           "opTypeId": "TYR-RAV-PRM",
-          "abilityName": "Neuropredatory Crest",
-          "description": "Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of this operative.\nNote this isn't a change to the APL stat, so any changes are cumulative with this. Whenever an enemy operative is within 3\" of this operative:\n\n- Your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Your opponent cannot re-roll their attack or defence dice for that operative.\n"
+          "abilityName": "Cresta neurodepredadora",
+          "description": "Al determinar el control de un marcador, considera el atributo LPA total de los agentes enemigos que lo estén disputando como si fuera 1 menos si al menos uno de esos agentes enemigos se encuentra a 3\" o menos de este agente.\nTen en cuenta que esto no es un cambio a su atributo LPA, de modo que cualquier cambio es acumulable con esto. Siempre que un agente enemigo se encuentre a 3\" o menos de este agente\n\n- Tu oponente debe gastar 1 PA adicional para que ese agente enemigo pueda realizar una acción de Recoger marcador y acciones de misión.\n- Tu oponente no puede repetir la tirada de sus dados de ataque o de defensa para ese agente.\n"
         },
         {
           "abilityId": "TYR-RAV-PRM-A-SL",
           "opTypeId": "TYR-RAV-PRM",
-          "abilityName": "Synaptic Link",
-          "description": "STRATEGIC GAMBIT if this operative isn't incapacitated.  \n\nRoll one D6 and compare the result to the number of the current turning point; if the result is:\n\n- Twice as high or higher, you gain 1CP.\n- Less: inflict damage on this operative equal to the result.\n\n- Any other result, nothing happens.\n"
+          "abilityName": "Enlace sináptico",
+          "description": "**GAMBITO ESTRATÉGICO** si este agente no está incapacitado  \n\nTira 1D6 y compara el resultado con el número del punto de inflexión actual; si el resultado es:\n\n-  El doble o más alto, ganas 1PM.\n-  Menor: inflige tanto daño a este agente como el resultado\n\n- Cualquier otro resultado, no ocurre nada.\n"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "opTypeId": "TYR-RAV-FTL",
       "killteamId": "TYR-RAV",
       "seq": 2,
-      "opTypeName": "Ravener Felltalon",
+      "opTypeName": "GARRAVIL",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
@@ -228,7 +228,7 @@
           "wepId": "TYR-RAV-FTL-PT",
           "opTypeId": "TYR-RAV-FTL",
           "seq": 1,
-          "wepName": "Pincer Tail",
+          "wepName": "Pinza de cola",
           "wepType": "R",
           "profiles": [
             {
@@ -255,7 +255,7 @@
           "wepId": "TYR-RAV-FTL-TG",
           "opTypeId": "TYR-RAV-FTL",
           "seq": 2,
-          "wepName": "Toxic Glands",
+          "wepName": "Glándulas tóxicas",
           "wepType": "R",
           "profiles": [
             {
@@ -285,7 +285,7 @@
           "wepId": "TYR-RAV-FTL-TS",
           "opTypeId": "TYR-RAV-FTL",
           "seq": 3,
-          "wepName": "Toxic Scythes",
+          "wepName": "Guadañas tóxicas",
           "wepType": "M",
           "profiles": [
             {
@@ -305,7 +305,7 @@
                   "id": "WR-UNIV-SHOCK"
                 },
                 {
-                  "id": "WR-CHAOS-PM-POISON"
+                  "id": "TYR-RAV-FTL-A-PSN"
                 }
               ]
             }
@@ -351,7 +351,7 @@
           "wepId": "TYR-RAV-TRS-PT",
           "opTypeId": "TYR-RAV-TRS",
           "seq": 1,
-          "wepName": "Pincer Tail",
+          "wepName": "Pinza de cola",
           "wepType": "R",
           "profiles": [
             {
@@ -425,7 +425,7 @@
           "wepId": "TYR-RAV-VSP-PT",
           "opTypeId": "TYR-RAV-VSP",
           "seq": 1,
-          "wepName": "Pincer Tail",
+          "wepName": "Pinza de cola",
           "wepType": "R",
           "profiles": [
             {
@@ -559,7 +559,7 @@
           "wepId": "TYR-RAV-WAR-PT",
           "opTypeId": "TYR-RAV-WAR",
           "seq": 1,
-          "wepName": "Pincer Tail",
+          "wepName": "Pinza de cola",
           "wepType": "R",
           "profiles": [
             {
