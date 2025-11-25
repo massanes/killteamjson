@@ -5,9 +5,9 @@
   "classified": true,
   "season": "Volkus",
   "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_raveners-xxitloe7cr-ek2wvejuci.pdf",
-  "killteamName": "Raveners",
-  "description": "Ravener kill teams are hyperadapted to such an extent that they are able to overcome all manner of a prey species' defences. Driven by alien synaptic imperatives, Raveners burrow with horrific speed to strike at prey from vulnerable angles, before using razor-sharp talons, chitinous claws and virulent biotoxins to enact the Hive Mind's will.",
-  "composition": "A RAVENERS KillTeam  is composed of:\n\n- 1 RAVENER PRIME\n- 4 RAVENER operatives selected from the following list:\n  - FELLTALON\n  - TREMORSCYTHE\n  - VENOMSPITTER\n  - WARRIOR\n  - WRECKER\n\nOther than WARRIOR operatives, your KillTeam can only include each operative on this list once.",
+  "killteamName": "Mántifex",
+  "description": "Los comandos de Mántifex están hiperadaptados hasta tal punto que superan todo tipo de defensas sus presas. Guiados por sus imperativos sinápticos, los Mántifex excavan a velocidad horripilante para atacar a su presa desde ángulos vulnerables, antes de usar sus espolones afilados, garras quitinosas y virulentas biotoxinas para ejecutar la voluntad de la Mente Colmena..",
+  "composition": "Los comandos de MÁNTIFEX está compuesto por:\n\n- 1 MÁNTIFEX PRIMUS\n- 4 agentes MÁNTIFEX elegidos de la siguiente lista:\n  - GARRAVIL\n  - GUADAÑA TRÉMULA\n  - ESCUPEVENENO\n  - COMBATIENTE\n  -  DEMOLEDOR\n\nSalvo agentes **COMBATIENTE**, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.",
   "archetypes": [
     "Seek & Destroy",
     "Infiltration"
@@ -18,64 +18,64 @@
       "killteamId": "TYR-RAV",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Tunnel Lurkers",
-      "description": "Whenever a friendly RAVENER operative is on your TUNNEL it's in cover, unless it's within 2\" of the active operative. Treat this as cover provided by Light terrain (therefore it's affected by rules that prevent this, e.g. Seek Light and Vantage terrain)."
+      "ployName": "ACECHADORES DESDE EL TÚNEL",
+      "description": "Siempre que un agente MÁNTIFEX amigo se encuentre en tu **TÚNEL** estará tras cobertura, a menos que se encuentre a 2\" o menos del agente activo. Considera esto como una cobertura brindada por terreno ligero (y a la que, por tanto, le afectan las reglas que evitan esto, como Buscadora (Ligero) y terreno Aventajado)."
     },
     {
       "ployId": "TYR-RAV-S-WOOS",
       "killteamId": "TYR-RAV",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Writhe Out Of Sight",
-      "description": "Select one friendly RAVENER operative in the killzone. That friendly operative can immediately perform a free Burrow action. If it's within 2\" of your TUNNEL, it can immediately perform a free Fall Back or Reposition action before it does so."
+      "ployName": "DESAPARICIÓN SIBILINA",
+      "description": "Elige un agente MÁNTIFEX amigo en la zona de aniquilación. Puedes realizar de inmediato una acción libre de Excavar con ese agente. Si se encuentra a 2\" o menos de tu **TÚNEL**, puedes realizar de inmediato una acción libre de Retroceder o Reposicionarse antes de que lo haga."
     },
     {
       "ployId": "TYR-RAV-S-WCE",
       "killteamId": "TYR-RAV",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Whipcord Emergence",
-      "description": "Whenever an operative is shooting a friendly RAVENER operative:\n\n- f that friendly operative has performed the Burrow action during that turning point, you can re-roll one of your defence dice.\n- f that friendly operative is on your TUNNEL, you can re-roll any of your defence dice.\n"
+      "ployName": "EMERGENCIA ENTRELAZADA",
+      "description": "Siempre que un agente dispare contra un agente **MÁNTIFEX** amigo:\n\n-  Si ese agente amigo ha realizado la acción **Excavar** durante ese punto de inflexión, puedes repetir la tirada de uno de tus dados de defensa\n-  Si ese agente amigo está en tu **TÚNEL**, puedes repetir la tirada de cualquiera de tus dados de defensa.\n"
     },
     {
       "ployId": "TYR-RAV-S-DFB",
       "killteamId": "TYR-RAV",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Death From Below",
-      "description": "Whenever a friendly RAVENER operative is fighting:\n\n- If it's performed the Burrow action during that activation/counteraction, its melee weapons have the Balanced weapon rule.\n- If it's on your TUNNEL, its melee weapons have the Ceaseless weapon rule.\n"
+      "ployName": "MUERTE DESDE ABAJO",
+      "description": "Siempre que un agente **MÁNTIFEX** amigo combata:\n\n- Si ha realizado la acción **Excavar** durante esa activación o reacción, sus armas de combate tienen la regla de armas Equilibrada.\n- Si está en tu **TÚNEL**, sus armas de combate tienen la regla de armas Incesante.\n"
     },
     {
       "ployId": "TYR-RAV-T-STH",
       "killteamId": "TYR-RAV",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Subterranean Horror",
-      "description": "Use this firefight ploy when an enemy operative is performing the Fight action and selects a friendly RAVENER operative on your TUNNEL to fight against.\nIn the Resolve Attack Dice step of that sequence, you resolve the first attack dice (i.e. defender instead of attacker)."
+      "ployName": "HORROR SUBTERRÁNEO",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo realice la acción **Combatir** y tome como blanco a un agente **MÁNTIFEX** amigo en tu **TÚNEL**.\nEn el paso de Resolver dados de ataque de esa secuencia, tú resuelves el primer dado de ataque (es decir, el defensor en lugar del atacante)."
     },
     {
       "ployId": "TYR-RAV-T-SE",
       "killteamId": "TYR-RAV",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Slithering Evasion",
-      "description": "Use this firefight ploy during a friendly RAVENER operative's activation or counteraction, before or after it performs an action. During that activation/ counteraction, that operative can:\n\n- Perform the Fall Back action for 1 less AP.\n- Perform the Charge action while within control range of an enemy operative, and can leave that operative's control range to do so (but then normal requirements for that move apply).\n"
+      "ployName": "EVASIÓN SERPENTEANTE",
+      "description": "Usa este ardid de tiroteo durante la activación o reacción de un agente **MÁNTIFEX** amigo. Durante esa activación o reacción, ese agente puede:\n\n- Realizar la acción **Retroceder** por 1 PA menos.\n- Realizar la acción Cargar aún estando en la zona de control de un agente enemigo. Además, al realizarla puede abandonar la zona de control de dicho agente (aunque por lo demás se seguirán aplicando los requisitos normales para ese movimiento).\n"
     },
     {
       "ployId": "TYR-RAV-T-DF",
       "killteamId": "TYR-RAV",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Death Frenzy",
-      "description": "Use this firefight ploy when a friendly RAVENER operative is incapacitated. Before that operative is removed from the killzone, inflict D3 damage on each enemy operative within its control range (roll separately for each).\nIf that friendly operative is a VENOMSPITTER that's currently benefitting from the effects of its Distend Dorsal Sac action, inflict 2D3 damage instead."
+      "ployName": "FRENESÍ DE MUERTE",
+      "description": "Usa este ardid de tiroteo cuando un agente **MÁNTIFEX** amigo está incapacitado. Antes de que ese agente sea retirado de la zona de aniquilación, inflige 1D3 daños a cada agente enemigo en su zona de control (tira por separado para cada uno).\nSi ese agente amigo es un **ESCUPEVENENO** que actualmente se esté beneficiando de los efectos de su acción **Saco dorsal distendido**, en su lugar inflige 2D3 daños."
     },
     {
       "ployId": "TYR-RAV-T-BS",
       "killteamId": "TYR-RAV",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Burrowing Strike",
-      "description": "Use this firefight ploy when a friendly RAVENER operative performs the Burrow action. Before that operative is removed from the killzone, or after setting it up on your TUNNEL, inflict D3+1 damage on each enemy operative within its control range (roll separately for each).\nYou cannot use this ploy in the Strategy phase, or during a FELLTALON operative's activation or counteraction if it performs the Toxic Lunge action (and vice versa)."
+      "ployName": "GOLPE CAVADOR",
+      "description": "Usa este ardid de tiroteo cuando un agente **MÁNTIFEX** amigo realice la acción **Excavar**. Antes de que ese agente sea retirado de la zona de aniquilación, o después de desplegarlo en tu **TÚNEL**, inflige 1D3+1 daños a cada agente enemigo dentro de su zona de control (tira por separado para cada uno).\nNo puedes usar este ardid en la fase de estrategia, durante la activación o la reacción de un agente **GARRAVIL** si realiza la acción **Embestida tóxica** (y viceversa)"
     }
   ],
   "equipments": [
@@ -83,32 +83,32 @@
       "eqId": "TYR-RAV-CPC",
       "killteamId": "TYR-RAV",
       "seq": 1,
-      "eqName": "Chromatospore Camouflage",
-      "description": "Whenever an operative is shooting a friendly RAVENER operative, if you can retain any cover saves, you can retain one additional cover save. This isn't cumulative with improved cover saves from Vantage terrain.",
+      "eqName": "CAMUFLAJE DE CROMATOESPORAS",
+      "description": "Siempre que un agente dispare contra un agente **MÁNTIFEX** amigo, si puedes guardar cualquier salvación por cobertura, puedes guardar una salvación por cobertura adicional. Esto no se acumula con las salvaciones por cobertura mejoradas debido a terreno aventajado.",
       "effects": ""
     },
     {
       "eqId": "TYR-RAV-AB",
       "killteamId": "TYR-RAV",
       "seq": 2,
-      "eqName": "Acid Blood",
-      "description": "Whenever a friendly RAVENER operative is fighting or retaliating, whenever an attack dice inflicts damage on it, roll one D6: on a 5+, inflict 1 damage on the enemy operative in that sequence.",
+      "eqName": "SANGRE ÁCIDA",
+      "description": "Siempre que un agente MÁNTIFEX amigo esté combatiendo o contraatacando, siempre que un dado de ataque le inflija daño, tira 1D6: con un 5+, inflige 1 daño al agente enemigo en esa secuencia.",
       "effects": ""
     },
     {
       "eqId": "TYR-RAV-MMF",
       "killteamId": "TYR-RAV",
       "seq": 3,
-      "eqName": "Metamorphic Flesh",
-      "description": "Whenever a friendly RAVENER operative is activated, it regains up to D3 lost wounds.",
+      "eqName": "CARNE METAMÓRFICA",
+      "description": "Siempre que un agente **MÁNTIFEX** amigo se active, recupera hasta 1D3 heridas perdidas.",
       "effects": ""
     },
     {
       "eqId": "TYR-RAV-HS",
       "killteamId": "TYR-RAV",
       "seq": 4,
-      "eqName": "Heightened Senses",
-      "description": "Once per battle, after rolling off to decide initiative, if a friendly RAVENER operative is underground and an enemy operative is within 5\" of your TUNNEL, you can re-roll your dice.",
+      "eqName": "SENTIDOS AGUDIZADOS",
+      "description": "Una vez por batalla, después de desempatar para decidir la iniciativa, si un agente **MÁNTIFEX** amigo está bajo tierra y un agente enemigo se encuentra a 5\" o menos de tu **TÚNEL**, puedes repetir la tirada.",
       "effects": ""
     }
   ],
